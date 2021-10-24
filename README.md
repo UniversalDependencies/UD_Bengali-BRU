@@ -1,6 +1,6 @@
 # Summary
 
-... 1-2 sentences (see [release checklist](http://universaldependencies.org/release_checklist.html#the-readme-file) for README guidelines) ...
+The BRU Bengali treebank has been created at Begum Rokeya University, Rangpur, by the members of Semantics Lab.
 
 
 # Introduction
@@ -10,7 +10,7 @@
 
 # Acknowledgments
 
-...
+[https://brur.ac.bd/engineering-and-technology/department-of-computer-science-and-engineering/](https://brur.ac.bd/engineering-and-technology/department-of-computer-science-and-engineering/)
 
 ## References
 
