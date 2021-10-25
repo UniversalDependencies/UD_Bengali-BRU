@@ -484,7 +484,8 @@
 10	।	।	PUNCT	।	_	8	punct	_	_
 
 # sent_id = dev-s51
-# text = এখন পড়েত বসার সময় হেয়েছ ।
+# text = এখন পড়তে বসার সময় হয়েছে ।
+# text_en = Now it's time to sit down to read.
 1	এখন	এখন	ADJ	_	Degree=Pos	5	amod	_	_
 2	পড়তে	পড়া	VERB	_	VerbForm=Inf	3	acl	_	_
 3	বসার	বসা	AUX	_	VerbForm=Fin	5	compound	_	_
