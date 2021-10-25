@@ -146,8 +146,8 @@
 # translit = mā rekhe āse mājhe mājhe bābā .
 # text_en = Sometimes the mother leaves the father.
 1	মা	মা	NOUN	_	Number=Sing	2	nsubj	_	Translit=mā|LTranslit=mā
-2	রেখে	রাখা	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Inf	0	root	_	Translit=rekhe|LTranslit=rākhā
-3	আসে	আসে	AUX	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	2	compound	_	Translit=āse|LTranslit=āse
+2	রেখে	রাখা	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	Translit=rekhe|LTranslit=rākhā
+3	আসে	আসা	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	2	compound	_	Translit=āse|LTranslit=āsā
 4	মাঝে	মাঝ	ADV	_	PronType=Ind	6	advmod	_	Translit=mājhe|LTranslit=mājha
 5	মাঝে	মাঝ	ADV	_	PronType=Ind	4	fixed	_	Translit=mājhe|LTranslit=mājha
 6	বাবা	বাবা	NOUN	_	Number=Sing	2	nsubj	_	Translit=bābā|LTranslit=bābā
