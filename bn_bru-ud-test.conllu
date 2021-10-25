@@ -95,7 +95,7 @@
 # text_en = My golden Bengali, I love you.
 1	আমার	আিম	PRON	_	PronType=Prs	3	nmod	_	_
 2	সোনার	সোনা	ADJ	_	Degree=Pos	3	amod	_	_
-3	বাংলা	বাংলা	NOUN	_	Number=Sing	6	appos	_	SpaceAfter=No
+3	বাংলা	বাংলা	NOUN	_	Number=Sing	7	vocative	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	_	_
 5	আমি	আমি	PRON	_	PronType=Prs	7	nsubj	_	_
 6	তোমায়	তুমি	PRON	_	PronType=Prs	7	obj	_	_
