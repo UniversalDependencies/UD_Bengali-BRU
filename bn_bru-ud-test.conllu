@@ -151,12 +151,13 @@
 4	?	?	PUNCT	?	_	2	punct	_	_
 
 # sent_id = dev-s19
-# text = রািকব, সািকব, বýŪালী ।
-1	রাকিব	রাকিব	PROPN	_	Number=Sing	0	root	_	_
+# text = রাকিব, সাকিব, বর্ণালী ।
+# text_en = Rakib, Shakib, Barnali.
+1	রাকিব	রাকিব	PROPN	_	Number=Sing	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	3	punct	_	_
-3	সাকিব	সাকিব	PROPN	_	Number=Sing	1	conj	_	_
+3	সাকিব	সাকিব	PROPN	_	Number=Sing	1	conj	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	5	punct	_	_
-5	বর্ýালী	বর্ýালী	PROPN	_	Number=Sing	1	conj	_	_
+5	বর্ণালী	বর্ণালী	PROPN	_	Number=Sing	1	conj	_	_
 6	।	।	PUNCT	।	_	1	punct	_	_
 
 # sent_id = dev-s20
