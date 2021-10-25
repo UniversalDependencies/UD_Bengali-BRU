@@ -110,11 +110,12 @@
 4	।	।	PUNCT	।	_	3	punct	_	_
 
 # sent_id = dev-s14
-# text = তোমােক কে ɾু েল রেখ আেস?
-1	তোমােক	তু িম	PRON	_	PronType=Prs	4	iobj	_	_
+# text = তোমাকে কে রেখে আসে?
+# text_en = Who leaves you?
+1	তোমাকে	তুমি	PRON	_	PronType=Prs	4	iobj	_	_
 2	কে	কে	PRON	_	PronType=Int	4	nsubj	_	_
-3	রেখ	রাখা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Inf|Number=Sing|Person=3	0	root	_	_
-4	আেস	আসা	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=3	4	compound	_	_
+3	রেখে	রাখা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Inf|Number=Sing|Person=3	0	root	_	_
+4	আসে	আসা	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=3	4	compound	_	_
 5	?	?	PUNCT	?	_	4	punct	_	_
 
 # sent_id = dev-s15
