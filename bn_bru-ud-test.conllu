@@ -291,7 +291,8 @@
 4	?	?	PUNCT	?	_	3	punct	_	_
 
 # sent_id = dev-s35
-# text = না,আিম খাব না ।
+# text = না,আমি খাব না ।
+# text_en = No, I will not eat.
 1	না	না	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	4	punct	_	SpaceAfter=No
 3	আমি	আমি	PRON	_	PronType=Prs	4	nsubj	_	_
