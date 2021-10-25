@@ -169,7 +169,7 @@
 4	?	?	PUNCT	?	_	2	punct	_	_
 
 # sent_id = dev-s21
-# text = একজন আেছ ।
+# text = একজন আছে ।
 # text_en = There is one.
 1	একজন	একজন	NUM	_	NumType=Card	2	nsubj	_	_
 2	আছে	আছে	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=3	0	root	_	_
