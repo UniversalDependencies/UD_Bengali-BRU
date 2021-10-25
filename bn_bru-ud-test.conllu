@@ -414,13 +414,14 @@
 7	?	?	PUNCT	?	_	6	punct	_	_
 
 # sent_id = dev-s45
-# text = তুমি আমােদর দেশর পতাকা আকঁ েত পার?
+# text = তুমি আমাদের দেশর পতাকা আকঁতে পার?
+# text_en = Can you draw the flag of our country?
 1	তুমি	তুমি	PRON	_	PronType=Prs	5	nsubj	_	_
 2	আমাদের	আমরা	PRON	_	PronType=Prs	3	nmod	_	_
 3	দেশের	দেশ	NOUN	_	Number=Sing	4	compound	_	_
 4	পতাকা	পতাকা	NOUN	_	Number=Sing	5	obj	_	_
 5	আকঁতে	আঁকা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Inf|Number=Sing|Person=2	0	root	_	_
-6	পার	পারা	AUX	_	VerbForm=Fin	5	compound	_	_
+6	পার	পারা	AUX	_	VerbForm=Fin	5	compound	_	SpaceAfter=No
 7	?	?	PUNCT	?	_	5	punct	_	_
 
 # sent_id = dev-s46
