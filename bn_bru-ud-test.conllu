@@ -23,7 +23,7 @@
 # text = তোমার মা খারাপ, তাই কি ?
 1	তোমার	তোমার	PRON	_	PronType=Prs	2	nmod	_	_
 2	মা	মা	NOUN	_	Number=Sing	3	nsubj	_	_
-3	খারাপ	খারাপ	ADJ	_	Degree=Pos	0	root	_	_
+3	খারাপ	খারাপ	ADJ	_	Degree=Pos	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	_	_
 5	তাই	তাই	DET	_	PronType=Dem	3	parataxis	_	_
 6	কি	কি	DET	_	PronType=Int	5	compound	_	_
@@ -77,136 +77,88 @@
 1	তুমি	তুমি	PRON	_	PronType=Prs	4	nsubj	_	_
 2	কোন	কোন	DET	_	PronType=Int	3	det	_	_
 3	ক্লাসে	ক্লাস	NOUN	_	Number=Sing	4	obj	_	_
-4	পড়	পড়	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	0	root	_	_
+4	পড়	পড়	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	0	root	_	SpaceAfter=No
 5	?	?	PUNCT	?	_	4	punct	_	_
 
 # sent_id = dev-s11
-#text=আমার ĺসানার বাংলা, আিম ĺতামায় ভালবািস ।
-1
-আমার আিম  PRON _ PronType=Prs 3 nmod _ _
-2
-সোনার সোনা
-ADJ _ Degree=Pos 3 amod  _ _
-3
-বাংলা বাংলা NOUN _ Number=Sing 6 appos _ _
-4 ,  ,  PUNCT , _ 3 punct _ _
-5
-আমি আমি PRON _ PronType=Prs 7 nsubj _ _
-6
-তোমায় তুমি PRON _ PronType=Prs 7 obj _ _
-7
-ভালবাসি ভালবাসা VERB _ Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1 0 root _ _
-8
-।  ।
-PUNCT
-।
-_ 7 punct _ _
+# text = আমার সোনার বাংলা, আিম তোমায় ভালবাসি ।
+1	আমার	আিম	PRON	_	PronType=Prs	3	nmod	_	_
+2	সোনার	সোনা	ADJ	_	Degree=Pos	3	amod	_	_
+3	বাংলা	বাংলা	NOUN	_	Number=Sing	6	appos	_	_
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	আমি	আমি	PRON	_	PronType=Prs	7	nsubj	_	_
+6	তোমায়	তুমি	PRON	_	PronType=Prs	7	obj	_	_
+7	ভালবাসি	ভালবাসা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	0	root	_	_
+8	।	।	PUNCT	।	_	7	punct	_	_
+
 # sent_id = dev-s12
-#text=পƏÿম ĺশƏনীেত পিড় ।
-1
-প্রÿম প্রÿম
-ADJ _ NumType=Ord 2 amod _ _
-2
-শ্রেনীতে শ্রেনী NOUN _ Number=Sing 3 obj _ _
-3
-পড়ি পড়া VERB _ Mood=Sub|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1 0 root _ _
-4
-।  ।
-PUNCT
-।
-_ 3 punct _ _
+# text = প্রথম শ্রেনীতে পড়ি ।
+1	প্রথম	প্রথম	ADJ	_	NumType=Ord	2	amod	_	_
+2	শ্রেনীতে	শ্রেনী	NOUN	_	Number=Sing	3	obj	_	_
+3	পড়ি	পড়া	VERB	_	Mood=Sub|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	0	root	_	_
+4	।	।	PUNCT	।	_	3	punct	_	_
+
 # sent_id = dev-s13
-#text=একটা গান গাও ।
-1
-একটা  একǅ  DET _ Definite=Ind|PronType=Art 2 det _ _
-2
-গান  গান  NOUN _ Number=Sing 3 obj _ _
-3 গাও গাও VERB _ Mood=Imp|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2 0 root _ _
-4
-। ।
-PUNCT
-।
-_ 3 punct _ _
+# text = একটা গান গাও ।
+1	একটা	একটি	DET	_	Definite=Ind|PronType=Art	2	det	_	_
+2	গান	গান	NOUN	_	Number=Sing	3	obj	_	_
+3	গাও	গাও	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	0	root	_	_
+4	।	।	PUNCT	।	_	3	punct	_	_
+
 # sent_id = dev-s14
-#text =  ĺতামােক ĺক ɾু েল ĺরেখ আেস?
-1 ĺতামােক  তু িম  PRON _ PronType=Prs 4 iobj _ _
-2 ĺক  ĺক  PRON _ PronType=Int 4 nsubj _ _
-3
-ĺরেখ  রাখা VERB _ Mood=Ind|Tense=Pres|VerbForm=Inf|Number=Sing|Person=3 0 root _ _
-4
-আেস  আসা  AUX _ Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=3 4 compound  _ _
-5 ? ? PUNCT ? _` 4 punct  _ _
-#sent_id=dev-s15
-#text=মা ĺরেখ আেস  মােঝ মােঝ বাবা ।
-1
-মা  মা NOUN _ Number=Sing 2 nsubj _ _
-2
-ĺরেখ  রাখা  VERB _ Mood=Ind|Tense=Pres|VerbForm=Inf|Number=Sing|Person=3 0 root _ _
-3
-আেস  আেস  AUX _ Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=3 2 compound _ _
-4 মােঝ  মাঝ ADV _ PronType=Ind 6 nmod _ _
-5 মােঝ  মাঝ ADV _ PronType=Ind 4 fixed _ _
-6
-বাবা বাবা NOUN _ Number=Sing 2 nsubj _ _
-7
-। ।
-PUNCT
-।
-_ 2 punct _ _
-#sent_id=dev-s16
-#text= ĺতামার বȴু  কতজন?
-1
-তোমার তু িম  PRON _ PronType=Prs 2 nsubj _ _
-2
-বন্āু   বȴু NOUN _ Number=Sing 0 root _ _
-3
-কতজন কত ADJ _ Degree=Pos 2 nmod _ _
-4 ? ? PUNCT ? _ 2 punct  _ _
-#sent_id=dev-s17
-#text=চার জন ।
-_ _
-1
-চার চার NUM _ NumType=Card 0 root _ _
-2
-জন জন NOUN _ Number=Plur 1 compound _ _
-3
-।  ।
-PUNCT
-।
-_ 1 punct _ _
-#sent_id=dev-s18
-#text=তােদর নাম িক?
-1
-তােদর  তারা  PRON _ PronType=Prs 2 nmod _ _
-2
-নাম নাম NOUN _ Number=Plur 0 root _ _
-3
-কি কি DET _ PronType=Int  2 det _ _
-4 ? ? PUNCT ? _ 2 punct _ _
-#sent_id=dev-s19
-#text=রািকব, সািকব, বýŪালী ।
-1
-রাকিব রাকিব PROPN _ Number=Sing 0 root _ _
-2 , , PUNCT , _ 3 punct _ _
-3
-সাকিব সাকিব PROPN _ Number=Sing 1 conj _ _
-4 , , PUNCT , _ 5 punct _ _
-5
-বর্ýালী বর্ýালী PROPN _ Number=Sing 1 conj _ _
-6
-।  ।
-PUNCT
-।
-_ 1 punct _ _
-#sent_id=dev-s20
-#text=ĺতামার বাȴু বী  নাই?
-1
-তোমার তু িম  PRON _ PronType=Prs 2 nsubj _ _
-2
-বান্āুবী বান্āুবী NOUN _ Number=Sing 0 root _ _
-3
-নাই না DET _ PronType=Int  2 det _ _
-4 ? ? PUNCT ? _ 2 punct _ _
+# text = ĺতামােক ĺক ɾু েল ĺরেখ আেস?
+1	ĺতামােক	তু িম	PRON	_	PronType=Prs	4	iobj	_	_
+2	ĺক	ĺক	PRON	_	PronType=Int	4	nsubj	_	_
+3	ĺরেখ	রাখা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Inf|Number=Sing|Person=3	0	root	_	_
+4	আেস	আসা	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=3	4	compound	_	_
+5	?	?	PUNCT	?	_	4	punct	_	_
+
+# sent_id = dev-s15
+# text = মা ĺরেখ আেস  মােঝ মােঝ বাবা ।
+1	মা	মা	NOUN	_	Number=Sing	2	nsubj	_	_
+2	ĺরেখ	রাখা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Inf|Number=Sing|Person=3	0	root	_	_
+3	আেস	আেস	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=3	2	compound	_	_
+4	মােঝ	মাঝ	ADV	_	PronType=Ind	6	nmod	_	_
+5	মােঝ	মাঝ	ADV	_	PronType=Ind	4	fixed	_	_
+6	বাবা	বাবা	NOUN	_	Number=Sing	2	nsubj	_	_
+7	।	।	PUNCT	।	_	2	punct	_	_
+
+# sent_id = dev-s16
+# text = ĺতামার বȴু  কতজন?
+1	তোমার	তু িম	PRON	_	PronType=Prs	2	nsubj	_	_
+2	বন্āু	বȴু	NOUN	_	Number=Sing	0	root	_	_
+3	কতজন	কত	ADJ	_	Degree=Pos	2	nmod	_	_
+4	?	?	PUNCT	?	_	2	punct	_	_
+
+# sent_id = dev-s17
+# text = চার জন ।
+1	চার	চার	NUM	_	NumType=Card	0	root	_	_
+2	জন	জন	NOUN	_	Number=Plur	1	compound	_	_
+3	।	।	PUNCT	।	_	1	punct	_	_
+
+# sent_id = dev-s18
+# text = তােদর নাম িক?
+1	তােদর	তারা	PRON	_	PronType=Prs	2	nmod	_	_
+2	নাম	নাম	NOUN	_	Number=Plur	0	root	_	_
+3	কি	কি	DET	_	PronType=Int	2	det	_	_
+4	?	?	PUNCT	?	_	2	punct	_	_
+
+# sent_id = dev-s19
+# text = রািকব, সািকব, বýŪালী ।
+1	রাকিব	রাকিব	PROPN	_	Number=Sing	0	root	_	_
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	সাকিব	সাকিব	PROPN	_	Number=Sing	1	conj	_	_
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	বর্ýালী	বর্ýালী	PROPN	_	Number=Sing	1	conj	_	_
+6	।	।	PUNCT	।	_	1	punct	_	_
+
+# sent_id = dev-s20
+# text = ĺতামার বাȴু বী  নাই?
+1	তোমার	তু িম	PRON	_	PronType=Prs	2	nsubj	_	_
+2	বান্āুবী	বান্āুবী	NOUN	_	Number=Sing	0	root	_	_
+3	নাই	না	DET	_	PronType=Int	2	det	_	_
+4	?	?	PUNCT	?	_	2	punct	_	_
+
 #sent_id=dev-s21
 #text=একজন আেছ ।
 1
@@ -430,7 +382,7 @@ PUNCT
 ।
 _ 8 punct _ _
 #sent_id=dev-s36
-#text= মজার গɤǅ  িক?
+#text= মজার গɤটি  িক?
 1
 মজার মজা
 ADJ _ Degree=Pos 2 amod _ _
@@ -550,7 +502,7 @@ Mood=Ind|Tense=Past|VerbForm=
 Part|Voice=Pass root _ _
 5 ? ? PUNCT ? _ punct
 #sent_id =dev-s43
-#text=ĺতামার িপƏয়  রং িক?
+#text=ĺতামার িপ্য়  রং িক?
 1
 তোমার তু িম  PRON _ PronType=Prs 3 nmod:poss _ _
 2
