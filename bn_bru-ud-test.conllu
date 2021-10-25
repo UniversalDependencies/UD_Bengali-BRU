@@ -516,7 +516,7 @@
 # sent_id = dev-s53
 # text = আমার পড়া শেষ হয়েছে ।
 # text_en = I have finished reading.
-1	আমার	আমি	PRON	_	PronType=Prs	3	nmod:pass	_	_
+1	আমার	আমি	PRON	_	PronType=Prs	3	nmod:poss	_	_
 2	পড়া	পড়া	NOUN	_	Number=Sing	3	nsubj:pass	_	_
 3	শেষ	শেষ	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	হয়েছে	হওয়া	AUX	_	VerbForm=Fin	3	compound	_	_
