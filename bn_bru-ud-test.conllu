@@ -394,11 +394,12 @@
 5	?	?	PUNCT	?	_	4	punct	_	_
 
 # sent_id = dev-s43
-# text = তোমার িপ্য়  রং িক?
+# text = তোমার প্রিয় রং কি?
+# text_en = What is your favorite color?
 1	তোমার	তুমি	PRON	_	PronType=Prs	3	nmod:poss	_	_
 2	প্রিয়	প্রিয়	ADJ	_	Degree=Pos	3	amod	_	_
 3	রং	রং	NOUN	_	Number=Sing	0	root	_	_
-4	িক	কি	PRON	_	PronType=Int	3	nsubj	_	_
+4	কি	কি	PRON	_	PronType=Int	3	nsubj	_	SpaceAfter=No
 5	?	?	PUNCT	?	_	3	punct	_	_
 
 # sent_id = dev-s44
