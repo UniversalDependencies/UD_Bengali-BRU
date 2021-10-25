@@ -75,7 +75,7 @@
 1	তুমি	তুমি	PRON	_	PronType=Prs	3	nsubj	_	Translit=tumi|LTranslit=tumi
 2	গান	গান	NOUN	_	Number=Sing	3	obj	_	Translit=gāna|LTranslit=gāna
 3	গাইতে	গাওয়া	VERB	_	Mood=Pot|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Translit=gāite|LTranslit=gāoŷā
-4	পারো	পারা	AUX	_	Tense=Pres|VerbForm=Fin	3	compound	_	Translit=pāro|LTranslit=pārā
+4	পারো	পারা	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	Translit=pāro|LTranslit=pārā
 5	?	?	PUNCT	?	_	3	punct	_	Translit=?|LTranslit=?
 
 # sent_id = dev-s9
@@ -87,7 +87,7 @@
 3	আমি	আমি	PRON	_	PronType=Prs	5	nsubj	_	Translit=āmi|LTranslit=āmi
 4	গান	গান	NOUN	_	Number=Sing	5	obj	_	Translit=gāna|LTranslit=gāna
 5	গাইতে	গাওয়া	VERB	_	Mood=Pot|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Translit=gāite|LTranslit=gāoŷā
-6	পারি	পারা	AUX	_	Tense=Pres|VerbForm=Fin	5	compound	_	Translit=pāri|LTranslit=pārā
+6	পারি	পারা	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	Translit=pāri|LTranslit=pārā
 7	।	।	PUNCT	।	_	5	punct	_	Translit=.|LTranslit=.
 
 # sent_id = dev-s10
@@ -478,7 +478,7 @@
 3	দেশের	দেশ	NOUN	_	Number=Sing	4	compound	_	Translit=deśera|LTranslit=deśa
 4	পতাকা	পতাকা	NOUN	_	Number=Sing	5	obj	_	Translit=patākā|LTranslit=patākā
 5	আকঁতে	আঁকা	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Inf	0	root	_	Translit=ākam̃te|LTranslit=ām̃kā
-6	পার	পারা	AUX	_	VerbForm=Fin	5	compound	_	SpaceAfter=No|Translit=pāra|LTranslit=pārā
+6	পার	পারা	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No|Translit=pāra|LTranslit=pārā
 7	?	?	PUNCT	?	_	5	punct	_	Translit=?|LTranslit=?
 
 # sent_id = dev-s46
@@ -501,7 +501,7 @@
 3	জাতীয়	জাতীয়	ADJ	_	Degree=Pos	4	amod	_	Translit=jātīŷa|LTranslit=jātīŷa
 4	পতাকা	পতাকা	NOUN	_	Number=Sing	5	obj	_	Translit=patākā|LTranslit=patākā
 5	আকঁতে	আঁকা	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Inf	0	root	_	Translit=ākam̃te|LTranslit=ām̃kā
-6	পার	পারা	AUX	_	VerbForm=Fin	5	compound	_	SpaceAfter=No|Translit=pāra|LTranslit=pārā
+6	পার	পারা	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No|Translit=pāra|LTranslit=pārā
 7	?	?	PUNCT	?	_	5	punct	_	Translit=?|LTranslit=?
 
 # sent_id = dev-s48
