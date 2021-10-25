@@ -359,7 +359,7 @@
 10	।	।	PUNCT	।	_	7	punct	_	_
 
 # sent_id = dev-s40
-# text = যে ভিক্ষা চায়, তাকে দান কর ।
+# text = যে ভিক্ষা চায়, তাকে দান কর ।
 # text_en = Give alms to him who asks.
 1	যে	যে	PRON	_	PronType=Prs	2	nsubj	_	_
 2	ভিক্ষা	ভিক্ষা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Inf|Number=Sing|Person=3	6	root	_	_
@@ -371,16 +371,16 @@
 8	।	।	PUNCT	।	_	6	punct	_	_
 
 # sent_id = dev-s41
-# text = আমােদর দেশর পতাকার রং সবুজ,তুমি জােনা িক?
+# text = আমাদের দেশর পতাকার রং সবুজ,তুমি জানো কি?
 1	আমাদের	আমরা	PRON	_	PronType=Prs	2	nmod	_	_
 2	দেশর	 দেশ	NOUN	_	Number=Sing	3	compound	_	_
 3	পতাকার	পতাকা	NOUN	_	Number=Sing	4	nmod	_	_
 4	রং	রং	NOUN	_	Number=Sing	5	nsubj	_	_
-5	সবুজ	সবুজ	ADJ	_	Degree=Pos	8	ccomp	_	_
+5	সবুজ	সবুজ	ADJ	_	Degree=Pos	8	ccomp	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	5	punct	_	_
 7	তুমি	তুমি	PRON	_	PronType=Prs	8	nsubj	_	_
-8	জােনা	জানা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	0	root	_	_
-9	িক	িক	DET	_	PronType=Int	8	det	_	_
+8	জানো	জানা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	0	root	_	_
+9	কি	কি	DET	_	PronType=Int	8	det	_	SpaceAfter=No
 10	?	?	PUNCT	?	_	8	punct	_	_
 
 # sent_id = dev-s42
