@@ -84,7 +84,8 @@
 5	?	?	PUNCT	?	_	4	punct	_	_
 
 # sent_id = dev-s11
-# text = আমার সোনার বাংলা, আিম তোমায় ভালবাসি ।
+# text = আমার সোনার বাংলা, আমি তোমায় ভালবাসি ।
+# text_en = My golden Bengali, I love you.
 1	আমার	আিম	PRON	_	PronType=Prs	3	nmod	_	_
 2	সোনার	সোনা	ADJ	_	Degree=Pos	3	amod	_	_
 3	বাংলা	বাংলা	NOUN	_	Number=Sing	6	appos	_	SpaceAfter=No
@@ -109,17 +110,17 @@
 4	।	।	PUNCT	।	_	3	punct	_	_
 
 # sent_id = dev-s14
-# text = ĺতামােক ĺক ɾু েল ĺরেখ আেস?
-1	ĺতামােক	তু িম	PRON	_	PronType=Prs	4	iobj	_	_
-2	ĺক	ĺক	PRON	_	PronType=Int	4	nsubj	_	_
-3	ĺরেখ	রাখা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Inf|Number=Sing|Person=3	0	root	_	_
+# text = তোমােক কে ɾু েল রেখ আেস?
+1	তোমােক	তু িম	PRON	_	PronType=Prs	4	iobj	_	_
+2	কে	কে	PRON	_	PronType=Int	4	nsubj	_	_
+3	রেখ	রাখা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Inf|Number=Sing|Person=3	0	root	_	_
 4	আেস	আসা	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=3	4	compound	_	_
 5	?	?	PUNCT	?	_	4	punct	_	_
 
 # sent_id = dev-s15
-# text = মা ĺরেখ আেস  মােঝ মােঝ বাবা ।
+# text = মা রেখ আেস  মােঝ মােঝ বাবা ।
 1	মা	মা	NOUN	_	Number=Sing	2	nsubj	_	_
-2	ĺরেখ	রাখা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Inf|Number=Sing|Person=3	0	root	_	_
+2	রেখ	রাখা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Inf|Number=Sing|Person=3	0	root	_	_
 3	আেস	আেস	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=3	2	compound	_	_
 4	মােঝ	মাঝ	ADV	_	PronType=Ind	6	nmod	_	_
 5	মােঝ	মাঝ	ADV	_	PronType=Ind	4	fixed	_	_
@@ -127,7 +128,7 @@
 7	।	।	PUNCT	।	_	2	punct	_	_
 
 # sent_id = dev-s16
-# text = ĺতামার বȴু  কতজন?
+# text = তোমার বȴু  কতজন?
 1	তোমার	তু িম	PRON	_	PronType=Prs	2	nsubj	_	_
 2	বন্āু	বȴু	NOUN	_	Number=Sing	0	root	_	_
 3	কতজন	কত	ADJ	_	Degree=Pos	2	nmod	_	_
@@ -156,7 +157,7 @@
 6	।	।	PUNCT	।	_	1	punct	_	_
 
 # sent_id = dev-s20
-# text = ĺতামার বাȴু বী  নাই?
+# text = তোমার বাȴু বী  নাই?
 1	তোমার	তু িম	PRON	_	PronType=Prs	2	nsubj	_	_
 2	বান্āুবী	বান্āুবী	NOUN	_	Number=Sing	0	root	_	_
 3	নাই	না	DET	_	PronType=Int	2	det	_	_
@@ -191,7 +192,7 @@
 5	।	।	PUNCT	।	_	4	punct	_	_
 
 # sent_id = dev-s25
-# text = চল বাবা ĺখেত যাই ।
+# text = চল বাবা খেত যাই ।
 1	চল	চল	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	0	root	_	_
 2	বাবা	বাবা	NOUN	_	Number=Sing	1	obj	_	_
 3	খেতে	খাওয়া	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Inf|Number=Plur|Person=2	1	xcomp	_	_
@@ -199,7 +200,7 @@
 5	।	।	PUNCT	।	_	1	punct	_	_
 
 # sent_id = dev-s26
-# text = চল  ĺখেত  যাই ।
+# text = চল  খেত  যাই ।
 1	চল	চল	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Fin|Number=Plur|Person=1	0	root	_	_
 2	খেতে	খাওয়া	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Inf|Number=Plur|Person=1	1	xcomp	_	_
 3	যাই	যাই	AUX	_	VerbForm=Fin	2	compound	_	_
@@ -217,11 +218,11 @@
 2	আেগ	আগে	ADV	_	_	4	advmod	_	_
 3	হাত	হাত	NOUN	_	Number=Plur	4	obj	_	_
 4	āুয়ে	āোয়া	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Inf|Number=Plur|Person=2	0	root	_	_
-5	নাও	ĺনয়া	AUX	_	VerbForm=Fin	4	compound	_	_
+5	নাও	নেয়া	AUX	_	VerbForm=Fin	4	compound	_	_
 6	।	।	PUNCT	।	_	4	punct	_	_
 
 # sent_id = dev-s29
-# text = না, আিম ĺāােবা না ।
+# text = না, আিম āোেবা না ।
 1	না	না	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	4	punct	_	_
 3	আমি	আমি	PRON	_	PronType=Prs	4	nsubj	_	_
@@ -230,7 +231,7 @@
 6	।	।	PUNCT	।	_	4	punct	_	_
 
 # sent_id = dev-s30
-# text = হাত না āুেয় ĺখেল িক হয়, তু িম জােনা না?
+# text = হাত না āুেয় খেল িক হয়, তু িম জােনা না?
 1	হাত	হাত	NOUN	_	Number=Plur	3	iobj	_	_
 2	না	না	PART	_	_	3	advmod	_	_
 3	āুয়ে	āোয়া	VERB	_	Mood=Cnd|Tense=Pres|VerbForm=Inf|Number=Plur|Person=2	9	advcl	_	_
@@ -244,27 +245,27 @@
 11	?	?	PUNCT	?	_	9	punct	_	_
 
 # sent_id = dev-s31
-# text = ĺতামার অসুখ করেব ।
+# text = তোমার অসুখ করেব ।
 1	তোমার	তোমার	PRON	_	PronType=Prs	3	nmod	_	_
 2	অসুখ	অসুখ	NOUN	_	Number=Sing	3	nsubj	_	_
 3	করবে	করা	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin	0	root	_	_
 4	।	।	PUNCT	।	_	3	punct	_	_
 
 # sent_id = dev-s32
-# text = তাহেল হাত ĺāােবা ।
+# text = তাহেল হাত āোেবা ।
 1	তাহলে	তাহলে	ADV	_	_	3	advmod	_	_
 2	হাত	হাত	NOUN	_	Number=Plur	3	obj	_	_
 3	āোবো	āোয়া	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin	0	root	_	_
 4	।	।	PUNCT	।	_	3	punct	_	_
 
 # sent_id = dev-s33
-# text = কাটুŪ ন ĺদিখ ।
+# text = কাটুŪ ন দেিখ ।
 1	কার্টুন	কার্টুন	NOUN	_	Number=Sing	2	obj	_	_
 2	দেখি	দেখি	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	0	root	_	_
 3	।	।	PUNCT	।	_	2	punct	_	_
 
 # sent_id = dev-s34
-# text = তু িম িক ĺখেয়ছ?
+# text = তু িম িক খেয়ছ?
 1	তুমি	তুমি	PRON	_	PronType=Prs	3	nsubj	_	_
 2	কি	কি	DET	_	PronType=Int	3	det	_	_
 3	খেয়েছ	খাওয়া	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	0	root	_	_
@@ -299,10 +300,10 @@
 4	?	?	PUNCT	?	_	2	punct	_	_
 
 # sent_id = dev-s37
-# text = আেগ ĺখেয় নাও  তারপর আিম গɤ বলব ।
+# text = আেগ খেয় নাও  তারপর আিম গɤ বলব ।
 1	আগে	আগে	ADV	_	_	2	advmod	_	_
 2	খেয়ে	খাওয়া	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Inf|Number=Sing|Person=2	7	advcl	_	_
-3	নাও	ĺনয়া	AUX	_	VerbForm=Fin	2	compound	_	_
+3	নাও	নেয়া	AUX	_	VerbForm=Fin	2	compound	_	_
 4	তারপর	তারপর	SCONJ	_	_	7	mark	_	_
 5	আিম	 আিম	PRON	_	PronType=Prs	7	nsubj	_	_
 6	গল্প	গল্প	NOUN	_	Number=Sing	7	obj	_	_
@@ -315,15 +316,15 @@
 2	আমরা	আমি	PRON	_	PronType=Prs	5	nsubj	_	_
 3	কি	কি	DET	_	PronType=Int	5	det	_	_
 4	রিক্সায়	রিক্সা	NOUN	_	Number=Sing	5	obj	_	_
-5	ঘুরতে	ĺঘারা	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Inf|Number=Plur|Person=1	0	root	_	_
+5	ঘুরতে	ঘোরা	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Inf|Number=Plur|Person=1	0	root	_	_
 6	যাব	যাব	AUX	_	VerbForm=Fin	5	compound	_	_
 7	?	?	PUNCT	?	_	5	punct	_	_
 
 # sent_id = dev-s39
-# text = এখন ĺরাদ  ĺনই,তাই চশমা পরেত হেব  না।
+# text = এখন রোদ  নেই,তাই চশমা পরেত হেব  না।
 1	এখন	এখন	ADV	_	_	2	advmod	_	_
-2	ĺরাদ	ĺরাদ	NOUN	_	Number=Sing	7	acl	_	_
-3	ĺনই	ĺনই	DET	_	_	2	det	_	SpaceAfter=No
+2	রোদ	রোদ	NOUN	_	Number=Sing	7	acl	_	_
+3	নেই	নেই	DET	_	_	2	det	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	SpaceAfter=No
 5	তাই	তাই	ADV	_	_	7	mark	_	_
 6	চশমা	চশমা	NOUN	_	Number=Sing	7	obj	_	_
@@ -333,8 +334,8 @@
 10	।	।	PUNCT	।	_	7	punct	_	_
 
 # sent_id = dev-s40
-# text = ĺয িভǘা চায়, তােক দান কর ।
-1	ĺয	ĺয	PRON	_	PronType=Prs	2	nsubj	_	_
+# text = যে িভǘা চায়, তােক দান কর ।
+1	যে	যে	PRON	_	PronType=Prs	2	nsubj	_	_
 2	ভিক্ষা	ভিক্ষা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Inf|Number=Sing|Person=3	6	root	_	_
 3	চায়	চাওয়া	AUX	_	VerbForm=Fin	2	compound	_	_
 4	,	,	PUNCT	_	_	2	punct	_	_
@@ -344,9 +345,9 @@
 8	।	।	PUNCT	।	_	6	punct	_	_
 
 # sent_id = dev-s41
-# text = আমােদর ĺদেশর পতাকার রং সবুজ,তু িম জােনা িক?
+# text = আমােদর দেশর পতাকার রং সবুজ,তু িম জােনা িক?
 1	আমাদের	আমরা	PRON	_	PronType=Prs	2	nmod	_	_
-2	ĺদেশর	 দেশ	NOUN	_	Number=Sing	3	compound	_	_
+2	দেশর	 দেশ	NOUN	_	Number=Sing	3	compound	_	_
 3	পতাকার	পতাকা	NOUN	_	Number=Sing	4	nmod	_	_
 4	রং	রং	NOUN	_	Number=Sing	5	nsubj	_	_
 5	সবুজ	সবুজ	ADJ	_	Degree=Pos	8	ccomp	_	_
@@ -361,11 +362,11 @@
 1	আজ	আজ	NOUN	_	Number=Sing	nmod:pass	_	_
 2	ক্লাসে	ক্লাস	NOUN	_	Number=Sing	obj	_	_
 3	কি	কি	PRON	_	PronType=Int	nsubj:pass	_	_
-4	শিখিয়েছে	ĺশখা	VERB	_	Mood=Ind|Tense=Past|VerbForm=Part|Voice=Pass	root	_	_
+4	শিখিয়েছে	শেখা	VERB	_	Mood=Ind|Tense=Past|VerbForm=Part|Voice=Pass	root	_	_
 5	?	?	PUNCT	?	_	punct	_	_
 
 # sent_id = dev-s43
-# text = ĺতামার িপ্য়  রং িক?
+# text = তোমার িপ্য়  রং িক?
 1	তোমার	তু িম	PRON	_	PronType=Prs	3	nmod:poss	_	_
 2	প্রিয়	প্রিয়	ADJ	_	Degree=Pos	3	amod	_	_
 3	রং	রং	NOUN	_	Number=Sing	0	root	_	_
@@ -373,7 +374,7 @@
 5	?	?	PUNCT	?	_	3	punct	_	_
 
 # sent_id = dev-s44
-# text = ĺদখ,  ĺতামার জন̢ িক এেনিছ?
+# text = দেখ,  তোমার জন̢ িক এেনিছ?
 1	দেখ	দেখ	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	6	advcl	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	তোমার	তুমি	PRON	_	PronType=Prs	6	obj	_	_
@@ -383,7 +384,7 @@
 7	?	?	PUNCT	?	_	6	punct	_	_
 
 # sent_id = dev-s45
-# text = তু িম আমােদর ĺদেশর পতাকা আকঁ েত পার?
+# text = তু িম আমােদর দেশর পতাকা আকঁ েত পার?
 1	তুমি	তুমি	PRON	_	PronType=Prs	5	nsubj	_	_
 2	আমাদের	আমরা	PRON	_	PronType=Prs	3	nmod	_	_
 3	দেশের	দেশ	NOUN	_	Number=Sing	4	compound	_	_
@@ -425,7 +426,7 @@
 10	।	।	PUNCT	।	_	3	punct	_	_
 
 # sent_id = dev-s49
-# text = আিম আজ ɾু েল হািত ĺদেখিছ  ।
+# text = আিম আজ ɾু েল হািত দেখিছ  ।
 1	আিম	আমি	PRON	_	PronType=Prs	5	nsubj	_	_
 2	আজ	আজ	ADV	_	_	5	advmod	_	_
 3	স্কুলে	স্কুল	NOUN	_	Number=Sing	5	iobj	_	_
@@ -434,7 +435,7 @@
 6	।	।	PUNCT	।	_	5	punct	_	_
 
 # sent_id = dev-s50
-# text = আǱা, আিম ĺতামােক একটা সুȱর জামা  িকেন িদব  ।
+# text = আǱা, আিম তোমােক একটা সুȱর জামা  িকেন িদব  ।
 1	আচ্ছা	আচ্ছা	INTJ	_	_	8	discourse	_	_
 2	,	,	PUNCT	,	_	8	punct	_	_
 3	আমি	আমি	PRON	_	PronType=Prs	8	nsubj	_	_
@@ -442,7 +443,7 @@
 5	একটা	একটা	DET	_	Definite=Ind|PronType=Art	7	det	_	_
 6	সুন্দর	সুন্দর	ADJ	_	Degree=Pos	7	amod	_	_
 7	জামা	জামা	NOUN	_	Number=Sing	8	obj	_	_
-8	কিনে	ĺকনা	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Inf|Number=Sing|Person=1	0	root	_	_
+8	কিনে	কেনা	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Inf|Number=Sing|Person=1	0	root	_	_
 9	িদব	দেয়া	AUX	_	VerbForm=Fin	8	compound	_	_
 10	।	।	PUNCT	।	_	8	punct	_	_
 
@@ -464,7 +465,7 @@
 5	।	।	PUNCT	।	_	3	punct	_	_
 
 # sent_id = dev-s53
-# text = আমার পড়া ĺশষ হেয়েছ ।
+# text = আমার পড়া শেষ হেয়েছ ।
 1	আমার	আমি	PRON	_	PronType=Prs	3	nmod:pass	_	_
 2	পড়া	পড়া	NOUN	_	Number=Sing	3	nsubj:pass	_	_
 3	শেষ	শেষ	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	0	root	_	_
@@ -472,9 +473,9 @@
 5	।	।	PUNCT	।	_	3	punct	_	_
 
 # sent_id = dev-s54
-# text = আিম ĺলখা ĺশষ কের কাটুŪ ন ĺদখব ।
+# text = আিম লেখা শেষ কের কাটুŪ ন দেখব ।
 1	আমি	আমি	PRON	_	PronType=Prs	3	nsubj	_	_
-2	ĺলখা	লেখা	NOUN	_	Number=Sing	3	iobj	_	_
+2	লেখা	লেখা	NOUN	_	Number=Sing	3	iobj	_	_
 3	শেষ	শেষ	VERB	_	VerbForm=Inf	6	advcl	_	_
 4	করে	করা	AUX	_	VerbForm=Inf	3	compound	_	_
 5	কার্টুন	কার্টুন	NOUN	_	Number=Sing	6	obj	_	_
