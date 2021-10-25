@@ -210,7 +210,8 @@
 5	।	।	PUNCT	।	_	1	punct	_	_
 
 # sent_id = dev-s26
-# text = চল  খেত  যাই ।
+# text = চল খেতে যাই ।
+# text_en = Let's go eat.
 1	চল	চল	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Fin|Number=Plur|Person=1	0	root	_	_
 2	খেতে	খাওয়া	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Inf|Number=Plur|Person=1	1	xcomp	_	_
 3	যাই	যাই	AUX	_	VerbForm=Fin	2	compound	_	_
