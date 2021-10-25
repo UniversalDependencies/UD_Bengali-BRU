@@ -161,7 +161,7 @@
 6	।	।	PUNCT	।	_	1	punct	_	_
 
 # sent_id = dev-s20
-# text = তোমার বান্ধু বী  নাই?
+# text = তোমার বান্ধু বী  নাই?
 1	তোমার	তুমি	PRON	_	PronType=Prs	2	nsubj	_	_
 2	বান্ধুবী	বান্ধুবী	NOUN	_	Number=Sing	0	root	_	_
 3	নাই	না	DET	_	PronType=Int	2	det	_	_
@@ -249,7 +249,7 @@
 11	?	?	PUNCT	?	_	9	punct	_	_
 
 # sent_id = dev-s31
-# text = তোমার অসুখ করেব ।
+# text = তোমার অসুখ করেব ।
 1	তোমার	তোমার	PRON	_	PronType=Prs	3	nmod	_	_
 2	অসুখ	অসুখ	NOUN	_	Number=Sing	3	nsubj	_	_
 3	করবে	করা	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -370,7 +370,7 @@
 5	?	?	PUNCT	?	_	punct	_	_
 
 # sent_id = dev-s43
-# text = তোমার িপ্য়  রং িক?
+# text = তোমার িপ্য়  রং িক?
 1	তোমার	তুমি	PRON	_	PronType=Prs	3	nmod:poss	_	_
 2	প্রিয়	প্রিয়	ADJ	_	Degree=Pos	3	amod	_	_
 3	রং	রং	NOUN	_	Number=Sing	0	root	_	_
@@ -378,7 +378,7 @@
 5	?	?	PUNCT	?	_	3	punct	_	_
 
 # sent_id = dev-s44
-# text = দেখ,  তোমার জন̢ িক এেনিছ?
+# text = দেখ,  তোমার জন̢ িক এেনিছ?
 1	দেখ	দেখ	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	6	advcl	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	তোমার	তুমি	PRON	_	PronType=Prs	6	obj	_	_
