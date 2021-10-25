@@ -260,7 +260,8 @@
 11	?	?	PUNCT	?	_	9	punct	_	_
 
 # sent_id = dev-s31
-# text = তোমার অসুখ করেব ।
+# text = তোমার অসুখ করবে ।
+# text_en = It will make you sick.
 1	তোমার	তোমার	PRON	_	PronType=Prs	3	nmod	_	_
 2	অসুখ	অসুখ	NOUN	_	Number=Sing	3	nsubj	_	_
 3	করবে	করা	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin	0	root	_	_
