@@ -425,7 +425,7 @@
 7	?	?	PUNCT	?	_	5	punct	_	_
 
 # sent_id = dev-s46
-# text = আজ সারাদিন কি কি কেরছ?
+# text = আজ সারাদিন কি কি করেছ?
 # text_en = What did you do all day today?
 1	আজ	আজ	ADV	_	_	5	advmod	_	_
 2	সারাদিন	সারাদিন	NOUN	_	Number=Sing	5	obl	_	_
@@ -435,13 +435,14 @@
 6	?	?	PUNCT	?	_	5	punct	_	_
 
 # sent_id = dev-s47
-# text = তুমি আমােদর জাতীয় পতাকা আকঁ েত পার?
+# text = তুমি আমাদের জাতীয় পতাকা আকঁতে পার?
+# text_en = Can you draw our national flag?
 1	তুমি	তুমি	PRON	_	PronType=Prs	5	nsubj	_	_
 2	আমাদের	আমরা	PRON	_	PronType=Prs	3	nmod:poss	_	_
 3	জাতীয়	জাতীয়	ADJ	_	Degree=Pos	4	amod	_	_
 4	পতাকা	পতাকা	NOUN	_	Number=Sing	5	obj	_	_
 5	আকঁতে	আঁকা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Inf|Number=Sing|Person=2	0	root	_	_
-6	পার	পারা	AUX	_	VerbForm=Fin	5	compound	_	_
+6	পার	পারা	AUX	_	VerbForm=Fin	5	compound	_	SpaceAfter=No
 7	?	?	PUNCT	?	_	5	punct	_	_
 
 # sent_id = dev-s48
