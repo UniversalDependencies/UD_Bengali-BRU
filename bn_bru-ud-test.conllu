@@ -342,7 +342,7 @@
 5	আিম	আিম	PRON	_	PronType=Prs	7	nsubj	_	_
 6	গল্প	গল্প	NOUN	_	Number=Sing	7	obj	_	_
 7	বলব	বলব	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
-8	।	।	PUNCT	।	_	7	pucnt	_	_
+8	।	।	PUNCT	।	_	7	punct	_	_
 
 # sent_id = dev-s38
 # text = বাবা আমরা কি রিক্সায় ঘুরতে যাব?
