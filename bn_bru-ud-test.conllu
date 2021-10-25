@@ -283,10 +283,11 @@
 3	।	।	PUNCT	।	_	2	punct	_	_
 
 # sent_id = dev-s34
-# text = তুমি িক খেয়ছ?
+# text = তুমি কি খেয়েছ?
+# text_en = Did you eat?
 1	তুমি	তুমি	PRON	_	PronType=Prs	3	nsubj	_	_
 2	কি	কি	DET	_	PronType=Int	3	det	_	_
-3	খেয়েছ	খাওয়া	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	0	root	_	_
+3	খেয়েছ	খাওয়া	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	0	root	_	SpaceAfter=No
 4	?	?	PUNCT	?	_	3	punct	_	_
 
 # sent_id = dev-s35
@@ -329,7 +330,7 @@
 8	।	।	PUNCT	।	_	7	pucnt	_	_
 
 # sent_id = dev-s38
-# text = বাবা আমরা িক িরǙায় ঘুরেত যাব?
+# text = বাবা আমরা কি িরǙায় ঘুরেত যাব?
 1	বাবা	বাবা	NOUN	_	Number=Sing	5	iobj	_	_
 2	আমরা	আমি	PRON	_	PronType=Prs	5	nsubj	_	_
 3	কি	কি	DET	_	PronType=Int	5	det	_	_
@@ -376,7 +377,7 @@
 10	?	?	PUNCT	?	_	8	punct	_	_
 
 # sent_id = dev-s42
-# text = আজ Ǔােস িক িশিখেয়েছ?
+# text = আজ Ǔােস কি িশিখেয়েছ?
 1	আজ	আজ	NOUN	_	Number=Sing	nmod:pass	_	_
 2	ক্লাসে	ক্লাস	NOUN	_	Number=Sing	obj	_	_
 3	কি	কি	PRON	_	PronType=Int	nsubj:pass	_	_
@@ -392,7 +393,7 @@
 5	?	?	PUNCT	?	_	3	punct	_	_
 
 # sent_id = dev-s44
-# text = দেখ,  তোমার জন̢ িক এেনিছ?
+# text = দেখ,  তোমার জন̢ কি এেনিছ?
 1	দেখ	দেখ	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	6	advcl	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	তোমার	তুমি	PRON	_	PronType=Prs	6	obj	_	_
@@ -412,7 +413,7 @@
 7	?	?	PUNCT	?	_	5	punct	_	_
 
 # sent_id = dev-s46
-# text = আজ সারািদন িক িক কেরছ?
+# text = আজ সারািদন কি িক কেরছ?
 1	আজ	আজ	ADV	_	_	advmod	_	_
 2	সারাদিন	সারাদিন	NOUN	_	Number=Sing	_	_
 3	কি	কি	PRON	_	PronType=Int
