@@ -161,10 +161,11 @@
 6	।	।	PUNCT	।	_	1	punct	_	_
 
 # sent_id = dev-s20
-# text = তোমার বান্ধু বী  নাই?
+# text = তোমার বান্ধবী নাই?
+# text_en = Don't have a girlfriend?
 1	তোমার	তুমি	PRON	_	PronType=Prs	2	nsubj	_	_
-2	বান্ধুবী	বান্ধুবী	NOUN	_	Number=Sing	0	root	_	_
-3	নাই	না	DET	_	PronType=Int	2	det	_	_
+2	বান্ধবী	বান্ধবী	NOUN	_	Number=Sing	0	root	_	_
+3	নাই	না	DET	_	PronType=Int	2	det	_	SpaceAfter=No
 4	?	?	PUNCT	?	_	2	punct	_	_
 
 # sent_id = dev-s21
