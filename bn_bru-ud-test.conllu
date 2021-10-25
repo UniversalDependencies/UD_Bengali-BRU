@@ -25,8 +25,8 @@
 2	মা	মা	NOUN	_	Number=Sing	3	nsubj	_	_
 3	খারাপ	খারাপ	ADJ	_	Degree=Pos	0	root	_	_
 4	,	,	PUNCT	,	_	3	punct	_	_
-5	তাই	তাই	DET	_	Definite=Int	3	det	_	_
-6	কি	কি	DET	_	Definite=Int	5	compound	_	_
+5	তাই	তাই	DET	_	PronType=Dem	3	parataxis	_	_
+6	কি	কি	DET	_	PronType=Int	5	compound	_	_
 7	?	?	PUNCT	?	_	5	punct	_	_
 
 # sent_id = dev-s5
@@ -39,11 +39,11 @@
 6	।	।	PUNCT	।	_	5	punct	_	_
 
 # sent_id = dev-s6
-# text = ĺতামার বাবার নাম িক ?
-1	তোমার	ĺতামার	PRON	_	PronType=Prs	2	nmod	_	_
+# text = তোমার বাবার নাম কি ?
+1	তোমার	তোমার	PRON	_	PronType=Prs	2	nmod	_	_
 2	বাবার	বাবা	NOUN	_	Number=Sing	3	nmod	_	_
 3	নাম	নাম	NOUN	_	Number=Sing	0	root	_	_
-4	িক	িক	DET	_	Definite=Int	3	det	_	_
+4	কি	কি	DET	_	PronType=Int	3	det	_	_
 5	?	?	PUNCT	?	_	3	punct	_	_
 
 # sent_id = dev-s7
@@ -55,27 +55,27 @@
 5	।	।	PUNCT	।	_	4	punct	_	_
 
 # sent_id = dev-s8
-# text = তু িম গান গাইেত পার ?
-1	তু িম	তু িম	PRON	_	PronType=Prs	3	nsubj	_	_
+# text = তুমি গান গাইেত পার ?
+1	তুমি	তুমি	PRON	_	PronType=Prs	3	nsubj	_	_
 2	গান	গান	NOUN	_	Number=Sing	3	obj	_	_
 3	গাইেত	গাওয়া	VERB	_	Mood=Pot|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	0	root	_	_
 4	পার	পারা	AUX	_	Tense=Pres|VerbForm=Fin	3	compound	_	_
 5	?	?	PUNCT	?	_	3	punct	_	_
 
 # sent_id = dev-s9
-# text = হঁ̢া, আিম গান গাইেত পাির  ।
+# text = হ্যাঁ, আিম গান গাইেত পারি ।
 1	হ্যাঁ	হ্যাঁ	INTJ	_	_	5	discourse	_	_
 2	,	,	PUNCT	,	_	5	punct	_	_
 3	আিম	আমি	PRON	_	PronType=Prs	5	nsubj	_	_
 4	গান	গান	NOUN	_	Number=Sing	5	obj	_	_
 5	গাইেত	গাওয়া	VERB	_	Mood=Pot|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	0	root	_	_
-6	পাির	পারা	AUX	_	Tense=Pres|VerbForm=Fin	5	compound	_	_
+6	পারি	পারা	AUX	_	Tense=Pres|VerbForm=Fin	5	compound	_	_
 7	।	।	PUNCT	।	_	5	punct	_	_
 
 # sent_id = dev-s10
-# text = তু িম ĺকান Ǔােস পড়?
+# text = তুমি কোন ক্লাসে পড়?
 1	তুমি	তুমি	PRON	_	PronType=Prs	4	nsubj	_	_
-2	কোন	কোন	DET	_	Definite=Int	3	det	_	_
+2	কোন	কোন	DET	_	PronType=Int	3	det	_	_
 3	ক্লাসে	ক্লাস	NOUN	_	Number=Sing	4	obj	_	_
 4	পড়	পড়	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	0	root	_	_
 5	?	?	PUNCT	?	_	4	punct	_	_
@@ -181,7 +181,7 @@ _ 1 punct _ _
 2
 নাম নাম NOUN _ Number=Plur 0 root _ _
 3
-কি কি DET _ Definite=Int  2 det _ _
+কি কি DET _ PronType=Int  2 det _ _
 4 ? ? PUNCT ? _ 2 punct _ _
 #sent_id=dev-s19
 #text=রািকব, সািকব, বýŪালী ।
@@ -205,7 +205,7 @@ _ 1 punct _ _
 2
 বান্āুবী বান্āুবী NOUN _ Number=Sing 0 root _ _
 3
-নাই না DET _ Definite=Int  2 det _ _
+নাই না DET _ PronType=Int  2 det _ _
 4 ? ? PUNCT ? _ 2 punct _ _
 #sent_id=dev-s21
 #text=একজন আেছ ।
@@ -225,7 +225,7 @@ _ punct _ _
 2
 নাম নাম NOUN _ Number=Sing 0 root _ _
 3
-কি কি DET _ Definite=Int  2 det _ _
+কি কি DET _ PronType=Int  2 det _ _
 4 ? ? PUNCT  ? _ 2 punct
 #sent_id=dev-s23
 #text =তার নাম বýŪালী ।
@@ -334,7 +334,7 @@ _ 4 punct _ _
 4
 খেলে খাওয়া VERB _ VerbForm=Inf 3 xcomp _ _
 5
-কি কি DET _ Definite=Int  4 det _ _
+কি কি DET _ PronType=Int  4 det _ _
 6
 হয় হয় AUX _ Mood=Ind|Tense=Pres|VerbForm=Fin 4 aux _ _
 7 , , PUNCT , _ 3 punct
@@ -384,7 +384,7 @@ _ 2 punct _ _
 1
 তুমি তুমি PRON _ PronType=Prs 3 nsubj _ _
 2
-কি কি DET _ Definite=Int 3 det _ _
+কি কি DET _ PronType=Int 3 det _ _
 3
 খেয়েছ খাওয়া VERB _ Mood=Ind|Tense=Pres|VerbForm=Fin | Number=Sing|Person=2 0 root _ _
 4 ? ? PUNCT ? _ 3 punct _ _
@@ -437,7 +437,7 @@ ADJ _ Degree=Pos 2 amod _ _
 2
 গল্পটি গɤ  NOUN _ Number=Sing 0 root _ _
 3
-কি কি DET _ Definite=Int 2 det _ _
+কি কি DET _ PronType=Int 2 det _ _
 4 ? ? PUNCT ? _` 2 punct _ _
 #sent_id=dev-s37
 #text= আেগ ĺখেয় নাও  তারপর আিম গɤ বলব ।
@@ -466,7 +466,7 @@ _ 7 pucnt _ _
 2
 আমরা আমি PRON _ PronType=Prs 5 nsubj _ _
 3
-কি কি DET _ Definite=Int 5 det _ _
+কি কি DET _ PronType=Int 5 det _ _
 4
 রিক্সায় রিক্সা NOUN _ Number=Sing 5 obj _ _
 5
@@ -534,7 +534,7 @@ ADJ _ Degree=Pos 8 ccomp _ _
 তু িম  তুমি PRON _ PronType=Prs 8 nsubj _ _
 8
 জােনা  জানা VERB _ Mood=Ind|Tense=Pres|VerbForm=Fin| Number=Sing|Person=2 0 root _ _
-9 িক  িক  DET _ Definite=Int 8 det _ _
+9 িক  িক  DET _ PronType=Int 8 det _ _
 10 ? ? PUNCT  ? _ 8 punct _ _
 #sent_id =dev-s42
 #text=আজ Ǔােস িক িশিখেয়েছ?
@@ -569,7 +569,7 @@ ADJ _ Degree=Pos 3 amod _ _
 তোমার তুমি PRON _ PronType=Prs 6 obj _ _
 4
 জন্য জন্য ADP _ _ 6 case _ _
-5 িক কি DET _ Definite=Int 6 det _ _
+5 িক কি DET _ PronType=Int 6 det _ _
 6
 এনেছি  আনা  VERB _ Mood=Ind|Tense=Pres|VerbForm=Part 0 root _ _
 7 ? ? PUCNT ? _ 6 punct  _ _
