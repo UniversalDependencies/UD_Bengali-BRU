@@ -1,5 +1,6 @@
 # sent_id = dev-s1
-# text = কিছু কির না ।
+# text = কিছু করি না ।
+# text_en = I don't do anything.
 1	কিছু	কিছু	PRON	_	PronType=Ind	2	dep	_	_
 2	করি	করা	VERB	_	Mood=Sub|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	0	root	_	_
 3	না	না	PART	_	_	2	advmod	_	_
