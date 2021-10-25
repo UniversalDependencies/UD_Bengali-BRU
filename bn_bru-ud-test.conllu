@@ -245,7 +245,7 @@
 6	।	।	PUNCT	।	_	4	punct	_	_
 
 # sent_id = dev-s30
-# text = হাত না ধুয়ে খেলে কি হয়, তুমি জানো না?
+# text = হাত না ধুয়ে খেলে কি হয়, তুমি জানো না?
 # text_en = What happens if you do not wash your hands, you do not know?
 1	হাত	হাত	NOUN	_	Number=Plur	3	iobj	_	_
 2	না	না	PART	_	_	3	advmod	_	_
