@@ -370,7 +370,7 @@
 4	?	?	PUNCT	?	_	2	punct	_	Translit=?|LTranslit=?
 
 # sent_id = dev-s37
-# text = আগে খেয়ে নাও তারপর আিম গল্প বলব ।
+# text = আগে খেয়ে নাও তারপর আমি গল্প বলব ।
 # translit = āge kheŷe nāo tārapara āmi galpa balaba .
 # text_en = Eat first, then I'll tell the story.
 1	আগে	আগে	ADV	_	_	2	advmod	_	Translit=āge|LTranslit=āge
