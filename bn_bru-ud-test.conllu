@@ -240,428 +240,249 @@
 10	না	না	PART	_	_	9	advmod	_	_
 11	?	?	PUNCT	?	_	9	punct	_	_
 
-#sent_id=dev-s31
-#text=ĺতামার অসুখ করেব ।
-1
-তোমার তোমার PRON _ PronType=Prs 3 nmod _ _
-2
-অসুখ অসুখ NOUN _ Number=Sing 3 nsubj _ _
-3
-করবে করা VERB _ Mood=Ind | Tense=Fut |VerbForm=Fin 0 root _ _
-4
-। ।
-PUNCT
-।
-_ 3 punct _ _
-#sent_id=dev-s32
-#text=তাহেল হাত ĺāােবা ।
-1
-তাহলে তাহলে ADV _ _ 3 advmod _ _
-2 হাত হাত NOUN _ Number=Plur 3 obj _ _
-3 āোবো āোয়া VERB _ Mood=Ind | Tense=Fut |VerbForm=Fin 0 root _ _
-4
-। ।
-PUNCT
-।
-_ 3 punct  _ _
-#sent_id=dev-s33
-#text=কাটুŪ ন ĺদিখ ।
-1
-কার্টুন কার্টুন NOUN _ Number=Sing 2 obj _ _
-2
-দেখি দেখি VERB _ Mood=Ind|Tense=Pres|VerbForm=Fin | Number=Sing|Person=1 0 root _ _
-3
-। ।
-PUNCT
-।
-_ 2 punct _ _
-#sent_id=dev-s34
-#text=তু িম িক ĺখেয়ছ?
-1
-তুমি তুমি PRON _ PronType=Prs 3 nsubj _ _
-2
-কি কি DET _ PronType=Int 3 det _ _
-3
-খেয়েছ খাওয়া VERB _ Mood=Ind|Tense=Pres|VerbForm=Fin | Number=Sing|Person=2 0 root _ _
-4 ? ? PUNCT ? _ 3 punct _ _
-#sent_id=dev-s35
-#text= না,আিম খাব না ।
-1
-না না
-INTJ _ _ 4 discourse _ _
-2 , , PUNCT , _ 4 punct _ _
-3
-আমি আমি PRON _ PronType=Prs 4 nsubj _ _
-4
-খাব খাওয়া VERB _ Mood=Ind|Tense=Pres|VerbForm=Fin | Number=Sing|Person=1 0 root _ _
-5
-না না PART _ _ 4 advmod _ _
-6
-। ।
-PUNCT
-।
-_ 4 punct _ _
-#sent_id=dev-s35
-#text= তু িম যিদ খাও তাহেল একটা মজার গɤ বলব ।
-1
-তুমি তুমি PRON _ PronType=Prs 3 nsubj _ _
-2
-যদি যদি
-SCONJ _ _ 3 mark _ _
-3 খাও খাওয়া VERB _ Mood=Ind|Tense=Fut|VerbForm=Fin | Number=Sing|Person=2 8 advcl _ _
-4
-তাহলে তাহলে ADV _ _ 8 advmod _ _
-5
-একটা একটা DET _ Definite=Ind|PronType=Art  7 det _ _
-6
-মজার মজা
-ADJ _ Degree=Pos 7 amod _ _
-7
-গল্প গল্প NOUN _ Number=Sing 8 obj _ _
-8
-বলব বলা VERB _ Mood=Cnd|Tense=Fut|VerbForm=Fin | Number=Sing|Person=2 0 root _ _
-9
-। ।
-PUNCT
-।
-_ 8 punct _ _
-#sent_id=dev-s36
-#text= মজার গɤটি  িক?
-1
-মজার মজা
-ADJ _ Degree=Pos 2 amod _ _
-2
-গল্পটি গɤ  NOUN _ Number=Sing 0 root _ _
-3
-কি কি DET _ PronType=Int 2 det _ _
-4 ? ? PUNCT ? _` 2 punct _ _
-#sent_id=dev-s37
-#text= আেগ ĺখেয় নাও  তারপর আিম গɤ বলব ।
-1
-আগে আগে ADV _ _ 2 advmod _ _
-2
-খেয়ে খাওয়া  VERB _ Mood=Imp|Tense=Pres|VerbForm=Inf | Number=Sing|Person=2 7 advcl _ _
-3 নাও ĺনয়া  AUX _ VerbForm=Fin 2 compound _ _
-4
-তারপর তারপর SCONJ _ _ 7 mark _ _
-5
-আিম  আিম PRON _ PronType=Prs 7 nsubj _ _
-6
-গল্প গল্প NOUN _ Number=Sing 7 obj _ _
-7
-বলব বলব VERB _ Mood=Ind|Tense=Fut|VerbForm=Fin| Number=Sing|Person=1 0 root _ _
-8
-। ।
-PUNCT
-।
-_ 7 pucnt _ _
-#sent_id=dev-s38
-#text= বাবা আমরা িক িরǙায় ঘুরেত যাব?
-1
-বাবা বাবা NOUN _ Number=Sing 5 iobj _ _
-2
-আমরা আমি PRON _ PronType=Prs 5 nsubj _ _
-3
-কি কি DET _ PronType=Int 5 det _ _
-4
-রিক্সায় রিক্সা NOUN _ Number=Sing 5 obj _ _
-5
-ঘুরতে ĺঘারা  VERB _ Mood=Ind|Tense=Fut|VerbForm=Inf| Number=Plur|Person=1 0 root _ _
-6
-যাব যাব AUX _ VerbForm=Fin 5 compound _ _
-7 ? ? PUNCT ?  _ 5 punct _ _
-#sent_id=dev-s39
-#text=এখন ĺরাদ  ĺনই,তাই চশমা পরেত হেব  না।
-1
-এখন এখন ADV _ _ 2 advmod _ _
-2
-ĺরাদ  ĺরাদ  NOUN _ Number=Sing 7 acl _ _
-3
-ĺনই   ĺনই  DET _ _ 2 det _ _
-4 , , PUNCT _ _ 2 punct _ _
-5
-তাই  তাই  ADV _ _ 7 mark _ _
-6
-চশমা চশমা NOUN _ Number=Sing 7 obj _ _
-7 পরেত  পরা VERB _ Mood=Ind|Tense=Pres|VerbForm=Inf| Number=Sing|Person=2 0 root _ _
-8
-হবে হওয়া AUX _ VerbForm=Fin 7 compound _ _
-9
-না না PART _ _ 7 advmod _ _
-10
-। ।
-PUNCT
-।
-_ 7 punct _ _
-#sent_id=dev-s40
-#text= ĺয িভǘা চায়, তােক দান কর ।
-1
-ĺয  ĺয  PRON _ PronType=Prs 2 nsubj _ _
-2
-ভিক্ষা ভিক্ষা VERB _ Mood=Ind|Tense=Pres|VerbForm=Inf| Number=Sing|Person=3 6 root _ _
-3
-চায় চাওয়া AUX _ VerbForm=Fin 2 compound _ _
-4 , , PUNCT _ _ 2 punct _ _
-5
-তাকে তাকে PRON _ PronType=Prs 6 obj _ _
-6
-দান দান VERB _ Mood=Imp|Tense=Pres|VerbForm=Fin| Number=Sing|Person=3 2 acl _ _
-7
-কর  করা AUX _ VerbForm=Fin 6 compound _ _
-8
-। ।
-PUNCT
-।
-_ 6 punct _ _
-#sent_id=dev-s41
-#text=  আমােদর ĺদেশর পতাকার রং সবুজ,তু িম জােনা িক?
-1
-আমাদের আমরা  PRON _ PronType=Prs 2 nmod _ _
-2
-ĺদেশর  দেশ NOUN _ Number=Sing 3 compound _ _
-3
-পতাকার পতাকা NOUN _ Number=Sing 4 nmod _ _
-4
-রং রং NOUN _ Number=Sing 5 nsubj _ _
-5 সবুজ সবুজ
-ADJ _ Degree=Pos 8 ccomp _ _
-6 , , PUNCT  , _ 5 punct _ _
-7
-তু িম  তুমি PRON _ PronType=Prs 8 nsubj _ _
-8
-জােনা  জানা VERB _ Mood=Ind|Tense=Pres|VerbForm=Fin| Number=Sing|Person=2 0 root _ _
-9 িক  িক  DET _ PronType=Int 8 det _ _
-10 ? ? PUNCT  ? _ 8 punct _ _
-#sent_id =dev-s42
-#text=আজ Ǔােস িক িশিখেয়েছ?
-1 আজ আজ NOUN _ Number=Sing nmod:pass _ _
-2
-ক্লাসে ক্লাস NOUN _ Number=Sing obj _ _
-3
-কি কি PRON _ PronType=Int nsubj:pass _ _
-4
-শিখিয়েছে ĺশখা
-VERB _
-Mood=Ind|Tense=Past|VerbForm=
-Part|Voice=Pass root _ _
-5 ? ? PUNCT ? _ punct
-#sent_id =dev-s43
-#text=ĺতামার িপ্য়  রং িক?
-1
-তোমার তু িম  PRON _ PronType=Prs 3 nmod:poss _ _
-2
-প্রিয় প্রিয়
-ADJ _ Degree=Pos 3 amod _ _
-3
-রং রং NOUN _ Number=Sing 0 root _ _
-4 িক কি PRON _ PronType=Int 3 nsubj _ _
-5 ? ? PUNCT ? _ 3 punct  _ _
-#sent_id=dev-s44
-#text=ĺদখ,  ĺতামার জন̢ িক এেনিছ?
-1
-দেখ দেখ VERB _ Mood=Imp|Tense=Pres|VerbForm=Fin| Number=Sing|Person=2 6 advcl _ _
-2 , , PUNCT _ _ 1 punct _ _
-3
-তোমার তুমি PRON _ PronType=Prs 6 obj _ _
-4
-জন্য জন্য ADP _ _ 6 case _ _
-5 িক কি DET _ PronType=Int 6 det _ _
-6
-এনেছি  আনা  VERB _ Mood=Ind|Tense=Pres|VerbForm=Part 0 root _ _
-7 ? ? PUCNT ? _ 6 punct  _ _
-#sent_id=dev-s45
-#text=তু িম আমােদর ĺদেশর পতাকা আকঁ েত পার?
-1
-তুমি তুমি PRON _ PronType=Prs 5 nsubj _ _
-2
-আমাদের আমরা PRON _ PronType=Prs 3 nmod _ _
-3
-দেশের দেশ NOUN _ Number=Sing 4 compound _ _
-4
-পতাকা পতাকা NOUN _ Number=Sing 5 obj _ _
-5
-আকঁতে আঁকা VERB _ Mood=Ind|Tense=Pres|VerbForm=Inf| Number=Sing|Person=2 0 root _ _
-6
-পার পারা  AUX _ VerbForm=Fin 5 compound _ _
-7 ? ? PUNCT ? _ 5 punct _ _
-#sent_id=dev-s46
-#text=আজ সারািদন িক িক কেরছ?
-1 আজ আজ ADV _ _ advmod
-2
-সারাদিন সারাদিন NOUN _ Number=Sing
-3
-কি কি PRON _ PronType=Int
-4
-কি কি PRON _ PronType=Int
-5
-করেছ করা  VERB _ Mood=Ind|Tense=Pres|VerbForm=Fin| Number=Plur|Person=2
-6 ? ? PUNCT ? _
-#sent_id=dev-s47
-#text=তু িম আমােদর জাতীয় পতাকা আকঁ েত পার?
-1
-তুমি তুমি PRON _ PronType=Prs 5 nsubj
-2
-আমাদের  আমরা  PRON _ PronType=Prs 3 nmod:poss
-3
-জাতীয় জাতীয় ADJ _ Degree=Pos 4 amod
-4
-পতাকা পতাকা NOUN _ Number=Sing 5 obj
-5
-আকঁতে আঁকা VERB _ Mood=Ind|Tense=Pres|VerbForm=Inf| Number=Sing|Person=2 0 root
-6
-পার পারা  AUX _ VerbForm=Fin 5 compound
-7 ? ? PUNCT ? _ 5 punct
-#sent_id=dev-s48
-#text=আজ বই পেড়িছ, আটŪ কেরিছ, গান িশেখিছ ।
-1 আজ আজ ADV _ _ 2 advmod _ _
-2
-বই  বই NOUN _ Number=Sing 3 obj _ _
-3
-পড়েছি পড়া
-VERB _
-Mood=Ind|Tense=Pres|VerbForm=Fin| Number=Sing|Person=1
-0 root _ _
-4 , , PUNCT _ _ 6 punct _ _
-5
-আর্ট আর্ট NOUN _ Number=Sing 6 obj _ _
-6
-করেছি করা VERB _
-Mood=Ind|Tense=Pres|VerbForm=Fin| Number=Sing|Person=1
-3 conj _ _
-7 , , PUNCT _ _ 9 punct _ _
-8
-গান গান NOUN _ Number=Sing 9 obj _ _
-9
-শিখেছি শিখেছি
-VERB _
-Mood=Ind|Tense=Pres|VerbForm=Fin| Number=Sing|Person=1
-3 conj _ _
-10
-।  ।
-PUNCT
-।
-_ 3 punct _ _
-#sent_id=dev-s49
-#text= আিম আজ ɾু েল হািত ĺদেখিছ  ।
-1
-আিম  আমি PRON _ PronType=Prs 5 nsubj _ _
-2 আজ আজ ADV _ _ 5 advmod _ _
-3
-স্কুলে স্কুল NOUN _ Number=Sing 5 iobj _ _
-4 হািত  হািত  NOUN _ Number=Sing 5 obj _ _
-5
-দেখেছি দেখা
-VERB _
-Mood=Ind|Tense=Pres|VerbForm=Fin| Number=Sing|Person=1
-0 root _ _
-6
-।   ।
-PUNCT
-।
-_ 5 punct _ _
-#sent_id=dev-s50
-#text= আǱা, আিম ĺতামােক একটা সুȱর জামা  িকেন িদব  ।
-1
-আচ্ছা আচ্ছা INTJ _ _ 8 discourse _ _
-2 , , PUNCT , _ 8 punct _ _
-3
-আমি আমি PRON _ PronType=Prs 8 nsubj _ _
-4
-তোমাকে তুমি PRON _ PronType=Prs 8 iobj _ _
-5
-একটা একটা DET _ Definite=Ind|PronType=Art  7 det _ _
-6
-সুন্দর সুন্দর
-ADJ _ Degree=Pos 7 amod _ _
-7
-জামা  জামা  NOUN _ Number=Sing 8 obj _ _
-8
-কিনে  ĺকনা
-VERB _
-Mood=Ind|Tense=Fut|VerbForm=Inf| Number=Sing|Person=1
-0 root _ _
-9
-িদব দেয়া AUX _ VerbForm=Fin 8 compound _ _
-10
-।   ।
-PUNCT
-।
-_ 8 punct _ _
-#sent_id=dev-s51
-#text= এখন পড়েত বসার সময় হেয়েছ ।
-1
-এখন এখন
-ADJ _ Degree=Pos 5 amod _ _
-2
-পড়তে পড়া VERB _ VerbForm=Inf 3 acl _ _
-3
-বসার বসা AUX _ VerbForm=Fin 5 compound _ _
-4
-সময় সময় NOUN _ Number=Sing 5 nmod _ _
-5
-হয়েছে হওয়া VERB _ Mood=Ind|Tense=Pres|VerbForm=Fin| Number=Sing|Person=1 0 root _ _
-6
-। ।
-PUNCT
-।
-_ 5 punct _ _
-#sent_id=dev-s52
-#text= বই িনেয় পড়েত বস ।
-1
-বই বই NOUN _ Number=Plur 3 obj _ _
-2
-নিয়ে নেয়া ADV _ _ 3 nmod _ _
-3
-পড়তে পড়া VERB _ Mood=Imp|Tense=Pres|VerbForm=Inf| Number=Sing|Person=2 0 root _ _
-4
-বস বসা AUX _ VerbForm=Fin 3 compound _ _
-5
-। ।
-PUNCT
-।
-_ 3 punct _ _
-#sent_id=dev-s53
-#text= আমার পড়া ĺশষ হেয়েছ ।
-1
-আমার আমি PRON _ PronType=Prs 3 nmod:pass _ _
-2
-পড়া পড়া NOUN _ Number=Sing 3 nsubj:pass _ _
-3
-শেষ শেষ VERB _ Mood=Ind|Tense=Pres|VerbForm=Fin| Number=Sing|Person=1 0 root _ _
-4
-হয়েছে হওয়া AUX _ VerbForm=Fin 3 compound _ _
-5
-। ।
-PUNCT
-।
-_ 3 punct _ _
-#sent_id=dev-s54
-#text= আিম ĺলখা ĺশষ কের কাটুŪ ন ĺদখব ।
-1
-আমি আমি PRON _ PronType=Prs 3 nsubj _ _
-2
-ĺলখা  লেখা NOUN _ Number=Sing 3 iobj _ _
-3
-শেষ শেষ VERB _ verbForm=Inf 6 advcl _ _
-4
-করে করা AUX _ VerbForm=Inf 3 compound _ _
-5
-কার্টুন কার্টুন NOUN _ Number=Sing 6 obj _ _
-6
-দেখব দেখা VERB _ Mood=Ind|Tense=Fut| VerbForm=Fin| Number=Sing|Person=1 0 root _ _
-7
-। ।
-_
-।
-_ 6 punct _ _
-#sent_id=dev-s55
-#text= আমরা কখন ঘুরেত যাব?
-1
-আমরা আমি PRON _ PronType=Prs 4 nsubj _ _
-2
-কখন কখন PRON _ PronType=Int 4 nmod _ _
-3
-ঘুরতে ঘোরা VERB _ Mood=Ind|Tense=FutVerbForm=Inf| Number=Sing|Person=1 0 root _ _
-4
-যাব যাওয়া AUX _ verbForm=Fin 4 compound _ _
-5 ? ? PUNCT ? _ 4 punct _ _
+# sent_id = dev-s31
+# text = ĺতামার অসুখ করেব ।
+1	তোমার	তোমার	PRON	_	PronType=Prs	3	nmod	_	_
+2	অসুখ	অসুখ	NOUN	_	Number=Sing	3	nsubj	_	_
+3	করবে	করা	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	।	।	PUNCT	।	_	3	punct	_	_
+
+# sent_id = dev-s32
+# text = তাহেল হাত ĺāােবা ।
+1	তাহলে	তাহলে	ADV	_	_	3	advmod	_	_
+2	হাত	হাত	NOUN	_	Number=Plur	3	obj	_	_
+3	āোবো	āোয়া	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	।	।	PUNCT	।	_	3	punct	_	_
+
+# sent_id = dev-s33
+# text = কাটুŪ ন ĺদিখ ।
+1	কার্টুন	কার্টুন	NOUN	_	Number=Sing	2	obj	_	_
+2	দেখি	দেখি	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	0	root	_	_
+3	।	।	PUNCT	।	_	2	punct	_	_
+
+# sent_id = dev-s34
+# text = তু িম িক ĺখেয়ছ?
+1	তুমি	তুমি	PRON	_	PronType=Prs	3	nsubj	_	_
+2	কি	কি	DET	_	PronType=Int	3	det	_	_
+3	খেয়েছ	খাওয়া	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	0	root	_	_
+4	?	?	PUNCT	?	_	3	punct	_	_
+
+# sent_id = dev-s35
+# text = না,আিম খাব না ।
+1	না	না	INTJ	_	_	4	discourse	_	_
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	আমি	আমি	PRON	_	PronType=Prs	4	nsubj	_	_
+4	খাব	খাওয়া	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	0	root	_	_
+5	না	না	PART	_	_	4	advmod	_	_
+6	।	।	PUNCT	।	_	4	punct	_	_
+
+# sent_id = dev-s35
+# text = তু িম যিদ খাও তাহেল একটা মজার গɤ বলব ।
+1	তুমি	তুমি	PRON	_	PronType=Prs	3	nsubj	_	_
+2	যদি	যদি	SCONJ	_	_	3	mark	_	_
+3	খাও	খাওয়া	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin|Number=Sing|Person=2	8	advcl	_	_
+4	তাহলে	তাহলে	ADV	_	_	8	advmod	_	_
+5	একটা	একটা	DET	_	Definite=Ind|PronType=Art	7	det	_	_
+6	মজার	মজা	ADJ	_	Degree=Pos	7	amod	_	_
+7	গল্প	গল্প	NOUN	_	Number=Sing	8	obj	_	_
+8	বলব	বলা	VERB	_	Mood=Cnd|Tense=Fut|VerbForm=Fin|Number=Sing|Person=2	0	root	_	_
+9	।	।	PUNCT	।	_	8	punct	_	_
+
+# sent_id = dev-s36
+# text = মজার গɤটি  িক?
+1	মজার	মজা	ADJ	_	Degree=Pos	2	amod	_	_
+2	গল্পটি	গɤ	NOUN	_	Number=Sing	0	root	_	_
+3	কি	কি	DET	_	PronType=Int	2	det	_	_
+4	?	?	PUNCT	?	_	2	punct	_	_
+
+# sent_id = dev-s37
+# text = আেগ ĺখেয় নাও  তারপর আিম গɤ বলব ।
+1	আগে	আগে	ADV	_	_	2	advmod	_	_
+2	খেয়ে	খাওয়া	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Inf|Number=Sing|Person=2	7	advcl	_	_
+3	নাও	ĺনয়া	AUX	_	VerbForm=Fin	2	compound	_	_
+4	তারপর	তারপর	SCONJ	_	_	7	mark	_	_
+5	আিম	 আিম	PRON	_	PronType=Prs	7	nsubj	_	_
+6	গল্প	গল্প	NOUN	_	Number=Sing	7	obj	_	_
+7	বলব	বলব	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin|Number=Sing|Person=1	0	root	_	_
+8	।	।	PUNCT	।	_	7	pucnt	_	_
+
+# sent_id = dev-s38
+# text = বাবা আমরা িক িরǙায় ঘুরেত যাব?
+1	বাবা	বাবা	NOUN	_	Number=Sing	5	iobj	_	_
+2	আমরা	আমি	PRON	_	PronType=Prs	5	nsubj	_	_
+3	কি	কি	DET	_	PronType=Int	5	det	_	_
+4	রিক্সায়	রিক্সা	NOUN	_	Number=Sing	5	obj	_	_
+5	ঘুরতে	ĺঘারা	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Inf|Number=Plur|Person=1	0	root	_	_
+6	যাব	যাব	AUX	_	VerbForm=Fin	5	compound	_	_
+7	?	?	PUNCT	?	_	5	punct	_	_
+
+# sent_id = dev-s39
+# text = এখন ĺরাদ  ĺনই,তাই চশমা পরেত হেব  না।
+1	এখন	এখন	ADV	_	_	2	advmod	_	_
+2	ĺরাদ	ĺরাদ	NOUN	_	Number=Sing	7	acl	_	_
+3	ĺনই	ĺনই	DET	_	_	2	det	_	_
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	তাই	তাই	ADV	_	_	7	mark	_	_
+6	চশমা	চশমা	NOUN	_	Number=Sing	7	obj	_	_
+7	পরেত	পরা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Inf|Number=Sing|Person=2	0	root	_	_
+8	হবে	হওয়া	AUX	_	VerbForm=Fin	7	compound	_	_
+9	না	না	PART	_	_	7	advmod	_	_
+10	।	।	PUNCT	।	_	7	punct	_	_
+
+# sent_id = dev-s40
+# text = ĺয িভǘা চায়, তােক দান কর ।
+1	ĺয	ĺয	PRON	_	PronType=Prs	2	nsubj	_	_
+2	ভিক্ষা	ভিক্ষা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Inf|Number=Sing|Person=3	6	root	_	_
+3	চায়	চাওয়া	AUX	_	VerbForm=Fin	2	compound	_	_
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	তাকে	তাকে	PRON	_	PronType=Prs	6	obj	_	_
+6	দান	দান	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Fin|Number=Sing|Person=3	2	acl	_	_
+7	কর	 করা	AUX	_	VerbForm=Fin	6	compound	_	_
+8	।	।	PUNCT	।	_	6	punct	_	_
+
+# sent_id = dev-s41
+# text = আমােদর ĺদেশর পতাকার রং সবুজ,তু িম জােনা িক?
+1	আমাদের	আমরা	PRON	_	PronType=Prs	2	nmod	_	_
+2	ĺদেশর	 দেশ	NOUN	_	Number=Sing	3	compound	_	_
+3	পতাকার	পতাকা	NOUN	_	Number=Sing	4	nmod	_	_
+4	রং	রং	NOUN	_	Number=Sing	5	nsubj	_	_
+5	সবুজ	সবুজ	ADJ	_	Degree=Pos	8	ccomp	_	_
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	তু িম	তুমি	PRON	_	PronType=Prs	8	nsubj	_	_
+8	জােনা	জানা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	0	root	_	_
+9	িক	িক	DET	_	PronType=Int	8	det	_	_
+10	?	?	PUNCT	?	_	8	punct	_	_
+
+# sent_id = dev-s42
+# text = আজ Ǔােস িক িশিখেয়েছ?
+1	আজ	আজ	NOUN	_	Number=Sing	nmod:pass	_	_
+2	ক্লাসে	ক্লাস	NOUN	_	Number=Sing	obj	_	_
+3	কি	কি	PRON	_	PronType=Int	nsubj:pass	_	_
+4	শিখিয়েছে	ĺশখা	VERB	_	Mood=Ind|Tense=Past|VerbForm=Part|Voice=Pass	root	_	_
+5	?	?	PUNCT	?	_	punct	_	_
+
+# sent_id = dev-s43
+# text = ĺতামার িপ্য়  রং িক?
+1	তোমার	তু িম	PRON	_	PronType=Prs	3	nmod:poss	_	_
+2	প্রিয়	প্রিয়	ADJ	_	Degree=Pos	3	amod	_	_
+3	রং	রং	NOUN	_	Number=Sing	0	root	_	_
+4	িক	কি	PRON	_	PronType=Int	3	nsubj	_	_
+5	?	?	PUNCT	?	_	3	punct	_	_
+
+# sent_id = dev-s44
+# text = ĺদখ,  ĺতামার জন̢ িক এেনিছ?
+1	দেখ	দেখ	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	6	advcl	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	তোমার	তুমি	PRON	_	PronType=Prs	6	obj	_	_
+4	জন্য	জন্য	ADP	_	_	6	case	_	_
+5	িক	কি	DET	_	PronType=Int	6	det	_	_
+6	এনেছি	 আনা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Part	0	root	_	_
+7	?	?	PUNCT	?	_	6	punct	_	_
+
+# sent_id = dev-s45
+# text = তু িম আমােদর ĺদেশর পতাকা আকঁ েত পার?
+1	তুমি	তুমি	PRON	_	PronType=Prs	5	nsubj	_	_
+2	আমাদের	আমরা	PRON	_	PronType=Prs	3	nmod	_	_
+3	দেশের	দেশ	NOUN	_	Number=Sing	4	compound	_	_
+4	পতাকা	পতাকা	NOUN	_	Number=Sing	5	obj	_	_
+5	আকঁতে	আঁকা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Inf|Number=Sing|Person=2	0	root	_	_
+6	পার	পারা	AUX	_	VerbForm=Fin	5	compound	_	_
+7	?	?	PUNCT	?	_	5	punct	_	_
+
+# sent_id = dev-s46
+# text = আজ সারািদন িক িক কেরছ?
+1	আজ	আজ	ADV	_	_	advmod	_	_
+2	সারাদিন	সারাদিন	NOUN	_	Number=Sing	_	_
+3	কি	কি	PRON	_	PronType=Int
+4	কি	কি	PRON	_	PronType=Int
+5	করেছ	করা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin| Number=Plur|Person=2
+6	?	?	PUNCT	?	_
+
+# sent_id = dev-s47
+# text = তু িম আমােদর জাতীয় পতাকা আকঁ েত পার?
+1	তুমি	তুমি	PRON	_	PronType=Prs	5	nsubj	_	_
+2	আমাদের	আমরা	PRON	_	PronType=Prs	3	nmod:poss	_	_
+3	জাতীয়	জাতীয়	ADJ	_	Degree=Pos	4	amod	_	_
+4	পতাকা	পতাকা	NOUN	_	Number=Sing	5	obj	_	_
+5	আকঁতে	আঁকা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Inf|Number=Sing|Person=2	0	root	_	_
+6	পার	পারা	AUX	_	VerbForm=Fin	5	compound	_	_
+7	?	?	PUNCT	?	_	5	punct	_	_
+
+# sent_id = dev-s48
+# text = আজ বই পেড়িছ, আটŪ কেরিছ, গান িশেখিছ ।
+1	আজ	আজ	ADV	_	_	2	advmod	_	_
+2	বই	বই	NOUN	_	Number=Sing	3	obj	_	_
+3	পড়েছি	পড়া	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	0	root	_	_
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	আর্ট	আর্ট	NOUN	_	Number=Sing	6	obj	_	_
+6	করেছি	করা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	3	conj	_	_
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	গান	গান	NOUN	_	Number=Sing	9	obj	_	_
+9	শিখেছি	শিখেছি	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	3	conj	_	_
+10	।	।	PUNCT	।	_	3	punct	_	_
+
+# sent_id = dev-s49
+# text = আিম আজ ɾু েল হািত ĺদেখিছ  ।
+1	আিম	আমি	PRON	_	PronType=Prs	5	nsubj	_	_
+2	আজ	আজ	ADV	_	_	5	advmod	_	_
+3	স্কুলে	স্কুল	NOUN	_	Number=Sing	5	iobj	_	_
+4	হািত	হািত	NOUN	_	Number=Sing	5	obj	_	_
+5	দেখেছি	দেখা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	0	root	_	_
+6	।	।	PUNCT	।	_	5	punct	_	_
+
+# sent_id = dev-s50
+# text = আǱা, আিম ĺতামােক একটা সুȱর জামা  িকেন িদব  ।
+1	আচ্ছা	আচ্ছা	INTJ	_	_	8	discourse	_	_
+2	,	,	PUNCT	,	_	8	punct	_	_
+3	আমি	আমি	PRON	_	PronType=Prs	8	nsubj	_	_
+4	তোমাকে	তুমি	PRON	_	PronType=Prs	8	iobj	_	_
+5	একটা	একটা	DET	_	Definite=Ind|PronType=Art	7	det	_	_
+6	সুন্দর	সুন্দর	ADJ	_	Degree=Pos	7	amod	_	_
+7	জামা	জামা	NOUN	_	Number=Sing	8	obj	_	_
+8	কিনে	ĺকনা	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Inf|Number=Sing|Person=1	0	root	_	_
+9	িদব	দেয়া	AUX	_	VerbForm=Fin	8	compound	_	_
+10	।	।	PUNCT	।	_	8	punct	_	_
+
+# sent_id = dev-s51
+# text = এখন পড়েত বসার সময় হেয়েছ ।
+1	এখন	এখন	ADJ	_	Degree=Pos	5	amod	_	_
+2	পড়তে	পড়া	VERB	_	VerbForm=Inf	3	acl	_	_
+3	বসার	বসা	AUX	_	VerbForm=Fin	5	compound	_	_
+4	সময়	সময়	NOUN	_	Number=Sing	5	nmod	_	_
+5	হয়েছে	হওয়া	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	0	root	_	_
+6	।	।	PUNCT	।	_	5	punct	_	_
+
+# sent_id = dev-s52
+# text = বই িনেয় পড়েত বস ।
+1	বই	বই	NOUN	_	Number=Plur	3	obj	_	_
+2	নিয়ে	নেয়া	ADV	_	_	3	nmod	_	_
+3	পড়তে	পড়া	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Inf|Number=Sing|Person=2	0	root	_	_
+4	বস	বসা	AUX	_	VerbForm=Fin	3	compound	_	_
+5	।	।	PUNCT	।	_	3	punct	_	_
+
+# sent_id = dev-s53
+# text = আমার পড়া ĺশষ হেয়েছ ।
+1	আমার	আমি	PRON	_	PronType=Prs	3	nmod:pass	_	_
+2	পড়া	পড়া	NOUN	_	Number=Sing	3	nsubj:pass	_	_
+3	শেষ	শেষ	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	0	root	_	_
+4	হয়েছে	হওয়া	AUX	_	VerbForm=Fin	3	compound	_	_
+5	।	।	PUNCT	।	_	3	punct	_	_
+
+# sent_id = dev-s54
+# text = আিম ĺলখা ĺশষ কের কাটুŪ ন ĺদখব ।
+1	আমি	আমি	PRON	_	PronType=Prs	3	nsubj	_	_
+2	ĺলখা	লেখা	NOUN	_	Number=Sing	3	iobj	_	_
+3	শেষ	শেষ	VERB	_	VerbForm=Inf	6	advcl	_	_
+4	করে	করা	AUX	_	VerbForm=Inf	3	compound	_	_
+5	কার্টুন	কার্টুন	NOUN	_	Number=Sing	6	obj	_	_
+6	দেখব	দেখা	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin|Number=Sing|Person=1	0	root	_	_
+7	।	।	PUNCT	।	_	6	punct	_	_
+
+# sent_id = dev-s55
+# text = আমরা কখন ঘুরেত যাব?
+1	আমরা	আমি	PRON	_	PronType=Prs	4	nsubj	_	_
+2	কখন	কখন	PRON	_	PronType=Int	4	nmod	_	_
+3	ঘুরতে	ঘোরা	VERB	_	Mood=Ind|Tense=FutVerbForm=Inf|Number=Sing|Person=1	0	root	_	_
+4	যাব	যাওয়া	AUX	_	VerbForm=Fin	4	compound	_	_
+5	?	?	PUNCT	?	_	4	punct	_	_
+
