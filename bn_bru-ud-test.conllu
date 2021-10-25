@@ -97,6 +97,7 @@
 
 # sent_id = dev-s12
 # text = প্রথম শ্রেনীতে পড়ি ।
+# text_en = I read in the first class.
 1	প্রথম	প্রথম	ADJ	_	NumType=Ord	2	amod	_	_
 2	শ্রেনীতে	শ্রেনী	NOUN	_	Number=Sing	3	obj	_	_
 3	পড়ি	পড়া	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -104,6 +105,7 @@
 
 # sent_id = dev-s13
 # text = একটা গান গাও ।
+# text_en = Sing a song.
 1	একটা	একটি	DET	_	Definite=Ind|PronType=Art	2	det	_	_
 2	গান	গান	NOUN	_	Number=Sing	3	obj	_	_
 3	গাও	গাও	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -119,12 +121,13 @@
 5	?	?	PUNCT	?	_	3	punct	_	_
 
 # sent_id = dev-s15
-# text = মা রেখ আেস  মােঝ মােঝ বাবা ।
+# text = মা রেখে আসে মাঝে মাঝে বাবা ।
+# text_en = Sometimes the mother leaves the father.
 1	মা	মা	NOUN	_	Number=Sing	2	nsubj	_	_
-2	রেখ	রাখা	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Inf	0	root	_	_
-3	আেস	আেস	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	compound	_	_
-4	মােঝ	মাঝ	ADV	_	PronType=Ind	6	nmod	_	_
-5	মােঝ	মাঝ	ADV	_	PronType=Ind	4	fixed	_	_
+2	রেখে	রাখা	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Inf	0	root	_	_
+3	আসে	আসে	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	compound	_	_
+4	মাঝে	মাঝ	ADV	_	PronType=Ind	6	advmod	_	_
+5	মাঝে	মাঝ	ADV	_	PronType=Ind	4	fixed	_	_
 6	বাবা	বাবা	NOUN	_	Number=Sing	2	nsubj	_	_
 7	।	।	PUNCT	।	_	2	punct	_	_
 
