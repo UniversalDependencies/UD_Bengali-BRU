@@ -176,17 +176,19 @@
 3	।	।	PUNCT	।	_	2	punct	_	_
 
 # sent_id = dev-s22
-# text = তার নাম িক?
+# text = তার নাম কি?
+# text_en = What is her name?
 1	তার	তার	PRON	_	PronType=Prs	2	nmod	_	_
 2	নাম	নাম	NOUN	_	Number=Sing	0	root	_	_
-3	কি	কি	DET	_	PronType=Int	2	det	_	_
+3	কি	কি	DET	_	PronType=Int	2	det	_	SpaceAfter=No
 4	?	?	PUNCT	?	_	2	punct	_	_
 
 # sent_id = dev-s23
-# text = তার নাম বýŪালী ।
+# text = তার নাম বর্ণালী ।
+# text_en = Her name is Barnali.
 1	তার	তার	PRON	_	PronType=Prs	3	nmod	_	_
 2	নাম	নাম	NOUN	_	Number=Sing	3	nsubj	_	_
-3	বর্ýালী	বর্ýালী	PROPN	_	Number=Sing	0	root	_	_
+3	বর্ণালী	বর্ণালী	PROPN	_	Number=Sing	0	root	_	_
 4	।	।	PUNCT	।	_	3	punct	_	_
 
 # sent_id = dev-s24
