@@ -470,8 +470,9 @@
 6	।	।	PUNCT	।	_	5	punct	_	_
 
 # sent_id = dev-s50
-# text = আǱা, আিম তোমােক একটা সুȱর জামা  িকেন িদব  ।
-1	আচ্ছা	আচ্ছা	INTJ	_	_	8	discourse	_	_
+# text = আচ্ছা, আমি তোমাকে একটা সুন্দর জামা কিনে দিব ।
+# text_en = Well, I'll buy you a nice dress.
+1	আচ্ছা	আচ্ছা	INTJ	_	_	8	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	8	punct	_	_
 3	আমি	আমি	PRON	_	PronType=Prs	8	nsubj	_	_
 4	তোমাকে	তুমি	PRON	_	PronType=Prs	8	iobj	_	_
@@ -479,7 +480,7 @@
 6	সুন্দর	সুন্দর	ADJ	_	Degree=Pos	7	amod	_	_
 7	জামা	জামা	NOUN	_	Number=Sing	8	obj	_	_
 8	কিনে	কেনা	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Inf|Number=Sing|Person=1	0	root	_	_
-9	িদব	দেয়া	AUX	_	VerbForm=Fin	8	compound	_	_
+9	দিব	দয়ো	AUX	_	VerbForm=Fin	8	compound	_	_
 10	।	।	PUNCT	।	_	8	punct	_	_
 
 # sent_id = dev-s51
