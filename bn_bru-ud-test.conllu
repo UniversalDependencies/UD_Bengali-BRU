@@ -403,13 +403,14 @@
 5	?	?	PUNCT	?	_	3	punct	_	_
 
 # sent_id = dev-s44
-# text = দেখ,  তোমার জন̢ কি এেনিছ?
-1	দেখ	দেখ	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	6	advcl	_	_
+# text = দেখ,  তোমার জন্য কি এনেছি?
+# text_en = See, what have I brought for you?
+1	দেখ	দেখ	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	6	advcl	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	তোমার	তুমি	PRON	_	PronType=Prs	6	obj	_	_
 4	জন্য	জন্য	ADP	_	_	6	case	_	_
-5	িক	কি	DET	_	PronType=Int	6	det	_	_
-6	এনেছি	 আনা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Part	0	root	_	_
+5	কি	কি	DET	_	PronType=Int	6	det	_	_
+6	এনেছি	আনা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
 7	?	?	PUNCT	?	_	6	punct	_	_
 
 # sent_id = dev-s45
