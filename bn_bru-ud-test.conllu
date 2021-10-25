@@ -245,17 +245,18 @@
 6	।	।	PUNCT	।	_	4	punct	_	_
 
 # sent_id = dev-s30
-# text = হাত না ধুেয় খেল িক হয়, তুমি জােনা না?
+# text = হাত না ধুয়ে খেলে কি হয়, তুমি জানো না?
+# text_en = What happens if you do not wash your hands, you do not know?
 1	হাত	হাত	NOUN	_	Number=Plur	3	iobj	_	_
 2	না	না	PART	_	_	3	advmod	_	_
 3	ধুয়ে	ধোয়া	VERB	_	Mood=Cnd|Tense=Pres|VerbForm=Inf|Number=Plur|Person=2	9	advcl	_	_
 4	খেলে	খাওয়া	VERB	_	VerbForm=Inf	3	xcomp	_	_
 5	কি	কি	DET	_	PronType=Int	4	det	_	_
-6	হয়	হয়	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+6	হয়	হয়	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	3	punct	_	_
 8	তুমি	তুমি	PRON	_	PronType=Prs	9	nsubj	_	_
 9	জানো	জানা	VERB	_	VerbForm=Inf	0	root	_	_
-10	না	না	PART	_	_	9	advmod	_	_
+10	না	না	PART	_	_	9	advmod	_	SpaceAfter=No
 11	?	?	PUNCT	?	_	9	punct	_	_
 
 # sent_id = dev-s31
