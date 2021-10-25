@@ -322,7 +322,8 @@
 4	?	?	PUNCT	?	_	2	punct	_	_
 
 # sent_id = dev-s37
-# text = আেগ খেয় নাও  তারপর আিম গɤ বলব ।
+# text = আগে খেয়ে নাও  তারপর আিম গল্প বলব ।
+# text_en = Eat first, then I'll tell the story.
 1	আগে	আগে	ADV	_	_	2	advmod	_	_
 2	খেয়ে	খাওয়া	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Inf|Number=Sing|Person=2	7	advcl	_	_
 3	নাও	নেয়া	AUX	_	VerbForm=Fin	2	compound	_	_
