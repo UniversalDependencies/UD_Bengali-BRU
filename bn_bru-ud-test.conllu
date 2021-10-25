@@ -194,14 +194,15 @@
 # sent_id = dev-s24
 # text = হুম,খুব ভালো ।
 # text_en = Hmmm, very good.
-1	হুম	হঁমা	INTJ	_	_	4	discourse	_	SpaceAfter=No
+1	হুম	হঁমা	INTJ	_	_	4	discourse	_	_
 2	,	,	PUNCT	,	_	4	punct	_	_
 3	খুব	খুব	ADJ	_	Degree=Pos	4	amod	_	_
 4	ভালো	ভালো	ADJ	_	Degree=Pos	0	root	_	_
 5	।	।	PUNCT	।	_	4	punct	_	_
 
 # sent_id = dev-s25
-# text = চল বাবা খেত যাই ।
+# text = চল বাবা খেতে যাই ।
+# text_en = Let's go eat, dad.
 1	চল	চল	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	0	root	_	_
 2	বাবা	বাবা	NOUN	_	Number=Sing	1	obj	_	_
 3	খেতে	খাওয়া	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Inf|Number=Plur|Person=2	1	xcomp	_	_
