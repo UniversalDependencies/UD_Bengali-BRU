@@ -48,7 +48,8 @@
 5	?	?	PUNCT	?	_	3	punct	_	_
 
 # sent_id = dev-s7
-# text = আমার বাবার নাম ফা˙ক ।
+# text = আমার বাবার নাম ফারুক ।
+# text_en = My father's name is Farooq.
 1	আমার	আমার	PRON	_	PronType=Prs	2	nmod	_	_
 2	বাবার	বাবা	NOUN	_	Number=Sing	4	nmod	_	_
 3	নাম	নাম	NOUN	_	Number=Sing	4	nsubj	_	_
@@ -75,10 +76,11 @@
 
 # sent_id = dev-s10
 # text = তুমি কোন ক্লাসে পড়?
+# text_en = Which class do you study?
 1	তুমি	তুমি	PRON	_	PronType=Prs	4	nsubj	_	_
 2	কোন	কোন	DET	_	PronType=Int	3	det	_	_
 3	ক্লাসে	ক্লাস	NOUN	_	Number=Sing	4	obj	_	_
-4	পড়	পড়	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	0	root	_	SpaceAfter=No
+4	পড়	পড়	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	0	root	_	SpaceAfter=No
 5	?	?	PUNCT	?	_	4	punct	_	_
 
 # sent_id = dev-s11
