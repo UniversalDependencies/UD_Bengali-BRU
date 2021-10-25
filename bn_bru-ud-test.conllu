@@ -301,7 +301,8 @@
 6	।	।	PUNCT	।	_	4	punct	_	_
 
 # sent_id = dev-s35
-# text = তুমি যিদ খাও তাহেল একটা মজার গɤ বলব ।
+# text = তুমি যদি খাও তাহলে একটা মজার গল্প বলব ।
+# text_en = I'll tell you a funny story if you eat.
 1	তুমি	তুমি	PRON	_	PronType=Prs	3	nsubj	_	_
 2	যদি	যদি	SCONJ	_	_	3	mark	_	_
 3	খাও	খাওয়া	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin|Number=Sing|Person=2	8	advcl	_	_
@@ -313,10 +314,11 @@
 9	।	।	PUNCT	।	_	8	punct	_	_
 
 # sent_id = dev-s36
-# text = মজার গɤটি  িক?
+# text = মজার গল্পটি কি?
+# text_en = What's the funny story?
 1	মজার	মজা	ADJ	_	Degree=Pos	2	amod	_	_
-2	গল্পটি	গɤ	NOUN	_	Number=Sing	0	root	_	_
-3	কি	কি	DET	_	PronType=Int	2	det	_	_
+2	গল্পটি	গল্প	NOUN	_	Number=Sing	0	root	_	_
+3	কি	কি	DET	_	PronType=Int	2	det	_	SpaceAfter=No
 4	?	?	PUNCT	?	_	2	punct	_	_
 
 # sent_id = dev-s37
