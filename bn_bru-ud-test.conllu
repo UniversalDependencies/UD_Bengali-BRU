@@ -137,8 +137,8 @@
 # text_en = Who leaves you?
 1	তোমাকে	তুমি	PRON	_	PronType=Prs	3	iobj	_	Translit=tomāke|LTranslit=tumi
 2	কে	কে	PRON	_	PronType=Int	3	nsubj	_	Translit=ke|LTranslit=ke
-3	রেখে	রাখা	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Inf	0	root	_	Translit=rekhe|LTranslit=rākhā
-4	আসে	আসা	AUX	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	compound	_	SpaceAfter=No|Translit=āse|LTranslit=āsā
+3	রেখে	রাখা	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	Translit=rekhe|LTranslit=rākhā
+4	আসে	আসা	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	compound	_	SpaceAfter=No|Translit=āse|LTranslit=āsā
 5	?	?	PUNCT	?	_	3	punct	_	Translit=?|LTranslit=?
 
 # sent_id = dev-s15
