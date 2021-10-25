@@ -221,13 +221,14 @@
 # text = আমি ক্ষুধার্ত ।
 # text_en = I'm hungry.
 1	আমি	আমি	PRON	_	PronType=Prs	2	nsubj	_	_
-2	ক্ষুধার্ত	ক্ষুধা	ADJ	_	Degree=Pos	0	acl	_	_
+2	ক্ষুধার্ত	ক্ষুধা	ADJ	_	Degree=Pos	0	root	_	_
 3	।	।	PUNCT	।	_	2	punct	_	_
 
 # sent_id = dev-s28
-# text = বাবা আেগ হাত ধুেয় নাও ।
+# text = বাবা আগে হাত ধুয়ে নাও ।
+# text_en = Dad, wash your hands first.
 1	বাবা	বাবা	NOUN	_	Number=Sing	4	iobj	_	_
-2	আেগ	আগে	ADV	_	_	4	advmod	_	_
+2	আগে	আগে	ADV	_	_	4	advmod	_	_
 3	হাত	হাত	NOUN	_	Number=Plur	4	obj	_	_
 4	ধুয়ে	ধোয়া	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Inf|Number=Plur|Person=2	0	root	_	_
 5	নাও	নেয়া	AUX	_	VerbForm=Fin	4	compound	_	_
