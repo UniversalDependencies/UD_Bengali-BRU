@@ -112,11 +112,11 @@
 # sent_id = dev-s14
 # text = তোমাকে কে রেখে আসে?
 # text_en = Who leaves you?
-1	তোমাকে	তুমি	PRON	_	PronType=Prs	4	iobj	_	_
-2	কে	কে	PRON	_	PronType=Int	4	nsubj	_	_
+1	তোমাকে	তুমি	PRON	_	PronType=Prs	3	iobj	_	_
+2	কে	কে	PRON	_	PronType=Int	3	nsubj	_	_
 3	রেখে	রাখা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Inf|Number=Sing|Person=3	0	root	_	_
-4	আসে	আসা	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=3	4	compound	_	_
-5	?	?	PUNCT	?	_	4	punct	_	_
+4	আসে	আসা	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=3	3	compound	_	SpaceAfter=No
+5	?	?	PUNCT	?	_	3	punct	_	_
 
 # sent_id = dev-s15
 # text = মা রেখ আেস  মােঝ মােঝ বাবা ।
@@ -129,9 +129,10 @@
 7	।	।	PUNCT	।	_	2	punct	_	_
 
 # sent_id = dev-s16
-# text = তোমার বȴু  কতজন?
-1	তোমার	তু িম	PRON	_	PronType=Prs	2	nsubj	_	_
-2	বন্āু	বȴু	NOUN	_	Number=Sing	0	root	_	_
+# text = তোমার বন্ধু কতজন?
+# text_en = How many friends do you have?
+1	তোমার	তুমি	PRON	_	PronType=Prs	2	nsubj	_	_
+2	বন্ধু	বন্ধু	NOUN	_	Number=Sing	0	root	_	_
 3	কতজন	কত	ADJ	_	Degree=Pos	2	nmod	_	_
 4	?	?	PUNCT	?	_	2	punct	_	_
 
@@ -158,9 +159,9 @@
 6	।	।	PUNCT	।	_	1	punct	_	_
 
 # sent_id = dev-s20
-# text = তোমার বাȴু বী  নাই?
+# text = তোমার বান্ধু বী  নাই?
 1	তোমার	তু িম	PRON	_	PronType=Prs	2	nsubj	_	_
-2	বান্āুবী	বান্āুবী	NOUN	_	Number=Sing	0	root	_	_
+2	বান্ধুবী	বান্ধুবী	NOUN	_	Number=Sing	0	root	_	_
 3	নাই	না	DET	_	PronType=Int	2	det	_	_
 4	?	?	PUNCT	?	_	2	punct	_	_
 
@@ -208,34 +209,34 @@
 4	।	।	PUNCT	।	_	1	punct	_	_
 
 # sent_id = dev-s27
-# text = আিম ǘু āাতŪ  ।
+# text = আিম ǘু ধাতŪ  ।
 1	আমি	আমি	PRON	_	PronType=Prs	2	nsubj	_	_
-2	ক্ষুāার্ত	ক্ষুāা	ADJ	_	Degree=Pos	0	acl	_	_
+2	ক্ষুধার্ত	ক্ষুধা	ADJ	_	Degree=Pos	0	acl	_	_
 3	।	।	PUNCT	।	_	2	punct	_	_
 
 # sent_id = dev-s28
-# text = বাবা আেগ হাত āুেয় নাও ।
+# text = বাবা আেগ হাত ধুেয় নাও ।
 1	বাবা	বাবা	NOUN	_	Number=Sing	4	iobj	_	_
 2	আেগ	আগে	ADV	_	_	4	advmod	_	_
 3	হাত	হাত	NOUN	_	Number=Plur	4	obj	_	_
-4	āুয়ে	āোয়া	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Inf|Number=Plur|Person=2	0	root	_	_
+4	ধুয়ে	ধোয়া	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Inf|Number=Plur|Person=2	0	root	_	_
 5	নাও	নেয়া	AUX	_	VerbForm=Fin	4	compound	_	_
 6	।	।	PUNCT	।	_	4	punct	_	_
 
 # sent_id = dev-s29
-# text = না, আিম āোেবা না ।
+# text = না, আিম ধোেবা না ।
 1	না	না	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	4	punct	_	_
 3	আমি	আমি	PRON	_	PronType=Prs	4	nsubj	_	_
-4	āোবো	āোয়া	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	0	root	_	_
+4	ধোবো	ধোয়া	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	0	root	_	_
 5	না	না	PART	_	_	4	advmod	_	_
 6	।	।	PUNCT	।	_	4	punct	_	_
 
 # sent_id = dev-s30
-# text = হাত না āুেয় খেল িক হয়, তু িম জােনা না?
+# text = হাত না ধুেয় খেল িক হয়, তু িম জােনা না?
 1	হাত	হাত	NOUN	_	Number=Plur	3	iobj	_	_
 2	না	না	PART	_	_	3	advmod	_	_
-3	āুয়ে	āোয়া	VERB	_	Mood=Cnd|Tense=Pres|VerbForm=Inf|Number=Plur|Person=2	9	advcl	_	_
+3	ধুয়ে	ধোয়া	VERB	_	Mood=Cnd|Tense=Pres|VerbForm=Inf|Number=Plur|Person=2	9	advcl	_	_
 4	খেলে	খাওয়া	VERB	_	VerbForm=Inf	3	xcomp	_	_
 5	কি	কি	DET	_	PronType=Int	4	det	_	_
 6	হয়	হয়	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -253,10 +254,10 @@
 4	।	।	PUNCT	।	_	3	punct	_	_
 
 # sent_id = dev-s32
-# text = তাহেল হাত āোেবা ।
+# text = তাহেল হাত ধোেবা ।
 1	তাহলে	তাহলে	ADV	_	_	3	advmod	_	_
 2	হাত	হাত	NOUN	_	Number=Plur	3	obj	_	_
-3	āোবো	āোয়া	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	ধোবো	ধোয়া	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin	0	root	_	_
 4	।	।	PUNCT	।	_	3	punct	_	_
 
 # sent_id = dev-s33
