@@ -268,7 +268,8 @@
 4	।	।	PUNCT	।	_	3	punct	_	_
 
 # sent_id = dev-s32
-# text = তাহেল হাত ধোেবা ।
+# text = তাহলে হাত ধোবো ।
+# text_en = Then I will wash my hands.
 1	তাহলে	তাহলে	ADV	_	_	3	advmod	_	_
 2	হাত	হাত	NOUN	_	Number=Plur	3	obj	_	_
 3	ধোবো	ধোয়া	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin	0	root	_	_
