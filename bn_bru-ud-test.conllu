@@ -374,12 +374,12 @@
 # translit = āge kheŷe nāo tārapara āmi galpa balaba .
 # text_en = Eat first, then I'll tell the story.
 1	আগে	আগে	ADV	_	_	2	advmod	_	Translit=āge|LTranslit=āge
-2	খেয়ে	খাওয়া	VERB	_	Mood=Imp|Person=2|Tense=Pres|VerbForm=Inf	7	advcl	_	Translit=kheŷe|LTranslit=khāoŷā
-3	নাও	নেয়া	AUX	_	VerbForm=Fin	2	compound	_	Translit=nāo|LTranslit=neŷā
+2	খেয়ে	খাওয়া	VERB	_	Aspect=Perf|VerbForm=Part	7	advcl	_	Translit=kheŷe|LTranslit=khāoŷā
+3	নাও	নেয়া	VERB	_	Mood=Imp|Person=2|Tense=Pres|VerbForm=Fin	2	compound	_	Translit=nāo|LTranslit=neŷā
 4	তারপর	তারপর	SCONJ	_	_	7	mark	_	Translit=tārapara|LTranslit=tārapara
 5	আমি	আমি	PRON	_	PronType=Prs	7	nsubj	_	Translit=āmi|LTranslit=āmi
 6	গল্প	গল্প	NOUN	_	Number=Sing	7	obj	_	Translit=galpa|LTranslit=galpa
-7	বলব	বলব	VERB	_	Mood=Ind|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	Translit=balaba|LTranslit=balaba
+7	বলব	বলা	VERB	_	Mood=Ind|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	Translit=balaba|LTranslit=balā
 8	।	।	PUNCT	।	_	7	punct	_	Translit=.|LTranslit=.
 
 # sent_id = dev-s38
