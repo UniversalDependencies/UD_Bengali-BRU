@@ -276,7 +276,8 @@
 4	।	।	PUNCT	।	_	3	punct	_	_
 
 # sent_id = dev-s33
-# text = কাটুŪ ন দেিখ ।
+# text = কার্টুন দেখি ।
+# text_en = I watch cartoons.
 1	কার্টুন	কার্টুন	NOUN	_	Number=Sing	2	obj	_	_
 2	দেখি	দেখি	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	0	root	_	_
 3	।	।	PUNCT	।	_	2	punct	_	_
