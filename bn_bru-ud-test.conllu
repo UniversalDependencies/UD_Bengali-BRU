@@ -129,7 +129,7 @@
 7	।	।	PUNCT	।	_	2	punct	_	_
 
 # sent_id = dev-s16
-# text = তোমার বন্ধু কতজন?
+# text = তোমার বন্ধু কতজন?
 # text_en = How many friends do you have?
 1	তোমার	তুমি	PRON	_	PronType=Prs	2	nsubj	_	_
 2	বন্ধু	বন্ধু	NOUN	_	Number=Sing	0	root	_	_
