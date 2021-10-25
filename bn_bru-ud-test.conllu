@@ -494,7 +494,8 @@
 6	।	।	PUNCT	।	_	5	punct	_	_
 
 # sent_id = dev-s52
-# text = বই িনেয় পড়েত বস ।
+# text = বই নিয়ে পড়তে বস ।
+# text_en = Sit down to read a book.
 1	বই	বই	NOUN	_	Number=Plur	3	obj	_	_
 2	নিয়ে	নেয়া	ADV	_	_	3	nmod	_	_
 3	পড়তে	পড়া	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Inf|Number=Sing|Person=2	0	root	_	_
@@ -502,7 +503,8 @@
 5	।	।	PUNCT	।	_	3	punct	_	_
 
 # sent_id = dev-s53
-# text = আমার পড়া শেষ হেয়েছ ।
+# text = আমার পড়া শেষ হয়েছে ।
+# text_en = I have finished reading.
 1	আমার	আমি	PRON	_	PronType=Prs	3	nmod:pass	_	_
 2	পড়া	পড়া	NOUN	_	Number=Sing	3	nsubj:pass	_	_
 3	শেষ	শেষ	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	0	root	_	_
@@ -510,7 +512,8 @@
 5	।	।	PUNCT	।	_	3	punct	_	_
 
 # sent_id = dev-s54
-# text = আিম লেখা শেষ কের কাটুŪ ন দেখব ।
+# text = আমি লেখা শেষ করে কার্টুন দেখব ।
+# text_en = I will finish the writing and watch the cartoon.
 1	আমি	আমি	PRON	_	PronType=Prs	3	nsubj	_	_
 2	লেখা	লেখা	NOUN	_	Number=Sing	3	iobj	_	_
 3	শেষ	শেষ	VERB	_	VerbForm=Inf	6	advcl	_	_
@@ -520,10 +523,11 @@
 7	।	।	PUNCT	।	_	6	punct	_	_
 
 # sent_id = dev-s55
-# text = আমরা কখন ঘুরেত যাব?
+# text = আমরা কখন ঘুরতে যাব?
+# text_en = When are we going to tour?
 1	আমরা	আমি	PRON	_	PronType=Prs	4	nsubj	_	_
 2	কখন	কখন	PRON	_	PronType=Int	4	nmod	_	_
 3	ঘুরতে	ঘোরা	VERB	_	Mood=Ind|Tense=FutVerbForm=Inf|Number=Sing|Person=1	0	root	_	_
-4	যাব	যাওয়া	AUX	_	VerbForm=Fin	4	compound	_	_
+4	যাব	যাওয়া	AUX	_	VerbForm=Fin	4	compound	_	SpaceAfter=No
 5	?	?	PUNCT	?	_	4	punct	_	_
 
