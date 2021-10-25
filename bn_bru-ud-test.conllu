@@ -460,11 +460,12 @@
 10	।	।	PUNCT	।	_	3	punct	_	_
 
 # sent_id = dev-s49
-# text = আিম আজ ɾু েল হািত দেখিছ  ।
-1	আিম	আমি	PRON	_	PronType=Prs	5	nsubj	_	_
+# text = আমি আজ স্কুলে হাতি দেখেছি ।
+# text_en = I saw elephants at school today.
+1	আমি	আমি	PRON	_	PronType=Prs	5	nsubj	_	_
 2	আজ	আজ	ADV	_	_	5	advmod	_	_
 3	স্কুলে	স্কুল	NOUN	_	Number=Sing	5	iobj	_	_
-4	হািত	হািত	NOUN	_	Number=Sing	5	obj	_	_
+4	হাতি	হাতি	NOUN	_	Number=Sing	5	obj	_	_
 5	দেখেছি	দেখা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	0	root	_	_
 6	।	।	PUNCT	।	_	5	punct	_	_
 
