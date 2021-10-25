@@ -133,7 +133,7 @@
 # text_en = How many friends do you have?
 1	তোমার	তুমি	PRON	_	PronType=Prs	2	nsubj	_	_
 2	বন্ধু	বন্ধু	NOUN	_	Number=Sing	0	root	_	_
-3	কতজন	কত	ADJ	_	Degree=Pos	2	nmod	_	_
+3	কতজন	কত	ADJ	_	Degree=Pos	2	nmod	_	SpaceAfter=No
 4	?	?	PUNCT	?	_	2	punct	_	_
 
 # sent_id = dev-s17
@@ -160,7 +160,7 @@
 
 # sent_id = dev-s20
 # text = তোমার বান্ধু বী  নাই?
-1	তোমার	তু িম	PRON	_	PronType=Prs	2	nsubj	_	_
+1	তোমার	তুমি	PRON	_	PronType=Prs	2	nsubj	_	_
 2	বান্ধুবী	বান্ধুবী	NOUN	_	Number=Sing	0	root	_	_
 3	নাই	না	DET	_	PronType=Int	2	det	_	_
 4	?	?	PUNCT	?	_	2	punct	_	_
@@ -233,7 +233,7 @@
 6	।	।	PUNCT	।	_	4	punct	_	_
 
 # sent_id = dev-s30
-# text = হাত না ধুেয় খেল িক হয়, তু িম জােনা না?
+# text = হাত না ধুেয় খেল িক হয়, তুমি জােনা না?
 1	হাত	হাত	NOUN	_	Number=Plur	3	iobj	_	_
 2	না	না	PART	_	_	3	advmod	_	_
 3	ধুয়ে	ধোয়া	VERB	_	Mood=Cnd|Tense=Pres|VerbForm=Inf|Number=Plur|Person=2	9	advcl	_	_
@@ -267,7 +267,7 @@
 3	।	।	PUNCT	।	_	2	punct	_	_
 
 # sent_id = dev-s34
-# text = তু িম িক খেয়ছ?
+# text = তুমি িক খেয়ছ?
 1	তুমি	তুমি	PRON	_	PronType=Prs	3	nsubj	_	_
 2	কি	কি	DET	_	PronType=Int	3	det	_	_
 3	খেয়েছ	খাওয়া	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	0	root	_	_
@@ -283,7 +283,7 @@
 6	।	।	PUNCT	।	_	4	punct	_	_
 
 # sent_id = dev-s35
-# text = তু িম যিদ খাও তাহেল একটা মজার গɤ বলব ।
+# text = তুমি যিদ খাও তাহেল একটা মজার গɤ বলব ।
 1	তুমি	তুমি	PRON	_	PronType=Prs	3	nsubj	_	_
 2	যদি	যদি	SCONJ	_	_	3	mark	_	_
 3	খাও	খাওয়া	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin|Number=Sing|Person=2	8	advcl	_	_
@@ -347,14 +347,14 @@
 8	।	।	PUNCT	।	_	6	punct	_	_
 
 # sent_id = dev-s41
-# text = আমােদর দেশর পতাকার রং সবুজ,তু িম জােনা িক?
+# text = আমােদর দেশর পতাকার রং সবুজ,তুমি জােনা িক?
 1	আমাদের	আমরা	PRON	_	PronType=Prs	2	nmod	_	_
 2	দেশর	 দেশ	NOUN	_	Number=Sing	3	compound	_	_
 3	পতাকার	পতাকা	NOUN	_	Number=Sing	4	nmod	_	_
 4	রং	রং	NOUN	_	Number=Sing	5	nsubj	_	_
 5	সবুজ	সবুজ	ADJ	_	Degree=Pos	8	ccomp	_	_
 6	,	,	PUNCT	,	_	5	punct	_	_
-7	তু িম	তুমি	PRON	_	PronType=Prs	8	nsubj	_	_
+7	তুমি	তুমি	PRON	_	PronType=Prs	8	nsubj	_	_
 8	জােনা	জানা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	0	root	_	_
 9	িক	িক	DET	_	PronType=Int	8	det	_	_
 10	?	?	PUNCT	?	_	8	punct	_	_
@@ -369,7 +369,7 @@
 
 # sent_id = dev-s43
 # text = তোমার িপ্য়  রং িক?
-1	তোমার	তু িম	PRON	_	PronType=Prs	3	nmod:poss	_	_
+1	তোমার	তুমি	PRON	_	PronType=Prs	3	nmod:poss	_	_
 2	প্রিয়	প্রিয়	ADJ	_	Degree=Pos	3	amod	_	_
 3	রং	রং	NOUN	_	Number=Sing	0	root	_	_
 4	িক	কি	PRON	_	PronType=Int	3	nsubj	_	_
@@ -386,7 +386,7 @@
 7	?	?	PUNCT	?	_	6	punct	_	_
 
 # sent_id = dev-s45
-# text = তু িম আমােদর দেশর পতাকা আকঁ েত পার?
+# text = তুমি আমােদর দেশর পতাকা আকঁ েত পার?
 1	তুমি	তুমি	PRON	_	PronType=Prs	5	nsubj	_	_
 2	আমাদের	আমরা	PRON	_	PronType=Prs	3	nmod	_	_
 3	দেশের	দেশ	NOUN	_	Number=Sing	4	compound	_	_
@@ -405,7 +405,7 @@
 6	?	?	PUNCT	?	_
 
 # sent_id = dev-s47
-# text = তু িম আমােদর জাতীয় পতাকা আকঁ েত পার?
+# text = তুমি আমােদর জাতীয় পতাকা আকঁ েত পার?
 1	তুমি	তুমি	PRON	_	PronType=Prs	5	nsubj	_	_
 2	আমাদের	আমরা	PRON	_	PronType=Prs	3	nmod:poss	_	_
 3	জাতীয়	জাতীয়	ADJ	_	Degree=Pos	4	amod	_	_
