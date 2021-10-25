@@ -372,6 +372,7 @@
 
 # sent_id = dev-s41
 # text = আমাদের দেশর পতাকার রং সবুজ,তুমি জানো কি?
+# text_en = The color of our country's flag is green, you know what?
 1	আমাদের	আমরা	PRON	_	PronType=Prs	2	nmod	_	_
 2	দেশর	 দেশ	NOUN	_	Number=Sing	3	compound	_	_
 3	পতাকার	পতাকা	NOUN	_	Number=Sing	4	nmod	_	_
@@ -384,12 +385,13 @@
 10	?	?	PUNCT	?	_	8	punct	_	_
 
 # sent_id = dev-s42
-# text = আজ Ǔােস কি িশিখেয়েছ?
-1	আজ	আজ	NOUN	_	Number=Sing	nmod:pass	_	_
-2	ক্লাসে	ক্লাস	NOUN	_	Number=Sing	obj	_	_
-3	কি	কি	PRON	_	PronType=Int	nsubj:pass	_	_
-4	শিখিয়েছে	শেখা	VERB	_	Mood=Ind|Tense=Past|VerbForm=Part|Voice=Pass	root	_	_
-5	?	?	PUNCT	?	_	punct	_	_
+# text = আজ ক্লাসে কি শিখিয়েছে?
+# text_en = What did you teach in class today?
+1	আজ	আজ	NOUN	_	Number=Sing	4	obl	_	_
+2	ক্লাসে	ক্লাস	NOUN	_	Number=Sing	4	obj	_	_
+3	কি	কি	PRON	_	PronType=Int	4	nsubj:pass	_	_
+4	শিখিয়েছে	শেখা	VERB	_	Mood=Ind|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	?	_	4	punct	_	_
 
 # sent_id = dev-s43
 # text = তোমার িপ্য়  রং িক?
