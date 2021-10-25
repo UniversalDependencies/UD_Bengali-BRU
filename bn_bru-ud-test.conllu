@@ -7,16 +7,16 @@
 4	।	।	PUNCT	।	_	2	punct	_	_
 
 # sent_id = dev-s2
-# text = খেয়েছ তুমি ?
-1	খেয়েছ	খাওয়া	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	0	root	_	_
+# text = খেয়েছ তুমি ?
+1	খেয়েছ	খাওয়া	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	0	root	_	_
 2	তুমি	তুমি	PRON	_	PronType=Prs	1	obj	_	_
 3	?	?	PUNCT	?	_	1	punct	_	_
 
 # sent_id = dev-s3
-# text = মা খাবার দয়ে নাই ।
+# text = মা খাবার দয়ে নাই ।
 1	মা	মা	NOUN	_	Number=Sing	3	nsubj	_	_
 2	খাবার	খাবার	NOUN	_	Number=Sing	3	obj	_	_
-3	দয়ে	দয়ো	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=3	0	root	_	_
+3	দয়ে	দয়ো	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=3	0	root	_	_
 4	নাই	না	PART	_	_	3	advmod	_	_
 5	।	।	PUNCT	।	_	3	punct	_	_
 
@@ -60,7 +60,7 @@
 # text = তুমি গান গাইেত পার ?
 1	তুমি	তুমি	PRON	_	PronType=Prs	3	nsubj	_	_
 2	গান	গান	NOUN	_	Number=Sing	3	obj	_	_
-3	গাইেত	গাওয়া	VERB	_	Mood=Pot|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	0	root	_	_
+3	গাইেত	গাওয়া	VERB	_	Mood=Pot|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	0	root	_	_
 4	পার	পারা	AUX	_	Tense=Pres|VerbForm=Fin	3	compound	_	_
 5	?	?	PUNCT	?	_	3	punct	_	_
 
@@ -70,17 +70,17 @@
 2	,	,	PUNCT	,	_	5	punct	_	_
 3	আিম	আমি	PRON	_	PronType=Prs	5	nsubj	_	_
 4	গান	গান	NOUN	_	Number=Sing	5	obj	_	_
-5	গাইেত	গাওয়া	VERB	_	Mood=Pot|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	0	root	_	_
+5	গাইেত	গাওয়া	VERB	_	Mood=Pot|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	0	root	_	_
 6	পারি	পারা	AUX	_	Tense=Pres|VerbForm=Fin	5	compound	_	_
 7	।	।	PUNCT	।	_	5	punct	_	_
 
 # sent_id = dev-s10
-# text = তুমি কোন ক্লাসে পড়?
+# text = তুমি কোন ক্লাসে পড়?
 # text_en = Which class do you study?
 1	তুমি	তুমি	PRON	_	PronType=Prs	4	nsubj	_	_
 2	কোন	কোন	DET	_	PronType=Int	3	det	_	_
 3	ক্লাসে	ক্লাস	NOUN	_	Number=Sing	4	obj	_	_
-4	পড়	পড়	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	0	root	_	SpaceAfter=No
+4	পড়	পড়	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	0	root	_	SpaceAfter=No
 5	?	?	PUNCT	?	_	4	punct	_	_
 
 # sent_id = dev-s11
@@ -110,9 +110,9 @@
 4	।	।	PUNCT	।	_	3	punct	_	_
 
 # sent_id = dev-s14
-# text = তোমাকে কে রেখে আসে?
+# text = তোমাকে কে রেখে আসে?
 # text_en = Who leaves you?
-1	তোমাকে	তুমি	PRON	_	PronType=Prs	3	iobj	_	_
+1	তোমাকে	তুমি	PRON	_	PronType=Prs	3	iobj	_	_
 2	কে	কে	PRON	_	PronType=Int	3	nsubj	_	_
 3	রেখে	রাখা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Inf|Number=Sing|Person=3	0	root	_	_
 4	আসে	আসা	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=3	3	compound	_	SpaceAfter=No
@@ -205,7 +205,7 @@
 # text_en = Let's go eat, dad.
 1	চল	চল	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	0	root	_	_
 2	বাবা	বাবা	NOUN	_	Number=Sing	1	obj	_	_
-3	খেতে	খাওয়া	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Inf|Number=Plur|Person=2	1	xcomp	_	_
+3	খেতে	খাওয়া	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Inf|Number=Plur|Person=2	1	xcomp	_	_
 4	যাই	যাই	AUX	_	VerbForm=Fin	3	compound	_	_
 5	।	।	PUNCT	।	_	1	punct	_	_
 
@@ -213,7 +213,7 @@
 # text = চল খেতে যাই ।
 # text_en = Let's go eat.
 1	চল	চল	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Fin|Number=Plur|Person=1	0	root	_	_
-2	খেতে	খাওয়া	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Inf|Number=Plur|Person=1	1	xcomp	_	_
+2	খেতে	খাওয়া	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Inf|Number=Plur|Person=1	1	xcomp	_	_
 3	যাই	যাই	AUX	_	VerbForm=Fin	2	compound	_	_
 4	।	।	PUNCT	।	_	1	punct	_	_
 
@@ -225,13 +225,13 @@
 3	।	।	PUNCT	।	_	2	punct	_	_
 
 # sent_id = dev-s28
-# text = বাবা আগে হাত ধুয়ে নাও ।
+# text = বাবা আগে হাত ধুয়ে নাও ।
 # text_en = Dad, wash your hands first.
 1	বাবা	বাবা	NOUN	_	Number=Sing	4	iobj	_	_
 2	আগে	আগে	ADV	_	_	4	advmod	_	_
 3	হাত	হাত	NOUN	_	Number=Plur	4	obj	_	_
-4	ধুয়ে	ধোয়া	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Inf|Number=Plur|Person=2	0	root	_	_
-5	নাও	নেয়া	AUX	_	VerbForm=Fin	4	compound	_	_
+4	ধুয়ে	ধোয়া	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Inf|Number=Plur|Person=2	0	root	_	_
+5	নাও	নেয়া	AUX	_	VerbForm=Fin	4	compound	_	_
 6	।	।	PUNCT	।	_	4	punct	_	_
 
 # sent_id = dev-s29
@@ -287,7 +287,7 @@
 # text_en = Did you eat?
 1	তুমি	তুমি	PRON	_	PronType=Prs	3	nsubj	_	_
 2	কি	কি	DET	_	PronType=Int	3	det	_	_
-3	খেয়েছ	খাওয়া	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	0	root	_	SpaceAfter=No
+3	খেয়েছ	খাওয়া	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	0	root	_	SpaceAfter=No
 4	?	?	PUNCT	?	_	3	punct	_	_
 
 # sent_id = dev-s35a
@@ -296,7 +296,7 @@
 1	না	না	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	4	punct	_	SpaceAfter=No
 3	আমি	আমি	PRON	_	PronType=Prs	4	nsubj	_	_
-4	খাব	খাওয়া	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	0	root	_	_
+4	খাব	খাওয়া	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	0	root	_	_
 5	না	না	PART	_	_	4	advmod	_	_
 6	।	।	PUNCT	।	_	4	punct	_	_
 
@@ -305,7 +305,7 @@
 # text_en = I'll tell you a funny story if you eat.
 1	তুমি	তুমি	PRON	_	PronType=Prs	3	nsubj	_	_
 2	যদি	যদি	SCONJ	_	_	3	mark	_	_
-3	খাও	খাওয়া	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin|Number=Sing|Person=2	8	advcl	_	_
+3	খাও	খাওয়া	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin|Number=Sing|Person=2	8	advcl	_	_
 4	তাহলে	তাহলে	ADV	_	_	8	advmod	_	_
 5	একটা	একটা	DET	_	Definite=Ind|PronType=Art	7	det	_	_
 6	মজার	মজা	ADJ	_	Degree=Pos	7	amod	_	_
@@ -325,8 +325,8 @@
 # text = আগে খেয়ে নাও  তারপর আিম গল্প বলব ।
 # text_en = Eat first, then I'll tell the story.
 1	আগে	আগে	ADV	_	_	2	advmod	_	_
-2	খেয়ে	খাওয়া	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Inf|Number=Sing|Person=2	7	advcl	_	_
-3	নাও	নেয়া	AUX	_	VerbForm=Fin	2	compound	_	_
+2	খেয়ে	খাওয়া	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Inf|Number=Sing|Person=2	7	advcl	_	_
+3	নাও	নেয়া	AUX	_	VerbForm=Fin	2	compound	_	_
 4	তারপর	তারপর	SCONJ	_	_	7	mark	_	_
 5	আিম	আিম	PRON	_	PronType=Prs	7	nsubj	_	_
 6	গল্প	গল্প	NOUN	_	Number=Sing	7	obj	_	_
@@ -334,27 +334,27 @@
 8	।	।	PUNCT	।	_	7	pucnt	_	_
 
 # sent_id = dev-s38
-# text = বাবা আমরা কি রিক্সায় ঘুরতে যাব?
+# text = বাবা আমরা কি রিক্সায় ঘুরতে যাব?
 # text_en = Dad, are we going to ride a rickshaw?
 1	বাবা	বাবা	NOUN	_	Number=Sing	5	iobj	_	_
 2	আমরা	আমি	PRON	_	PronType=Prs	5	nsubj	_	_
 3	কি	কি	DET	_	PronType=Int	5	det	_	_
-4	রিক্সায়	রিক্সা	NOUN	_	Number=Sing	5	obj	_	_
-5	ঘুরতে	ঘোরা	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Inf|Number=Plur|Person=1	0	root	_	_
+4	রিক্সায়	রিক্সা	NOUN	_	Number=Sing	5	obj	_	_
+5	ঘুরতে	ঘোরা	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Inf|Number=Plur|Person=1	0	root	_	_
 6	যাব	যাব	AUX	_	VerbForm=Fin	5	compound	_	SpaceAfter=No
 7	?	?	PUNCT	?	_	5	punct	_	_
 
 # sent_id = dev-s39
-# text = এখন রোদ  নেই,তাই চশমা পরেত হবে না।
+# text = এখন রোদ  নেই,তাই চশমা পরেত হবে না।
 # text_en = Now there is no sun, so you don't have to wear glasses.
 1	এখন	এখন	ADV	_	_	2	advmod	_	_
-2	রোদ	রোদ	NOUN	_	Number=Sing	7	acl	_	_
+2	রোদ	রোদ	NOUN	_	Number=Sing	7	acl	_	_
 3	নেই	নেই	DET	_	_	2	det	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	SpaceAfter=No
 5	তাই	তাই	ADV	_	_	7	mark	_	_
 6	চশমা	চশমা	NOUN	_	Number=Sing	7	obj	_	_
 7	পরেত	পরা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Inf|Number=Sing|Person=2	0	root	_	_
-8	হবে	হওয়া	AUX	_	VerbForm=Fin	7	compound	_	_
+8	হবে	হওয়া	AUX	_	VerbForm=Fin	7	compound	_	_
 9	না	না	PART	_	_	7	advmod	_	SpaceAfter=No
 10	।	।	PUNCT	।	_	7	punct	_	_
 
@@ -371,7 +371,7 @@
 8	।	।	PUNCT	।	_	6	punct	_	_
 
 # sent_id = dev-s41
-# text = আমাদের দেশর পতাকার রং সবুজ,তুমি জানো কি?
+# text = আমাদের দেশর পতাকার রং সবুজ,তুমি জানো কি?
 # text_en = The color of our country's flag is green, you know what?
 1	আমাদের	আমরা	PRON	_	PronType=Prs	2	nmod	_	_
 2	দেশর	দেশ	NOUN	_	Number=Sing	3	compound	_	_
@@ -380,17 +380,17 @@
 5	সবুজ	সবুজ	ADJ	_	Degree=Pos	8	ccomp	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
 7	তুমি	তুমি	PRON	_	PronType=Prs	8	nsubj	_	_
-8	জানো	জানা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	0	root	_	_
+8	জানো	জানা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	0	root	_	_
 9	কি	কি	DET	_	PronType=Int	8	det	_	SpaceAfter=No
 10	?	?	PUNCT	?	_	8	punct	_	_
 
 # sent_id = dev-s42
-# text = আজ ক্লাসে কি শিখিয়েছে?
+# text = আজ ক্লাসে কি শিখিয়েছে?
 # text_en = What did you teach in class today?
 1	আজ	আজ	NOUN	_	Number=Sing	4	obl	_	_
 2	ক্লাসে	ক্লাস	NOUN	_	Number=Sing	4	obj	_	_
 3	কি	কি	PRON	_	PronType=Int	4	nsubj:pass	_	_
-4	শিখিয়েছে	শেখা	VERB	_	Mood=Ind|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+4	শিখিয়েছে	শেখা	VERB	_	Mood=Ind|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 5	?	?	PUNCT	?	_	4	punct	_	_
 
 # sent_id = dev-s43
@@ -446,11 +446,11 @@
 7	?	?	PUNCT	?	_	5	punct	_	_
 
 # sent_id = dev-s48
-# text = আজ বই পড়েছি, আর্ট করেছি, গান শিখেছি ।
+# text = আজ বই পড়েছি, আর্ট করেছি, গান শিখেছি ।
 # text_en = Today I have read books, done art, learned songs.
 1	আজ	আজ	ADV	_	_	2	advmod	_	_
 2	বই	বই	NOUN	_	Number=Sing	3	obj	_	_
-3	পড়েছি	পড়া	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	0	root	_	SpaceAfter=No
+3	পড়েছি	পড়া	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	আর্ট	আর্ট	NOUN	_	Number=Sing	6	obj	_	_
 6	করেছি	করা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	3	conj	_	SpaceAfter=No
@@ -480,35 +480,35 @@
 6	সুন্দর	সুন্দর	ADJ	_	Degree=Pos	7	amod	_	_
 7	জামা	জামা	NOUN	_	Number=Sing	8	obj	_	_
 8	কিনে	কেনা	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Inf|Number=Sing|Person=1	0	root	_	_
-9	দিব	দয়ো	AUX	_	VerbForm=Fin	8	compound	_	_
+9	দিব	দয়ো	AUX	_	VerbForm=Fin	8	compound	_	_
 10	।	।	PUNCT	।	_	8	punct	_	_
 
 # sent_id = dev-s51
-# text = এখন পড়তে বসার সময় হয়েছে ।
+# text = এখন পড়তে বসার সময় হয়েছে ।
 # text_en = Now it's time to sit down to read.
 1	এখন	এখন	ADJ	_	Degree=Pos	5	amod	_	_
-2	পড়তে	পড়া	VERB	_	VerbForm=Inf	3	acl	_	_
+2	পড়তে	পড়া	VERB	_	VerbForm=Inf	3	acl	_	_
 3	বসার	বসা	AUX	_	VerbForm=Fin	5	compound	_	_
-4	সময়	সময়	NOUN	_	Number=Sing	5	nmod	_	_
-5	হয়েছে	হওয়া	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	0	root	_	_
+4	সময়	সময়	NOUN	_	Number=Sing	5	nmod	_	_
+5	হয়েছে	হওয়া	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	0	root	_	_
 6	।	।	PUNCT	।	_	5	punct	_	_
 
 # sent_id = dev-s52
-# text = বই নিয়ে পড়তে বস ।
+# text = বই নিয়ে পড়তে বস ।
 # text_en = Sit down to read a book.
 1	বই	বই	NOUN	_	Number=Plur	3	obj	_	_
-2	নিয়ে	নেয়া	ADV	_	_	3	nmod	_	_
-3	পড়তে	পড়া	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Inf|Number=Sing|Person=2	0	root	_	_
+2	নিয়ে	নেয়া	ADV	_	_	3	nmod	_	_
+3	পড়তে	পড়া	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Inf|Number=Sing|Person=2	0	root	_	_
 4	বস	বসা	AUX	_	VerbForm=Fin	3	compound	_	_
 5	।	।	PUNCT	।	_	3	punct	_	_
 
 # sent_id = dev-s53
-# text = আমার পড়া শেষ হয়েছে ।
+# text = আমার পড়া শেষ হয়েছে ।
 # text_en = I have finished reading.
 1	আমার	আমি	PRON	_	PronType=Prs	3	nmod:pass	_	_
-2	পড়া	পড়া	NOUN	_	Number=Sing	3	nsubj:pass	_	_
+2	পড়া	পড়া	NOUN	_	Number=Sing	3	nsubj:pass	_	_
 3	শেষ	শেষ	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	0	root	_	_
-4	হয়েছে	হওয়া	AUX	_	VerbForm=Fin	3	compound	_	_
+4	হয়েছে	হওয়া	AUX	_	VerbForm=Fin	3	compound	_	_
 5	।	।	PUNCT	।	_	3	punct	_	_
 
 # sent_id = dev-s54
@@ -528,6 +528,6 @@
 1	আমরা	আমি	PRON	_	PronType=Prs	3	nsubj	_	_
 2	কখন	কখন	PRON	_	PronType=Int	3	nmod	_	_
 3	ঘুরতে	ঘোরা	VERB	_	Mood=Ind|Tense=FutVerbForm=Inf|Number=Sing|Person=1	0	root	_	_
-4	যাব	যাওয়া	AUX	_	VerbForm=Fin	3	compound	_	SpaceAfter=No
+4	যাব	যাওয়া	AUX	_	VerbForm=Fin	3	compound	_	SpaceAfter=No
 5	?	?	PUNCT	?	_	3	punct	_	_
 
