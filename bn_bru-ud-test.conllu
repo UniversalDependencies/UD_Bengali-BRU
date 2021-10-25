@@ -359,10 +359,11 @@
 10	।	।	PUNCT	।	_	7	punct	_	_
 
 # sent_id = dev-s40
-# text = যে িভǘা চায়, তােক দান কর ।
+# text = যে ভিক্ষা চায়, তাকে দান কর ।
+# text_en = Give alms to him who asks.
 1	যে	যে	PRON	_	PronType=Prs	2	nsubj	_	_
 2	ভিক্ষা	ভিক্ষা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Inf|Number=Sing|Person=3	6	root	_	_
-3	চায়	চাওয়া	AUX	_	VerbForm=Fin	2	compound	_	_
+3	চায়	চাওয়া	AUX	_	VerbForm=Fin	2	compound	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	তাকে	তাকে	PRON	_	PronType=Prs	6	obj	_	_
 6	দান	দান	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Fin|Number=Sing|Person=3	2	acl	_	_
