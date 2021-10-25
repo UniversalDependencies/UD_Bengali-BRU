@@ -159,143 +159,87 @@
 3	নাই	না	DET	_	PronType=Int	2	det	_	_
 4	?	?	PUNCT	?	_	2	punct	_	_
 
-#sent_id=dev-s21
-#text=একজন আেছ ।
-1
-একজন  একজন  NUM _ NumType=Card nummod _ _
-2
-আছে আছে VERB _ Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=3 root _ _
-3
-।  ।
-PUNCT
-।
-_ punct _ _
-#sent_id=dev-s22
-#text =তার নাম িক?
-1
-তার তার PRON _ PronType=Prs 2 nmod _ _
-2
-নাম নাম NOUN _ Number=Sing 0 root _ _
-3
-কি কি DET _ PronType=Int  2 det _ _
-4 ? ? PUNCT  ? _ 2 punct
-#sent_id=dev-s23
-#text =তার নাম বýŪালী ।
-1
-তার তার PRON _ PronType=Prs 3 nmod _ _
-2
-নাম নাম NOUN _ Number=Sing 3 nsubj _ _
-3
-বর্ýালী বর্ýালী PROPN _ Number=Sing 0 root _ _
-4
-।  ।
-PUNCT
-।
-_ 3 punct _ _
-#sent_id=dev-s24
-#text =˱ম,খুব ভােলা ।
-1
-হুম হঁ̢া
-INTJ _ _ 4 discourse _ _
-2 , , PUNCT , _ 4 punct _ _
-3
-খুব খুব
-ADJ _ Degree=Pos 4 amod _ _
-4 ভালো ভালো ADJ _ Degree=Pos 0 root _ _
-5
-। ।
-PUNCT
-।
-_ 4 punct _ _
-#sent_id=dev-s25
-#text =চল বাবা ĺখেত যাই ।
-1
-চল চল VERB _ Mood=Imp|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2 0 root _ _
-2
-বাবা বাবা NOUN _ Number=Sing 1 obj _ _
-3
-খেতে খাওয়া  VERB _ Mood=Imp|Tense=Pres|VerbForm=Inf |Number=Plur|Person=2 1 xcomp _ _
-4
-যাই  যাই AUX _ VerbForm=Fin 3 compound  _ _
-5
-। ।
-PUNCT
-।
-_ 1 punct _ _
-#sent_id=dev-s26
-#text=চল  ĺখেত  যাই ।
-1
-চল চল VERB _ Mood=Imp|Tense=Pres|VerbForm=Fin|Number=Plur|Person=1 0 root _ _
-2
-খেতে খাওয়া VERB _ Mood=Imp|Tense=Pres|VerbForm=Inf|Number=Plur|Person=1 1 xcomp _ _
-3
-যাই যাই AUX _ VerbForm=Fin 2 compound _ _
-4
-। ।
-PUNCT
-।
-_ 1 punct _ _
-#sent_id=dev-s27
-#text=আিম ǘু āাতŪ  ।
-1
-আমি আমি PRON _ PronType=Prs 2 nsubj _ _
-2 ক্ষুāার্ত ক্ষুāা ADJ _ Degree=Pos 0 acl _ _
-3
-। ।
-PUNCT
-।
-_ 2 punct _ _ `
-#sent_id=dev-s28
-#text=বাবা আেগ হাত āুেয় নাও ।
-1
-বাবা বাবা NOUN _ Number=Sing 4 iobj
-2
-আেগ  আগে ADV _ _ 4 advmod _ _
-3 হাত হাত NOUN _ Number=Plur 4 obj _ _
-4
-āুয়ে āোয়া VERB _ Mood=Imp|Tense=Pres|VerbForm=Inf|Number=Plur|Person=2 0 root _ _
-5 নাও ĺনয়া  AUX _ VerbForm=Fin 4 compound  _ _
-6
-। ।
-PUNCT
-।
-_ 4 punct _ _
-#sent_id=dev-s29
-#text=না, আিম ĺāােবা না ।
-1
-না  না
-INTJ _ _ 4 discourse _ _
-2 , , PUNCT , _ 4 punct _ _
-3
-আমি আমি PRON _ PronType=Prs 4 nsubj _ _
-4 āোবো āোয়া VERB _ Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1 0 root _ _
-5
-না  না  PART _ _ 4 advmod _ _
-6
-।  ।
-PUNCT
-।
-_ 4 punct _ _
-#sent_id=dev-s30
-#text=হাত না āুেয় ĺখেল িক হয়, তু িম জােনা না?
-1 হাত হাত NOUN _ Number=Plur 3 iobj _ _
-2
-না না PART _ _ 3 advmod _ _
-3
-āুয়ে āোয়া VERB _ Mood=Cnd|Tense=Pres|VerbForm=Inf|Number=Plur|Person=2 9 advcl _ _
-4
-খেলে খাওয়া VERB _ VerbForm=Inf 3 xcomp _ _
-5
-কি কি DET _ PronType=Int  4 det _ _
-6
-হয় হয় AUX _ Mood=Ind|Tense=Pres|VerbForm=Fin 4 aux _ _
-7 , , PUNCT , _ 3 punct
-8
-তুমি তুমি PRON _ PronType=Prs 9 nsubj _ _
-9 জানো জানা VERB _ VerbForm=Inf 0 root _ _
-10
-না না PART _ _ 9 advmod _ _
-11 ? ? PUNCT ? _ 9 punct _ _
+# sent_id = dev-s21
+# text = একজন আেছ ।
+1	একজন	একজন	NUM	_	NumType=Card	nummod	_	_
+2	আছে	আছে	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=3	root	_	_
+3	।	।	PUNCT	।	_	punct	_	_
+
+# sent_id = dev-s22
+# text = তার নাম িক?
+1	তার	তার	PRON	_	PronType=Prs	2	nmod	_	_
+2	নাম	নাম	NOUN	_	Number=Sing	0	root	_	_
+3	কি	কি	DET	_	PronType=Int	2	det	_	_
+4	?	?	PUNCT	?	_	2	punct	_	_
+
+# sent_id = dev-s23
+# text = তার নাম বýŪালী ।
+1	তার	তার	PRON	_	PronType=Prs	3	nmod	_	_
+2	নাম	নাম	NOUN	_	Number=Sing	3	nsubj	_	_
+3	বর্ýালী	বর্ýালী	PROPN	_	Number=Sing	0	root	_	_
+4	।	।	PUNCT	।	_	3	punct	_	_
+
+# sent_id = dev-s24
+# text = ˱ম,খুব ভােলা ।
+1	হুম	হঁ̢া	INTJ	_	_	4	discourse	_	_
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	খুব	খুব	ADJ	_	Degree=Pos	4	amod	_	_
+4	ভালো	ভালো	ADJ	_	Degree=Pos	0	root	_	_
+5	।	।	PUNCT	।	_	4	punct	_	_
+
+# sent_id = dev-s25
+# text = চল বাবা ĺখেত যাই ।
+1	চল	চল	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	0	root	_	_
+2	বাবা	বাবা	NOUN	_	Number=Sing	1	obj	_	_
+3	খেতে	খাওয়া	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Inf|Number=Plur|Person=2	1	xcomp	_	_
+4	যাই	যাই	AUX	_	VerbForm=Fin	3	compound	_	_
+5	।	।	PUNCT	।	_	1	punct	_	_
+
+# sent_id = dev-s26
+# text = চল  ĺখেত  যাই ।
+1	চল	চল	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Fin|Number=Plur|Person=1	0	root	_	_
+2	খেতে	খাওয়া	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Inf|Number=Plur|Person=1	1	xcomp	_	_
+3	যাই	যাই	AUX	_	VerbForm=Fin	2	compound	_	_
+4	।	।	PUNCT	।	_	1	punct	_	_
+
+# sent_id = dev-s27
+# text = আিম ǘু āাতŪ  ।
+1	আমি	আমি	PRON	_	PronType=Prs	2	nsubj	_	_
+2	ক্ষুāার্ত	ক্ষুāা	ADJ	_	Degree=Pos	0	acl	_	_
+3	।	।	PUNCT	।	_	2	punct	_	_
+
+# sent_id = dev-s28
+# text = বাবা আেগ হাত āুেয় নাও ।
+1	বাবা	বাবা	NOUN	_	Number=Sing	4	iobj	_	_
+2	আেগ	আগে	ADV	_	_	4	advmod	_	_
+3	হাত	হাত	NOUN	_	Number=Plur	4	obj	_	_
+4	āুয়ে	āোয়া	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Inf|Number=Plur|Person=2	0	root	_	_
+5	নাও	ĺনয়া	AUX	_	VerbForm=Fin	4	compound	_	_
+6	।	।	PUNCT	।	_	4	punct	_	_
+
+# sent_id = dev-s29
+# text = না, আিম ĺāােবা না ।
+1	না	না	INTJ	_	_	4	discourse	_	_
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	আমি	আমি	PRON	_	PronType=Prs	4	nsubj	_	_
+4	āোবো	āোয়া	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	0	root	_	_
+5	না	না	PART	_	_	4	advmod	_	_
+6	।	।	PUNCT	।	_	4	punct	_	_
+
+# sent_id = dev-s30
+# text = হাত না āুেয় ĺখেল িক হয়, তু িম জােনা না?
+1	হাত	হাত	NOUN	_	Number=Plur	3	iobj	_	_
+2	না	না	PART	_	_	3	advmod	_	_
+3	āুয়ে	āোয়া	VERB	_	Mood=Cnd|Tense=Pres|VerbForm=Inf|Number=Plur|Person=2	9	advcl	_	_
+4	খেলে	খাওয়া	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	কি	কি	DET	_	PronType=Int	4	det	_	_
+6	হয়	হয়	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	তুমি	তুমি	PRON	_	PronType=Prs	9	nsubj	_	_
+9	জানো	জানা	VERB	_	VerbForm=Inf	0	root	_	_
+10	না	না	PART	_	_	9	advmod	_	_
+11	?	?	PUNCT	?	_	9	punct	_	_
+
 #sent_id=dev-s31
 #text=ĺতামার অসুখ করেব ।
 1
