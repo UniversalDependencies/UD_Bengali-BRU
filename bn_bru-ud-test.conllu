@@ -194,8 +194,8 @@
 # sent_id = dev-s24
 # text = হুম,খুব ভালো ।
 # text_en = Hmmm, very good.
-1	হুম	হঁমা	INTJ	_	_	4	discourse	_	_
-2	,	,	PUNCT	,	_	4	punct	_	_
+1	হুম	হঁমা	INTJ	_	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	SpaceAfter=No
 3	খুব	খুব	ADJ	_	Degree=Pos	4	amod	_	_
 4	ভালো	ভালো	ADJ	_	Degree=Pos	0	root	_	_
 5	।	।	PUNCT	।	_	4	punct	_	_
@@ -290,7 +290,7 @@
 3	খেয়েছ	খাওয়া	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	0	root	_	SpaceAfter=No
 4	?	?	PUNCT	?	_	3	punct	_	_
 
-# sent_id = dev-s35
+# sent_id = dev-s35a
 # text = না,আমি খাব না ।
 # text_en = No, I will not eat.
 1	না	না	INTJ	_	_	4	discourse	_	SpaceAfter=No
@@ -300,7 +300,7 @@
 5	না	না	PART	_	_	4	advmod	_	_
 6	।	।	PUNCT	।	_	4	punct	_	_
 
-# sent_id = dev-s35
+# sent_id = dev-s35b
 # text = তুমি যদি খাও তাহলে একটা মজার গল্প বলব ।
 # text_en = I'll tell you a funny story if you eat.
 1	তুমি	তুমি	PRON	_	PronType=Prs	3	nsubj	_	_
@@ -378,7 +378,7 @@
 3	পতাকার	পতাকা	NOUN	_	Number=Sing	4	nmod	_	_
 4	রং	রং	NOUN	_	Number=Sing	5	nsubj	_	_
 5	সবুজ	সবুজ	ADJ	_	Degree=Pos	8	ccomp	_	SpaceAfter=No
-6	,	,	PUNCT	,	_	5	punct	_	_
+6	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
 7	তুমি	তুমি	PRON	_	PronType=Prs	8	nsubj	_	_
 8	জানো	জানা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=2	0	root	_	_
 9	কি	কি	DET	_	PronType=Int	8	det	_	SpaceAfter=No
