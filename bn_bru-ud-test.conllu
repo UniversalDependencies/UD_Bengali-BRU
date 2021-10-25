@@ -334,13 +334,14 @@
 8	।	।	PUNCT	।	_	7	pucnt	_	_
 
 # sent_id = dev-s38
-# text = বাবা আমরা কি িরǙায় ঘুরেত যাব?
+# text = বাবা আমরা কি রিক্সায় ঘুরতে যাব?
+# text_en = Dad, are we going to ride a rickshaw?
 1	বাবা	বাবা	NOUN	_	Number=Sing	5	iobj	_	_
 2	আমরা	আমি	PRON	_	PronType=Prs	5	nsubj	_	_
 3	কি	কি	DET	_	PronType=Int	5	det	_	_
 4	রিক্সায়	রিক্সা	NOUN	_	Number=Sing	5	obj	_	_
 5	ঘুরতে	ঘোরা	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Inf|Number=Plur|Person=1	0	root	_	_
-6	যাব	যাব	AUX	_	VerbForm=Fin	5	compound	_	_
+6	যাব	যাব	AUX	_	VerbForm=Fin	5	compound	_	SpaceAfter=No
 7	?	?	PUNCT	?	_	5	punct	_	_
 
 # sent_id = dev-s39
