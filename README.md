@@ -28,7 +28,7 @@ The BRU Bengali treebank has been created at Begum Rokeya University, Rangpur, b
 Data available since: UD v2.9
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: nonfiction news
+Genre: grammar-examples
 Lemmas: manual native
 UPOS: manual native
 XPOS: not available
