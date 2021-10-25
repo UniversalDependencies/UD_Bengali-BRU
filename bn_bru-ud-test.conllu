@@ -446,13 +446,14 @@
 7	?	?	PUNCT	?	_	5	punct	_	_
 
 # sent_id = dev-s48
-# text = আজ বই পেড়িছ, আটŪ কেরিছ, গান িশেখিছ ।
+# text = আজ বই পড়েছি, আর্ট করেছি, গান শিখেছি ।
+# text_en = Today I have read books, done art, learned songs.
 1	আজ	আজ	ADV	_	_	2	advmod	_	_
 2	বই	বই	NOUN	_	Number=Sing	3	obj	_	_
-3	পড়েছি	পড়া	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	0	root	_	_
+3	পড়েছি	পড়া	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	আর্ট	আর্ট	NOUN	_	Number=Sing	6	obj	_	_
-6	করেছি	করা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	3	conj	_	_
+6	করেছি	করা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	3	conj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	গান	গান	NOUN	_	Number=Sing	9	obj	_	_
 9	শিখেছি	শিখেছি	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	3	conj	_	_
