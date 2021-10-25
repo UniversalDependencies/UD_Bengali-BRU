@@ -66,7 +66,7 @@
 
 # sent_id = dev-s9
 # text = হ্যাঁ, আিম গান গাইেত পারি ।
-1	হ্যাঁ	হ্যাঁ	INTJ	_	_	5	discourse	_	_
+1	হ্যাঁ	হ্যাঁ	INTJ	_	_	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	5	punct	_	_
 3	আিম	আমি	PRON	_	PronType=Prs	5	nsubj	_	_
 4	গান	গান	NOUN	_	Number=Sing	5	obj	_	_
@@ -87,7 +87,7 @@
 # text = আমার সোনার বাংলা, আিম তোমায় ভালবাসি ।
 1	আমার	আিম	PRON	_	PronType=Prs	3	nmod	_	_
 2	সোনার	সোনা	ADJ	_	Degree=Pos	3	amod	_	_
-3	বাংলা	বাংলা	NOUN	_	Number=Sing	6	appos	_	_
+3	বাংলা	বাংলা	NOUN	_	Number=Sing	6	appos	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	_	_
 5	আমি	আমি	PRON	_	PronType=Prs	7	nsubj	_	_
 6	তোমায়	তুমি	PRON	_	PronType=Prs	7	obj	_	_
@@ -222,7 +222,7 @@
 
 # sent_id = dev-s29
 # text = না, আিম ĺāােবা না ।
-1	না	না	INTJ	_	_	4	discourse	_	_
+1	না	না	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	4	punct	_	_
 3	আমি	আমি	PRON	_	PronType=Prs	4	nsubj	_	_
 4	āোবো	āোয়া	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	0	root	_	_
@@ -272,8 +272,8 @@
 
 # sent_id = dev-s35
 # text = না,আিম খাব না ।
-1	না	না	INTJ	_	_	4	discourse	_	_
-2	,	,	PUNCT	,	_	4	punct	_	_
+1	না	না	INTJ	_	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	SpaceAfter=No
 3	আমি	আমি	PRON	_	PronType=Prs	4	nsubj	_	_
 4	খাব	খাওয়া	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Number=Sing|Person=1	0	root	_	_
 5	না	না	PART	_	_	4	advmod	_	_
@@ -323,8 +323,8 @@
 # text = এখন ĺরাদ  ĺনই,তাই চশমা পরেত হেব  না।
 1	এখন	এখন	ADV	_	_	2	advmod	_	_
 2	ĺরাদ	ĺরাদ	NOUN	_	Number=Sing	7	acl	_	_
-3	ĺনই	ĺনই	DET	_	_	2	det	_	_
-4	,	,	PUNCT	_	_	2	punct	_	_
+3	ĺনই	ĺনই	DET	_	_	2	det	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	SpaceAfter=No
 5	তাই	তাই	ADV	_	_	7	mark	_	_
 6	চশমা	চশমা	NOUN	_	Number=Sing	7	obj	_	_
 7	পরেত	পরা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Inf|Number=Sing|Person=2	0	root	_	_
