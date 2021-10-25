@@ -8,12 +8,14 @@
 
 # sent_id = dev-s2
 # text = খেয়েছ তুমি ?
+# text_en = Did you eat?
 1	খেয়েছ	খাওয়া	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	তুমি	তুমি	PRON	_	PronType=Prs	1	obj	_	_
 3	?	?	PUNCT	?	_	1	punct	_	_
 
 # sent_id = dev-s3
 # text = মা খাবার দয়ে নাই ।
+# text_en = Mother is not responsible for food.
 1	মা	মা	NOUN	_	Number=Sing	3	nsubj	_	_
 2	খাবার	খাবার	NOUN	_	Number=Sing	3	obj	_	_
 3	দয়ে	দয়ো	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -22,6 +24,7 @@
 
 # sent_id = dev-s4
 # text = তোমার মা খারাপ, তাই কি ?
+# text_en = Your mother is bad, so what?
 1	তোমার	তোমার	PRON	_	PronType=Prs	2	nmod	_	_
 2	মা	মা	NOUN	_	Number=Sing	3	nsubj	_	_
 3	খারাপ	খারাপ	ADJ	_	Degree=Pos	0	root	_	SpaceAfter=No
@@ -32,6 +35,7 @@
 
 # sent_id = dev-s5
 # text = না , আমার মা ভাল ।
+# text_en = No, my mother is fine.
 1	না	না	INTJ	_	_	5	discourse	_	_
 2	,	,	PUNCT	,	_	5	punct	_	_
 3	আমার	আমার	PRON	_	PronType=Prs	4	nmod	_	_
@@ -41,6 +45,7 @@
 
 # sent_id = dev-s6
 # text = তোমার বাবার নাম কি ?
+# text_en = What's your father's name?
 1	তোমার	তোমার	PRON	_	PronType=Prs	2	nmod	_	_
 2	বাবার	বাবা	NOUN	_	Number=Sing	3	nmod	_	_
 3	নাম	নাম	NOUN	_	Number=Sing	0	root	_	_
@@ -57,20 +62,22 @@
 5	।	।	PUNCT	।	_	4	punct	_	_
 
 # sent_id = dev-s8
-# text = তুমি গান গাইেত পার ?
+# text = তুমি গান গাইতে পারো ?
+# text_en = Can you sing?
 1	তুমি	তুমি	PRON	_	PronType=Prs	3	nsubj	_	_
 2	গান	গান	NOUN	_	Number=Sing	3	obj	_	_
-3	গাইেত	গাওয়া	VERB	_	Mood=Pot|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	পার	পারা	AUX	_	Tense=Pres|VerbForm=Fin	3	compound	_	_
+3	গাইতে	গাওয়া	VERB	_	Mood=Pot|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	পারো	পারা	AUX	_	Tense=Pres|VerbForm=Fin	3	compound	_	_
 5	?	?	PUNCT	?	_	3	punct	_	_
 
 # sent_id = dev-s9
-# text = হ্যাঁ, আিম গান গাইেত পারি ।
+# text = হ্যাঁ, আমি গান গাইতে পারি ।
+# text_en = Yes, I can sing.
 1	হ্যাঁ	হ্যাঁ	INTJ	_	_	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	5	punct	_	_
-3	আিম	আমি	PRON	_	PronType=Prs	5	nsubj	_	_
+3	আমি	আমি	PRON	_	PronType=Prs	5	nsubj	_	_
 4	গান	গান	NOUN	_	Number=Sing	5	obj	_	_
-5	গাইেত	গাওয়া	VERB	_	Mood=Pot|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	গাইতে	গাওয়া	VERB	_	Mood=Pot|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	পারি	পারা	AUX	_	Tense=Pres|VerbForm=Fin	5	compound	_	_
 7	।	।	PUNCT	।	_	5	punct	_	_
 
@@ -141,6 +148,7 @@
 
 # sent_id = dev-s17
 # text = চার জন ।
+# text_en = Four.
 1	চার	চার	NUM	_	NumType=Card	0	root	_	_
 2	জন	জন	NOUN	_	Number=Plur	1	compound	_	_
 3	।	।	PUNCT	।	_	1	punct	_	_
