@@ -435,7 +435,7 @@
 6	?	?	PUNCT	?	_	5	punct	_	_
 
 # sent_id = dev-s47
-# text = তুমি আমাদের জাতীয় পতাকা আকঁতে পার?
+# text = তুমি আমাদের জাতীয় পতাকা আকঁতে পার?
 # text_en = Can you draw our national flag?
 1	তুমি	তুমি	PRON	_	PronType=Prs	5	nsubj	_	_
 2	আমাদের	আমরা	PRON	_	PronType=Prs	3	nmod:poss	_	_
