@@ -373,7 +373,7 @@
 # text = যে ভিক্ষা চায়, তাকে দান কর ।
 # text_en = Give alms to him who asks.
 1	যে	যে	PRON	_	PronType=Prs	2	nsubj	_	_
-2	ভিক্ষা	ভিক্ষা	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Inf	6	root	_	_
+2	ভিক্ষা	ভিক্ষা	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Inf	6	ccomp	_	_
 3	চায়	চাওয়া	AUX	_	VerbForm=Fin	2	compound	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	তাকে	তাকে	PRON	_	PronType=Prs	6	obj	_	_
