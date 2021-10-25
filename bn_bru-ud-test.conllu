@@ -345,7 +345,8 @@
 7	?	?	PUNCT	?	_	5	punct	_	_
 
 # sent_id = dev-s39
-# text = এখন রোদ  নেই,তাই চশমা পরেত হেব  না।
+# text = এখন রোদ  নেই,তাই চশমা পরেত হবে না।
+# text_en = Now there is no sun, so you don't have to wear glasses.
 1	এখন	এখন	ADV	_	_	2	advmod	_	_
 2	রোদ	রোদ	NOUN	_	Number=Sing	7	acl	_	_
 3	নেই	নেই	DET	_	_	2	det	_	SpaceAfter=No
@@ -354,7 +355,7 @@
 6	চশমা	চশমা	NOUN	_	Number=Sing	7	obj	_	_
 7	পরেত	পরা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Inf|Number=Sing|Person=2	0	root	_	_
 8	হবে	হওয়া	AUX	_	VerbForm=Fin	7	compound	_	_
-9	না	না	PART	_	_	7	advmod	_	_
+9	না	না	PART	_	_	7	advmod	_	SpaceAfter=No
 10	।	।	PUNCT	।	_	7	punct	_	_
 
 # sent_id = dev-s40
