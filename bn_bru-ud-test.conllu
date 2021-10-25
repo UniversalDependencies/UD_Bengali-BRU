@@ -269,8 +269,8 @@
 1	বাবা	বাবা	NOUN	_	Number=Sing	4	iobj	_	Translit=bābā|LTranslit=bābā
 2	আগে	আগে	ADV	_	_	4	advmod	_	Translit=āge|LTranslit=āge
 3	হাত	হাত	NOUN	_	Number=Plur	4	obj	_	Translit=hāta|LTranslit=hāta
-4	ধুয়ে	ধোয়া	VERB	_	Mood=Imp|Person=2|Tense=Pres|VerbForm=Inf	0	root	_	Translit=dhuŷe|LTranslit=dhoŷā
-5	নাও	নেয়া	AUX	_	VerbForm=Fin	4	compound	_	Translit=nāo|LTranslit=neŷā
+4	ধুয়ে	ধোয়া	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	Translit=dhuŷe|LTranslit=dhoŷā
+5	নাও	নেয়া	VERB	_	Mood=Imp|Person=2|Tense=Pres|VerbForm=Fin	4	compound	_	Translit=nāo|LTranslit=neŷā
 6	।	।	PUNCT	।	_	4	punct	_	Translit=.|LTranslit=.
 
 # sent_id = dev-s29
@@ -280,7 +280,7 @@
 1	না	না	INTJ	_	_	4	discourse	_	SpaceAfter=No|Translit=nā|LTranslit=nā
 2	,	,	PUNCT	,	_	4	punct	_	Translit=,|LTranslit=,
 3	আমি	আমি	PRON	_	PronType=Prs	4	nsubj	_	Translit=āmi|LTranslit=āmi
-4	ধোবো	ধোয়া	VERB	_	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Translit=dhobo|LTranslit=dhoŷā
+4	ধোবো	ধোয়া	VERB	_	Mood=Ind|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	Translit=dhobo|LTranslit=dhoŷā
 5	না	না	PART	_	_	4	advmod	_	Translit=nā|LTranslit=nā
 6	।	।	PUNCT	।	_	4	punct	_	Translit=.|LTranslit=.
 
@@ -290,13 +290,13 @@
 # text_en = What happens if you do not wash your hands, you do not know?
 1	হাত	হাত	NOUN	_	Number=Plur	3	iobj	_	Translit=hāta|LTranslit=hāta
 2	না	না	PART	_	_	3	advmod	_	Translit=nā|LTranslit=nā
-3	ধুয়ে	ধোয়া	VERB	_	Mood=Cnd|Person=2|Tense=Pres|VerbForm=Inf	9	advcl	_	Translit=dhuŷe|LTranslit=dhoŷā
-4	খেলে	খাওয়া	VERB	_	VerbForm=Inf	3	xcomp	_	Translit=khele|LTranslit=khāoŷā
+3	ধুয়ে	ধোয়া	VERB	_	Aspect=Perf|VerbForm=Part	9	advcl	_	Translit=dhuŷe|LTranslit=dhoŷā
+4	খেলে	খাওয়া	VERB	_	Mood=Cnd|VerbForm=Part	3	xcomp	_	Translit=khele|LTranslit=khāoŷā
 5	কি	কি	DET	_	PronType=Int	4	det	_	Translit=ki|LTranslit=ki
-6	হয়	হয়	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No|Translit=haŷa|LTranslit=haŷa
+6	হয়	হয়	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	compound	_	SpaceAfter=No|Translit=haŷa|LTranslit=haŷa
 7	,	,	PUNCT	,	_	3	punct	_	Translit=,|LTranslit=,
 8	তুমি	তুমি	PRON	_	PronType=Prs	9	nsubj	_	Translit=tumi|LTranslit=tumi
-9	জানো	জানা	VERB	_	VerbForm=Inf	0	root	_	Translit=jāno|LTranslit=jānā
+9	জানো	জানা	VERB	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Translit=jāno|LTranslit=jānā
 10	না	না	PART	_	_	9	advmod	_	SpaceAfter=No|Translit=nā|LTranslit=nā
 11	?	?	PUNCT	?	_	9	punct	_	Translit=?|LTranslit=?
 
@@ -315,7 +315,7 @@
 # text_en = Then I will wash my hands.
 1	তাহলে	তাহলে	ADV	_	_	3	advmod	_	Translit=tāhale|LTranslit=tāhale
 2	হাত	হাত	NOUN	_	Number=Plur	3	obj	_	Translit=hāta|LTranslit=hāta
-3	ধোবো	ধোয়া	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin	0	root	_	Translit=dhobo|LTranslit=dhoŷā
+3	ধোবো	ধোয়া	VERB	_	Mood=Ind|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	Translit=dhobo|LTranslit=dhoŷā
 4	।	।	PUNCT	।	_	3	punct	_	Translit=.|LTranslit=.
 
 # sent_id = dev-s33
