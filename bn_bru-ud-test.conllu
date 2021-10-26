@@ -413,8 +413,8 @@
 # text = যে ভিক্ষা চায়, তাকে দান কর ।
 # translit = ye bhikṣā cāŷa, tāke dāna kara .
 # text_en = Give alms to him who asks.
-1	যে	যে	PRON	_	PronType=Prs	2	nsubj	_	Translit=ye|LTranslit=ye
-2	ভিক্ষা	ভিক্ষা	VERB	_	VerbForm=Inf	5	acl	_	Translit=bhikṣā|LTranslit=bhikṣā
+1	যে	যে	PRON	_	PronType=Rel	2	nsubj	_	Translit=ye|LTranslit=ye
+2	ভিক্ষা	ভিক্ষা	VERB	_	VerbForm=Inf	5	acl:relcl	_	Translit=bhikṣā|LTranslit=bhikṣā
 3	চায়	চাওয়া	AUX	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	SpaceAfter=No|Translit=cāŷa|LTranslit=cāoŷā
 4	,	,	PUNCT	_	_	2	punct	_	Translit=,|LTranslit=,
 5	তাকে	সে	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	7	obj	_	LTranslit=se|Translit=tāke
