@@ -12,7 +12,7 @@
 # translit = kheŷecha tumi ?
 # text_en = Did you eat?
 1	খেয়েছ	খাওয়া	VERB	_	Aspect=Perf|Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Translit=kheŷecha|LTranslit=khāoŷā
-2	তুমি	তুমি	PRON	_	PronType=Prs	1	nsubj	_	Translit=tumi|LTranslit=tumi
+2	তুমি	তুমি	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	1	nsubj	_	LTranslit=tumi|Translit=tumi
 3	?	?	PUNCT	?	_	1	punct	_	Translit=?|LTranslit=?
 
 # sent_id = dev-s3
@@ -72,7 +72,7 @@
 # text = তুমি গান গাইতে পারো ?
 # translit = tumi gāna gāite pāro ?
 # text_en = Can you sing?
-1	তুমি	তুমি	PRON	_	PronType=Prs	3	nsubj	_	Translit=tumi|LTranslit=tumi
+1	তুমি	তুমি	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	LTranslit=tumi|Translit=tumi
 2	গান	গান	NOUN	_	Number=Sing	3	obj	_	Translit=gāna|LTranslit=gāna
 3	গাইতে	গাওয়া	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	Translit=gāite|LTranslit=gāoŷā
 4	পারো	পারা	AUX	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	Translit=pāro|LTranslit=pārā
@@ -94,7 +94,7 @@
 # text = তুমি কোন ক্লাসে পড়?
 # translit = tumi kona klāse paṛa?
 # text_en = Which class do you study?
-1	তুমি	তুমি	PRON	_	PronType=Prs	4	nsubj	_	Translit=tumi|LTranslit=tumi
+1	তুমি	তুমি	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	LTranslit=tumi|Translit=tumi
 2	কোন	কোন	DET	_	PronType=Int	3	det	_	Translit=kona|LTranslit=kona
 3	ক্লাসে	ক্লাস	NOUN	_	Number=Sing	4	obj	_	Translit=klāse|LTranslit=klāsa
 4	পড়	পড়	VERB	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=paṛa|LTranslit=paṛa
@@ -295,7 +295,7 @@
 5	কি	কি	DET	_	PronType=Int	4	det	_	Translit=ki|LTranslit=ki
 6	হয়	হওয়া	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	compound	_	SpaceAfter=No|Translit=haŷa|LTranslit=haoŷā
 7	,	,	PUNCT	,	_	3	punct	_	Translit=,|LTranslit=,
-8	তুমি	তুমি	PRON	_	PronType=Prs	9	nsubj	_	Translit=tumi|LTranslit=tumi
+8	তুমি	তুমি	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	_	LTranslit=tumi|Translit=tumi
 9	জানো	জানা	VERB	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Translit=jāno|LTranslit=jānā
 10	না	না	PART	_	_	9	advmod	_	SpaceAfter=No|Translit=nā|LTranslit=nā
 11	?	?	PUNCT	?	_	9	punct	_	Translit=?|LTranslit=?
@@ -330,7 +330,7 @@
 # text = তুমি কি খেয়েছ?
 # translit = tumi ki kheŷecha?
 # text_en = Did you eat?
-1	তুমি	তুমি	PRON	_	PronType=Prs	3	nsubj	_	Translit=tumi|LTranslit=tumi
+1	তুমি	তুমি	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	LTranslit=tumi|Translit=tumi
 2	কি	কি	DET	_	PronType=Int	3	det	_	Translit=ki|LTranslit=ki
 3	খেয়েছ	খাওয়া	VERB	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=kheŷecha|LTranslit=khāoŷā
 4	?	?	PUNCT	?	_	3	punct	_	Translit=?|LTranslit=?
@@ -350,7 +350,7 @@
 # text = তুমি যদি খাও তাহলে একটা মজার গল্প বলব ।
 # translit = tumi yadi khāo tāhale ekaṭā majāra galpa balaba .
 # text_en = I'll tell you a funny story if you eat.
-1	তুমি	তুমি	PRON	_	PronType=Prs	3	nsubj	_	Translit=tumi|LTranslit=tumi
+1	তুমি	তুমি	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	LTranslit=tumi|Translit=tumi
 2	যদি	যদি	SCONJ	_	_	3	mark	_	Translit=yadi|LTranslit=yadi
 3	খাও	খাওয়া	VERB	_	Mood=Ind|Person=2|Tense=Fut|VerbForm=Fin	8	advcl	_	Translit=khāo|LTranslit=khāoŷā
 4	তাহলে	তাহলে	ADV	_	_	8	advmod	_	Translit=tāhale|LTranslit=tāhale
@@ -432,7 +432,7 @@
 4	রং	রং	NOUN	_	Number=Sing	5	nsubj	_	Translit=raṁ|LTranslit=raṁ
 5	সবুজ	সবুজ	ADJ	_	Degree=Pos	8	ccomp	_	SpaceAfter=No|Translit=sabuja|LTranslit=sabuja
 6	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
-7	তুমি	তুমি	PRON	_	PronType=Prs	8	nsubj	_	Translit=tumi|LTranslit=tumi
+7	তুমি	তুমি	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	LTranslit=tumi|Translit=tumi
 8	জানো	জানা	VERB	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Translit=jāno|LTranslit=jānā
 9	কি	কি	PART	_	PartType=Int	8	advmod	_	SpaceAfter=No|Translit=ki|LTranslit=ki
 10	?	?	PUNCT	?	_	8	punct	_	Translit=?|LTranslit=?
@@ -473,7 +473,7 @@
 # text = তুমি আমাদের দেশের পতাকা আঁকতে পার?
 # translit = tumi āmādera deśera patākā ām̃kate pāra?
 # text_en = Can you draw the flag of our country?
-1	তুমি	তুমি	PRON	_	PronType=Prs	5	nsubj	_	Translit=tumi|LTranslit=tumi
+1	তুমি	তুমি	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	LTranslit=tumi|Translit=tumi
 2	আমাদের	আমি	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	3	nmod:poss	_	LTranslit=āmi|Translit=āmādera
 3	দেশের	দেশ	NOUN	_	Number=Sing	4	compound	_	Translit=deśera|LTranslit=deśa
 4	পতাকা	পতাকা	NOUN	_	Number=Sing	5	obj	_	Translit=patākā|LTranslit=patākā
@@ -485,7 +485,7 @@
 # text = তুমি আমাদের জাতীয় পতাকা আঁকতে পার?
 # translit = tumi āmādera jātīŷa patākā ām̃kate pāra?
 # text_en = Can you draw our national flag?
-1	তুমি	তুমি	PRON	_	PronType=Prs	5	nsubj	_	Translit=tumi|LTranslit=tumi
+1	তুমি	তুমি	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	LTranslit=tumi|Translit=tumi
 2	আমাদের	আমি	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	4	nmod:poss	_	LTranslit=āmi|Translit=āmādera
 3	জাতীয়	জাতীয়	ADJ	_	Degree=Pos	4	amod	_	Translit=jātīŷa|LTranslit=jātīŷa
 4	পতাকা	পতাকা	NOUN	_	Number=Sing	5	obj	_	Translit=patākā|LTranslit=patākā
