@@ -423,11 +423,11 @@
 8	।	।	PUNCT	।	_	7	punct	_	Translit=.|LTranslit=.
 
 # sent_id = dev-s41
-# text = আমাদের দেশর পতাকার রং সবুজ,তুমি জানো কি?
-# translit = āmādera deśara patākāra raṁ sabuja,tumi jāno ki?
+# text = আমাদের দেশের পতাকার রং সবুজ,তুমি জানো কি?
+# translit = āmādera deśera patākāra raṁ sabuja,tumi jāno ki?
 # text_en = The color of our country's flag is green, you know what?
 1	আমাদের	আমরা	PRON	_	PronType=Prs	2	nmod	_	Translit=āmādera|LTranslit=āmarā
-2	দেশর	দেশ	NOUN	_	Number=Sing	3	nmod	_	Translit=deśara|LTranslit=deśa
+2	দেশের	দেশ	NOUN	_	Number=Sing	3	nmod	_	Translit=deśera|LTranslit=deśa
 3	পতাকার	পতাকা	NOUN	_	Number=Sing	4	nmod	_	Translit=patākāra|LTranslit=patākā
 4	রং	রং	NOUN	_	Number=Sing	5	nsubj	_	Translit=raṁ|LTranslit=raṁ
 5	সবুজ	সবুজ	ADJ	_	Degree=Pos	8	ccomp	_	SpaceAfter=No|Translit=sabuja|LTranslit=sabuja
