@@ -417,7 +417,7 @@
 2	ভিক্ষা	ভিক্ষা	VERB	_	VerbForm=Inf	5	acl	_	Translit=bhikṣā|LTranslit=bhikṣā
 3	চায়	চাওয়া	AUX	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	SpaceAfter=No|Translit=cāŷa|LTranslit=cāoŷā
 4	,	,	PUNCT	_	_	2	punct	_	Translit=,|LTranslit=,
-5	তাকে	তাকে	PRON	_	PronType=Prs	7	obj	_	Translit=tāke|LTranslit=tāke
+5	তাকে	সে	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	7	obj	_	LTranslit=se|Translit=tāke
 6	দান	দান	NOUN	_	Number=Sing	7	compound:lvc	_	Translit=dāna|LTranslit=dāna
 7	কর	করা	VERB	_	Mood=Imp|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Translit=kara|LTranslit=karā
 8	।	।	PUNCT	।	_	7	punct	_	Translit=.|LTranslit=.
