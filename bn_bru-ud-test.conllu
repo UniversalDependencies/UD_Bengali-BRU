@@ -211,7 +211,7 @@
 # text = তার নাম কি?
 # translit = tāra nāma ki?
 # text_en = What is her name?
-1	তার	তার	PRON	_	PronType=Prs	2	nmod	_	Translit=tāra|LTranslit=tāra
+1	তার	সে	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	nmod:poss	_	LTranslit=se|Translit=tāra
 2	নাম	নাম	NOUN	_	Number=Sing	0	root	_	Translit=nāma|LTranslit=nāma
 3	কি	কি	DET	_	PronType=Int	2	det	_	SpaceAfter=No|Translit=ki|LTranslit=ki
 4	?	?	PUNCT	?	_	2	punct	_	Translit=?|LTranslit=?
@@ -220,7 +220,7 @@
 # text = তার নাম বর্ণালী ।
 # translit = tāra nāma barṇālī .
 # text_en = Her name is Barnali.
-1	তার	তার	PRON	_	PronType=Prs	3	nmod	_	Translit=tāra|LTranslit=tāra
+1	তার	সে	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	LTranslit=se|Translit=tāra
 2	নাম	নাম	NOUN	_	Number=Sing	3	nsubj	_	Translit=nāma|LTranslit=nāma
 3	বর্ণালী	বর্ণালী	PROPN	_	Number=Sing	0	root	_	Translit=barṇālī|LTranslit=barṇālī
 4	।	।	PUNCT	।	_	3	punct	_	Translit=.|LTranslit=.
