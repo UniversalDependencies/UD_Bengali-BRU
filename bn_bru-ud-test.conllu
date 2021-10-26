@@ -323,7 +323,7 @@
 # translit = kārṭuna dekhi .
 # text_en = I watch cartoons.
 1	কার্টুন	কার্টুন	NOUN	_	Number=Sing	2	obj	_	Translit=kārṭuna|LTranslit=kārṭuna
-2	দেখি	দেখি	VERB	_	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Translit=dekhi|LTranslit=dekhi
+2	দেখি	দেখা	VERB	_	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Translit=dekhi|LTranslit=dekhā
 3	।	।	PUNCT	।	_	2	punct	_	Translit=.|LTranslit=.
 
 # sent_id = dev-s34
@@ -427,20 +427,20 @@
 # translit = āmādera deśara patākāra raṁ sabuja,tumi jāno ki?
 # text_en = The color of our country's flag is green, you know what?
 1	আমাদের	আমরা	PRON	_	PronType=Prs	2	nmod	_	Translit=āmādera|LTranslit=āmarā
-2	দেশর	দেশ	NOUN	_	Number=Sing	3	compound	_	Translit=deśara|LTranslit=deśa
+2	দেশর	দেশ	NOUN	_	Number=Sing	3	nmod	_	Translit=deśara|LTranslit=deśa
 3	পতাকার	পতাকা	NOUN	_	Number=Sing	4	nmod	_	Translit=patākāra|LTranslit=patākā
 4	রং	রং	NOUN	_	Number=Sing	5	nsubj	_	Translit=raṁ|LTranslit=raṁ
 5	সবুজ	সবুজ	ADJ	_	Degree=Pos	8	ccomp	_	SpaceAfter=No|Translit=sabuja|LTranslit=sabuja
 6	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 7	তুমি	তুমি	PRON	_	PronType=Prs	8	nsubj	_	Translit=tumi|LTranslit=tumi
 8	জানো	জানা	VERB	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Translit=jāno|LTranslit=jānā
-9	কি	কি	DET	_	PronType=Int	8	det	_	SpaceAfter=No|Translit=ki|LTranslit=ki
+9	কি	কি	PART	_	PronType=Int	8	advmod	_	SpaceAfter=No|Translit=ki|LTranslit=ki
 10	?	?	PUNCT	?	_	8	punct	_	Translit=?|LTranslit=?
 
 # sent_id = dev-s42
 # text = আজ ক্লাসে কি শিখিয়েছে?
 # translit = āja klāse ki śikhiŷeche?
-# text_en = What did you teach in class today?
+# text_en = What was taught in class today?
 1	আজ	আজ	NOUN	_	Number=Sing	4	obl	_	Translit=āja|LTranslit=āja
 2	ক্লাসে	ক্লাস	NOUN	_	Number=Sing	4	obj	_	Translit=klāse|LTranslit=klāsa
 3	কি	কি	PRON	_	PronType=Int	4	nsubj:pass	_	Translit=ki|LTranslit=ki
@@ -461,27 +461,39 @@
 # text = দেখ, তোমার জন্য কি এনেছি?
 # translit = dekha, tomāra janya ki enechi?
 # text_en = See, what have I brought for you?
-1	দেখ	দেখ	VERB	_	Mood=Imp|Person=2|Tense=Pres|VerbForm=Fin	6	advcl	_	SpaceAfter=No|Translit=dekha|LTranslit=dekha
+1	দেখ	দেখা	VERB	_	Mood=Imp|Person=2|Tense=Pres|VerbForm=Fin	6	parataxis	_	SpaceAfter=No|Translit=dekha|LTranslit=dekhā
 2	,	,	PUNCT	_	_	1	punct	_	Translit=,|LTranslit=,
-3	তোমার	তুমি	PRON	_	PronType=Prs	6	obj	_	Translit=tomāra|LTranslit=tumi
-4	জন্য	জন্য	ADP	_	_	6	case	_	Translit=janya|LTranslit=janya
-5	কি	কি	DET	_	PronType=Int	6	det	_	Translit=ki|LTranslit=ki
-6	এনেছি	আনা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No|Translit=enechi|LTranslit=ānā
+3	তোমার	তুমি	PRON	_	PronType=Prs	6	obl	_	Translit=tomāra|LTranslit=tumi
+4	জন্য	জন্য	ADP	_	_	3	case	_	Translit=janya|LTranslit=janya
+5	কি	কি	PRON	_	PronType=Int	6	obj	_	Translit=ki|LTranslit=ki
+6	এনেছি	আনা	VERB	_	Aspect=Perf|Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=enechi|LTranslit=ānā
 7	?	?	PUNCT	?	_	6	punct	_	Translit=?|LTranslit=?
 
 # sent_id = dev-s45
-# text = তুমি আমাদের দেশের পতাকা আকঁতে পার?
-# translit = tumi āmādera deśera patākā ākam̃te pāra?
+# text = তুমি আমাদের দেশের পতাকা আঁকতে পার?
+# translit = tumi āmādera deśera patākā ām̃kate pāra?
 # text_en = Can you draw the flag of our country?
 1	তুমি	তুমি	PRON	_	PronType=Prs	5	nsubj	_	Translit=tumi|LTranslit=tumi
 2	আমাদের	আমরা	PRON	_	PronType=Prs	3	nmod	_	Translit=āmādera|LTranslit=āmarā
 3	দেশের	দেশ	NOUN	_	Number=Sing	4	compound	_	Translit=deśera|LTranslit=deśa
 4	পতাকা	পতাকা	NOUN	_	Number=Sing	5	obj	_	Translit=patākā|LTranslit=patākā
-5	আকঁতে	আঁকা	VERB	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Inf	0	root	_	Translit=ākam̃te|LTranslit=ām̃kā
+5	আঁকতে	আঁকা	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	Translit=ām̃kate|LTranslit=ām̃kā
 6	পার	পারা	AUX	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No|Translit=pāra|LTranslit=pārā
 7	?	?	PUNCT	?	_	5	punct	_	Translit=?|LTranslit=?
 
 # sent_id = dev-s46
+# text = তুমি আমাদের জাতীয় পতাকা আঁকতে পার?
+# translit = tumi āmādera jātīŷa patākā ām̃kate pāra?
+# text_en = Can you draw our national flag?
+1	তুমি	তুমি	PRON	_	PronType=Prs	5	nsubj	_	Translit=tumi|LTranslit=tumi
+2	আমাদের	আমরা	PRON	_	PronType=Prs	4	nmod:poss	_	Translit=āmādera|LTranslit=āmarā
+3	জাতীয়	জাতীয়	ADJ	_	Degree=Pos	4	amod	_	Translit=jātīŷa|LTranslit=jātīŷa
+4	পতাকা	পতাকা	NOUN	_	Number=Sing	5	obj	_	Translit=patākā|LTranslit=patākā
+5	আঁকতে	আঁকা	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	Translit=ām̃kate|LTranslit=ām̃kā
+6	পার	পারা	AUX	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No|Translit=pāra|LTranslit=pārā
+7	?	?	PUNCT	?	_	5	punct	_	Translit=?|LTranslit=?
+
+# sent_id = dev-s47
 # text = আজ সারাদিন কি কি করেছ?
 # translit = āja sārādina ki ki karecha?
 # text_en = What did you do all day today?
@@ -489,45 +501,33 @@
 2	সারাদিন	সারাদিন	NOUN	_	Number=Sing	5	obl	_	Translit=sārādina|LTranslit=sārādina
 3	কি	কি	PRON	_	PronType=Int	5	obj	_	Translit=ki|LTranslit=ki
 4	কি	কি	PRON	_	PronType=Int	3	compound	_	Translit=ki|LTranslit=ki
-5	করেছ	করা	VERB	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=karecha|LTranslit=karā
+5	করেছ	করা	VERB	_	Aspect=Perf|Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=karecha|LTranslit=karā
 6	?	?	PUNCT	?	_	5	punct	_	Translit=?|LTranslit=?
-
-# sent_id = dev-s47
-# text = তুমি আমাদের জাতীয় পতাকা আকঁতে পার?
-# translit = tumi āmādera jātīŷa patākā ākam̃te pāra?
-# text_en = Can you draw our national flag?
-1	তুমি	তুমি	PRON	_	PronType=Prs	5	nsubj	_	Translit=tumi|LTranslit=tumi
-2	আমাদের	আমরা	PRON	_	PronType=Prs	3	nmod:poss	_	Translit=āmādera|LTranslit=āmarā
-3	জাতীয়	জাতীয়	ADJ	_	Degree=Pos	4	amod	_	Translit=jātīŷa|LTranslit=jātīŷa
-4	পতাকা	পতাকা	NOUN	_	Number=Sing	5	obj	_	Translit=patākā|LTranslit=patākā
-5	আকঁতে	আঁকা	VERB	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Inf	0	root	_	Translit=ākam̃te|LTranslit=ām̃kā
-6	পার	পারা	AUX	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No|Translit=pāra|LTranslit=pārā
-7	?	?	PUNCT	?	_	5	punct	_	Translit=?|LTranslit=?
 
 # sent_id = dev-s48
 # text = আজ বই পড়েছি, আর্ট করেছি, গান শিখেছি ।
 # translit = āja bai paṛechi, ārṭa karechi, gāna śikhechi .
-# text_en = Today I have read books, done art, learned songs.
-1	আজ	আজ	ADV	_	_	2	advmod	_	Translit=āja|LTranslit=āja
+# text_en = Today I have read a book, done art, learned a song.
+1	আজ	আজ	ADV	_	_	3	advmod	_	Translit=āja|LTranslit=āja
 2	বই	বই	NOUN	_	Number=Sing	3	obj	_	Translit=bai|LTranslit=bai
-3	পড়েছি	পড়া	VERB	_	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=paṛechi|LTranslit=paṛā
+3	পড়েছি	পড়া	VERB	_	Aspect=Perf|Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=paṛechi|LTranslit=paṛā
 4	,	,	PUNCT	_	_	6	punct	_	Translit=,|LTranslit=,
 5	আর্ট	আর্ট	NOUN	_	Number=Sing	6	obj	_	Translit=ārṭa|LTranslit=ārṭa
-6	করেছি	করা	VERB	_	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No|Translit=karechi|LTranslit=karā
+6	করেছি	করা	VERB	_	Aspect=Perf|Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No|Translit=karechi|LTranslit=karā
 7	,	,	PUNCT	_	_	9	punct	_	Translit=,|LTranslit=,
 8	গান	গান	NOUN	_	Number=Sing	9	obj	_	Translit=gāna|LTranslit=gāna
-9	শিখেছি	শিখেছি	VERB	_	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	Translit=śikhechi|LTranslit=śikhechi
+9	শিখেছি	শেখা	VERB	_	Aspect=Perf|Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	Translit=śikhechi|LTranslit=śekhā
 10	।	।	PUNCT	।	_	3	punct	_	Translit=.|LTranslit=.
 
 # sent_id = dev-s49
 # text = আমি আজ স্কুলে হাতি দেখেছি ।
 # translit = āmi āja skule hāti dekhechi .
-# text_en = I saw elephants at school today.
+# text_en = I saw an elephant at school today.
 1	আমি	আমি	PRON	_	PronType=Prs	5	nsubj	_	Translit=āmi|LTranslit=āmi
 2	আজ	আজ	ADV	_	_	5	advmod	_	Translit=āja|LTranslit=āja
-3	স্কুলে	স্কুল	NOUN	_	Number=Sing	5	iobj	_	Translit=skule|LTranslit=skula
+3	স্কুলে	স্কুল	NOUN	_	Number=Sing	5	obl	_	Translit=skule|LTranslit=skula
 4	হাতি	হাতি	NOUN	_	Number=Sing	5	obj	_	Translit=hāti|LTranslit=hāti
-5	দেখেছি	দেখা	VERB	_	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Translit=dekhechi|LTranslit=dekhā
+5	দেখেছি	দেখা	VERB	_	Aspect=Perf|Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Translit=dekhechi|LTranslit=dekhā
 6	।	।	PUNCT	।	_	5	punct	_	Translit=.|LTranslit=.
 
 # sent_id = dev-s50
@@ -541,49 +541,49 @@
 5	একটা	একটা	DET	_	Definite=Ind|PronType=Art	7	det	_	Translit=ekaṭā|LTranslit=ekaṭā
 6	সুন্দর	সুন্দর	ADJ	_	Degree=Pos	7	amod	_	Translit=sundara|LTranslit=sundara
 7	জামা	জামা	NOUN	_	Number=Sing	8	obj	_	Translit=jāmā|LTranslit=jāmā
-8	কিনে	কেনা	VERB	_	Mood=Ind|Person=1|Tense=Fut|VerbForm=Inf	0	root	_	Translit=kine|LTranslit=kenā
-9	দিব	দয়ো	AUX	_	VerbForm=Fin	8	compound	_	Translit=diba|LTranslit=daŷo
+8	কিনে	কেনা	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	Translit=kine|LTranslit=kenā
+9	দিব	দেত্তয়া	VERB	_	Mood=Ind|Person=1|Tense=Fut|VerbForm=Fin	8	compound	_	Translit=diba|LTranslit=dettaŷā
 10	।	।	PUNCT	।	_	8	punct	_	Translit=.|LTranslit=.
 
 # sent_id = dev-s51
 # text = এখন পড়তে বসার সময় হয়েছে ।
 # translit = ekhana paṛate basāra samaŷa haŷeche .
 # text_en = Now it's time to sit down to read.
-1	এখন	এখন	ADJ	_	Degree=Pos	5	amod	_	Translit=ekhana|LTranslit=ekhana
-2	পড়তে	পড়া	VERB	_	VerbForm=Inf	3	acl	_	Translit=paṛate|LTranslit=paṛā
-3	বসার	বসা	AUX	_	VerbForm=Fin	5	compound	_	Translit=basāra|LTranslit=basā
-4	সময়	সময়	NOUN	_	Number=Sing	5	nmod	_	Translit=samaŷa|LTranslit=samaŷa
-5	হয়েছে	হওয়া	VERB	_	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Translit=haŷeche|LTranslit=haoŷā
+1	এখন	এখন	ADV	_	_	5	advmod	_	Translit=ekhana|LTranslit=ekhana
+2	পড়তে	পড়া	VERB	_	Aspect=Imp|VerbForm=Part	4	acl	_	Translit=paṛate|LTranslit=paṛā
+3	বসার	বসা	VERB	_	VerbForm=Inf	2	compound	_	Translit=basāra|LTranslit=basā
+4	সময়	সময়	NOUN	_	Number=Sing	5	nsubj	_	Translit=samaŷa|LTranslit=samaŷa
+5	হয়েছে	হওয়া	VERB	_	Aspect=Perf|Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Translit=haŷeche|LTranslit=haoŷā
 6	।	।	PUNCT	।	_	5	punct	_	Translit=.|LTranslit=.
 
 # sent_id = dev-s52
 # text = বই নিয়ে পড়তে বস ।
 # translit = bai niŷe paṛate basa .
 # text_en = Sit down to read a book.
-1	বই	বই	NOUN	_	Number=Plur	3	obj	_	Translit=bai|LTranslit=bai
-2	নিয়ে	নেয়া	ADV	_	_	3	nmod	_	Translit=niŷe|LTranslit=neŷā
-3	পড়তে	পড়া	VERB	_	Mood=Imp|Person=2|Tense=Pres|VerbForm=Inf	0	root	_	Translit=paṛate|LTranslit=paṛā
-4	বস	বসা	AUX	_	VerbForm=Fin	3	compound	_	Translit=basa|LTranslit=basā
+1	বই	বই	NOUN	_	Number=Sing	3	obl	_	Translit=bai|LTranslit=bai
+2	নিয়ে	নিয়ে	ADP	_	_	1	case	_	Translit=niŷe|LTranslit=niŷe
+3	পড়তে	পড়া	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	Translit=paṛate|LTranslit=paṛā
+4	বস	বসা	VERB	_	Mood=Imp|Person=2|Tense=Pres|VerbForm=Fin	3	compound	_	Translit=basa|LTranslit=basā
 5	।	।	PUNCT	।	_	3	punct	_	Translit=.|LTranslit=.
 
 # sent_id = dev-s53
 # text = আমার পড়া শেষ হয়েছে ।
 # translit = āmāra paṛā śeṣa haŷeche .
 # text_en = I have finished reading.
-1	আমার	আমি	PRON	_	PronType=Prs	3	nmod:poss	_	Translit=āmāra|LTranslit=āmi
-2	পড়া	পড়া	NOUN	_	Number=Sing	3	nsubj:pass	_	Translit=paṛā|LTranslit=paṛā
-3	শেষ	শেষ	VERB	_	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Translit=śeṣa|LTranslit=śeṣa
-4	হয়েছে	হওয়া	AUX	_	VerbForm=Fin	3	compound	_	Translit=haŷeche|LTranslit=haoŷā
-5	।	।	PUNCT	।	_	3	punct	_	Translit=.|LTranslit=.
+1	আমার	আমি	PRON	_	PronType=Prs	2	nmod:poss	_	Translit=āmāra|LTranslit=āmi
+2	পড়া	পড়া	NOUN	_	Number=Sing|VerbForm=Vnoun	4	nsubj	_	Translit=paṛā|LTranslit=paṛā
+3	শেষ	শেষ	NOUN	_	Number=Sing	4	compound:lvc	_	Translit=śeṣa|LTranslit=śeṣa
+4	হয়েছে	হওয়া	VERB	_	Aspect=Perf|Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Translit=haŷeche|LTranslit=haoŷā
+5	।	।	PUNCT	।	_	4	punct	_	Translit=.|LTranslit=.
 
 # sent_id = dev-s54
 # text = আমি লেখা শেষ করে কার্টুন দেখব ।
 # translit = āmi lekhā śeṣa kare kārṭuna dekhaba .
 # text_en = I will finish the writing and watch the cartoon.
-1	আমি	আমি	PRON	_	PronType=Prs	3	nsubj	_	Translit=āmi|LTranslit=āmi
-2	লেখা	লেখা	NOUN	_	Number=Sing	3	iobj	_	Translit=lekhā|LTranslit=lekhā
-3	শেষ	শেষ	VERB	_	VerbForm=Inf	6	advcl	_	Translit=śeṣa|LTranslit=śeṣa
-4	করে	করা	AUX	_	VerbForm=Inf	3	compound	_	Translit=kare|LTranslit=karā
+1	আমি	আমি	PRON	_	PronType=Prs	6	nsubj	_	Translit=āmi|LTranslit=āmi
+2	লেখা	লেখা	NOUN	_	Number=Sing|VerbForm=Vnoun	4	obj	_	Translit=lekhā|LTranslit=lekhā
+3	শেষ	শেষ	NOUN	_	Number=Sing	4	compound:lvc	_	Translit=śeṣa|LTranslit=śeṣa
+4	করে	করা	VERB	_	Aspect=Perf|VerbForm=Part	6	advcl	_	Translit=kare|LTranslit=karā
 5	কার্টুন	কার্টুন	NOUN	_	Number=Sing	6	obj	_	Translit=kārṭuna|LTranslit=kārṭuna
 6	দেখব	দেখা	VERB	_	Mood=Ind|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	Translit=dekhaba|LTranslit=dekhā
 7	।	।	PUNCT	।	_	6	punct	_	Translit=.|LTranslit=.
@@ -593,7 +593,7 @@
 # translit = āmarā kakhana ghurate yāba?
 # text_en = When are we going to tour?
 1	আমরা	আমি	PRON	_	PronType=Prs	3	nsubj	_	Translit=āmarā|LTranslit=āmi
-2	কখন	কখন	PRON	_	PronType=Int	3	nmod	_	Translit=kakhana|LTranslit=kakhana
+2	কখন	কখন	ADV	_	PronType=Int	3	advmod	_	Translit=kakhana|LTranslit=kakhana
 3	ঘুরতে	ঘোরা	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	Translit=ghurate|LTranslit=ghorā
 4	যাব	যাওয়া	VERB	_	Mood=Ind|Person=1|Tense=Fut|VerbForm=Fin	3	compound	_	SpaceAfter=No|Translit=yāba|LTranslit=yāoŷā
 5	?	?	PUNCT	?	_	3	punct	_	Translit=?|LTranslit=?
