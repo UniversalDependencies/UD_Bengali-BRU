@@ -434,7 +434,7 @@
 6	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
 7	তুমি	তুমি	PRON	_	PronType=Prs	8	nsubj	_	Translit=tumi|LTranslit=tumi
 8	জানো	জানা	VERB	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Translit=jāno|LTranslit=jānā
-9	কি	কি	PART	_	PronType=Int	8	advmod	_	SpaceAfter=No|Translit=ki|LTranslit=ki
+9	কি	কি	PART	_	PartType=Int	8	advmod	_	SpaceAfter=No|Translit=ki|LTranslit=ki
 10	?	?	PUNCT	?	_	8	punct	_	Translit=?|LTranslit=?
 
 # sent_id = dev-s42
