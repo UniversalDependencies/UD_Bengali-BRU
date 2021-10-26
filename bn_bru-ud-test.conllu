@@ -109,7 +109,7 @@
 3	বাংলা	বাংলা	NOUN	_	Number=Sing	7	vocative	_	SpaceAfter=No|Translit=bāṁlā|LTranslit=bāṁlā
 4	,	,	PUNCT	,	_	3	punct	_	Translit=,|LTranslit=,
 5	আমি	আমি	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	Translit=āmi|LTranslit=āmi
-6	তোমায়	তুমি	PRON	_	PronType=Prs	7	obj	_	Translit=tomāŷa|LTranslit=tumi
+6	তোমায়	তুমি	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	7	obj	_	Translit=tomāŷa|LTranslit=tumi
 7	ভালবাসি	ভালবাসা	VERB	_	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Translit=bhālabāsi|LTranslit=bhālabāsā
 8	।	।	PUNCT	।	_	7	punct	_	Translit=.|LTranslit=.
 
@@ -135,7 +135,7 @@
 # text = তোমাকে কে রেখে আসে?
 # translit = tomāke ke rekhe āse?
 # text_en = Who leaves you?
-1	তোমাকে	তুমি	PRON	_	PronType=Prs	3	iobj	_	Translit=tomāke|LTranslit=tumi
+1	তোমাকে	তুমি	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	3	obj	_	Translit=tomāke|LTranslit=tumi
 2	কে	কে	PRON	_	PronType=Int	3	nsubj	_	Translit=ke|LTranslit=ke
 3	রেখে	রাখা	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	Translit=rekhe|LTranslit=rākhā
 4	আসে	আসা	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	compound	_	SpaceAfter=No|Translit=āse|LTranslit=āsā
@@ -463,7 +463,7 @@
 # text_en = See, what have I brought for you?
 1	দেখ	দেখা	VERB	_	Mood=Imp|Person=2|Tense=Pres|VerbForm=Fin	6	parataxis	_	SpaceAfter=No|Translit=dekha|LTranslit=dekhā
 2	,	,	PUNCT	_	_	1	punct	_	Translit=,|LTranslit=,
-3	তোমার	তুমি	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	6	nmod:poss	_	LTranslit=tumi|Translit=tomāra
+3	তোমার	তুমি	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	6	obl	_	LTranslit=tumi|Translit=tomāra
 4	জন্য	জন্য	ADP	_	_	3	case	_	Translit=janya|LTranslit=janya
 5	কি	কি	PRON	_	PronType=Int	6	obj	_	Translit=ki|LTranslit=ki
 6	এনেছি	আনা	VERB	_	Aspect=Perf|Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=enechi|LTranslit=ānā
@@ -537,7 +537,7 @@
 1	আচ্ছা	আচ্ছা	INTJ	_	_	8	discourse	_	SpaceAfter=No|Translit=ācchā|LTranslit=ācchā
 2	,	,	PUNCT	,	_	8	punct	_	Translit=,|LTranslit=,
 3	আমি	আমি	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	Translit=āmi|LTranslit=āmi
-4	তোমাকে	তুমি	PRON	_	PronType=Prs	8	iobj	_	Translit=tomāke|LTranslit=tumi
+4	তোমাকে	তুমি	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	8	iobj	_	Translit=tomāke|LTranslit=tumi
 5	একটা	একটা	DET	_	Definite=Ind|PronType=Art	7	det	_	Translit=ekaṭā|LTranslit=ekaṭā
 6	সুন্দর	সুন্দর	ADJ	_	Degree=Pos	7	amod	_	Translit=sundara|LTranslit=sundara
 7	জামা	জামা	NOUN	_	Number=Sing	8	obj	_	Translit=jāmā|LTranslit=jāmā
