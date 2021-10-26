@@ -34,7 +34,7 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Jannat, Siratun; Rahoman, Mizanur; Sourov, Shafi; Ferdaousi, Jannatul; Shahzadi, Syeda
+Contributors: Jannat, Siratun; Rahoman, Mizanur; Sourov, Shafi; Ferdaousi, Jannatul; Shahzadi, Syeda; Zeman, Daniel
 Contributing: here
 Contact: siratunjannat@gmail.com, mdmizanur.rahoman@gmail.com, sourov.cse.brur@gmail.com, tuly19114@gmail.com, shahzadi.cse.brur@gmail.com
 ===============================================================================

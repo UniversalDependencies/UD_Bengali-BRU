@@ -2,8 +2,8 @@
 # text = কিছু করি না ।
 # translit = kichu kari nā .
 # text_en = I don't do anything.
-1	কিছু	কিছু	PRON	_	PronType=Ind	2	dep	_	Translit=kichu|LTranslit=kichu
-2	করি	করা	VERB	_	Mood=Sub|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Translit=kari|LTranslit=karā
+1	কিছু	কিছু	PRON	_	PronType=Ind	2	obj	_	Translit=kichu|LTranslit=kichu
+2	করি	করা	VERB	_	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Translit=kari|LTranslit=karā
 3	না	না	PART	_	_	2	advmod	_	Translit=nā|LTranslit=nā
 4	।	।	PUNCT	।	_	2	punct	_	Translit=.|LTranslit=.
 
@@ -11,8 +11,8 @@
 # text = খেয়েছ তুমি ?
 # translit = kheŷecha tumi ?
 # text_en = Did you eat?
-1	খেয়েছ	খাওয়া	VERB	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Translit=kheŷecha|LTranslit=khāoŷā
-2	তুমি	তুমি	PRON	_	PronType=Prs	1	obj	_	Translit=tumi|LTranslit=tumi
+1	খেয়েছ	খাওয়া	VERB	_	Aspect=Perf|Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Translit=kheŷecha|LTranslit=khāoŷā
+2	তুমি	তুমি	PRON	_	PronType=Prs	1	nsubj	_	Translit=tumi|LTranslit=tumi
 3	?	?	PUNCT	?	_	1	punct	_	Translit=?|LTranslit=?
 
 # sent_id = dev-s3
@@ -21,7 +21,7 @@
 # text_en = Mother is not responsible for food.
 1	মা	মা	NOUN	_	Number=Sing	3	nsubj	_	Translit=mā|LTranslit=mā
 2	খাবার	খাবার	NOUN	_	Number=Sing	3	obj	_	Translit=khābāra|LTranslit=khābāra
-3	দয়ে	দয়ো	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Translit=daŷe|LTranslit=daŷo
+3	দয়ে	দেত্তয়া	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Translit=daŷe|LTranslit=dettaŷā
 4	নাই	না	PART	_	_	3	advmod	_	Translit=nāi|LTranslit=nā
 5	।	।	PUNCT	।	_	3	punct	_	Translit=.|LTranslit=.
 
@@ -74,7 +74,7 @@
 # text_en = Can you sing?
 1	তুমি	তুমি	PRON	_	PronType=Prs	3	nsubj	_	Translit=tumi|LTranslit=tumi
 2	গান	গান	NOUN	_	Number=Sing	3	obj	_	Translit=gāna|LTranslit=gāna
-3	গাইতে	গাওয়া	VERB	_	Mood=Pot|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Translit=gāite|LTranslit=gāoŷā
+3	গাইতে	গাওয়া	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	Translit=gāite|LTranslit=gāoŷā
 4	পারো	পারা	AUX	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	Translit=pāro|LTranslit=pārā
 5	?	?	PUNCT	?	_	3	punct	_	Translit=?|LTranslit=?
 
@@ -86,7 +86,7 @@
 2	,	,	PUNCT	,	_	5	punct	_	Translit=,|LTranslit=,
 3	আমি	আমি	PRON	_	PronType=Prs	5	nsubj	_	Translit=āmi|LTranslit=āmi
 4	গান	গান	NOUN	_	Number=Sing	5	obj	_	Translit=gāna|LTranslit=gāna
-5	গাইতে	গাওয়া	VERB	_	Mood=Pot|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Translit=gāite|LTranslit=gāoŷā
+5	গাইতে	গাওয়া	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	Translit=gāite|LTranslit=gāoŷā
 6	পারি	পারা	AUX	_	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	Translit=pāri|LTranslit=pārā
 7	।	।	PUNCT	।	_	5	punct	_	Translit=.|LTranslit=.
 
@@ -118,8 +118,8 @@
 # translit = prathama śrenīte paṛi .
 # text_en = I read in the first class.
 1	প্রথম	প্রথম	ADJ	_	NumType=Ord	2	amod	_	Translit=prathama|LTranslit=prathama
-2	শ্রেনীতে	শ্রেনী	NOUN	_	Number=Sing	3	obj	_	Translit=śrenīte|LTranslit=śrenī
-3	পড়ি	পড়া	VERB	_	Mood=Sub|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Translit=paṛi|LTranslit=paṛā
+2	শ্রেনীতে	শ্রেনী	NOUN	_	Number=Sing	3	obl	_	Translit=śrenīte|LTranslit=śrenī
+3	পড়ি	পড়া	VERB	_	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Translit=paṛi|LTranslit=paṛā
 4	।	।	PUNCT	।	_	3	punct	_	Translit=.|LTranslit=.
 
 # sent_id = dev-s13
