@@ -53,7 +53,7 @@
 # translit = tomāra bābāra nāma ki ?
 # text_en = What's your father's name?
 1	তোমার	তুমি	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	2	nmod:poss	_	LTranslit=tumi|Translit=tomāra
-2	বাবার	বাবা	NOUN	_	Number=Sing	3	nmod	_	Translit=bābāra|LTranslit=bābā
+2	বাবার	বাবা	NOUN	_	Case=Gen|Number=Sing	3	nmod:poss	_	Translit=bābāra|LTranslit=bābā
 3	নাম	নাম	NOUN	_	Case=Nom|Number=Sing	0	root	_	Translit=nāma|LTranslit=nāma
 4	কি	কি	DET	_	PronType=Int	3	det	_	Translit=ki|LTranslit=ki
 5	?	?	PUNCT	?	_	3	punct	_	Translit=?|LTranslit=?
@@ -63,7 +63,7 @@
 # translit = āmāra bābāra nāma phāruka .
 # text_en = My father's name is Farooq.
 1	আমার	আমি	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod:poss	_	LTranslit=āmi|Translit=āmāra
-2	বাবার	বাবা	NOUN	_	Number=Sing	4	nmod	_	Translit=bābāra|LTranslit=bābā
+2	বাবার	বাবা	NOUN	_	Case=Gen|Number=Sing	4	nmod:poss	_	Translit=bābāra|LTranslit=bābā
 3	নাম	নাম	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	Translit=nāma|LTranslit=nāma
 4	ফারুক	ফারুক	NOUN	_	Case=Nom|Number=Sing	0	root	_	Translit=phāruka|LTranslit=phāruka
 5	।	।	PUNCT	।	_	4	punct	_	Translit=.|LTranslit=.
@@ -96,7 +96,7 @@
 # text_en = Which class do you study?
 1	তুমি	তুমি	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	LTranslit=tumi|Translit=tumi
 2	কোন	কোন	DET	_	PronType=Int	3	det	_	Translit=kona|LTranslit=kona
-3	ক্লাসে	ক্লাস	NOUN	_	Number=Sing	4	obj	_	Translit=klāse|LTranslit=klāsa
+3	ক্লাসে	ক্লাস	NOUN	_	Case=Loc|Number=Sing	4	obj	_	Translit=klāse|LTranslit=klāsa
 4	পড়	পড়	VERB	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=paṛa|LTranslit=paṛa
 5	?	?	PUNCT	?	_	4	punct	_	Translit=?|LTranslit=?
 
@@ -118,7 +118,7 @@
 # translit = prathama śrenīte paṛi .
 # text_en = I read in the first class.
 1	প্রথম	প্রথম	ADJ	_	NumType=Ord	2	amod	_	Translit=prathama|LTranslit=prathama
-2	শ্রেনীতে	শ্রেনী	NOUN	_	Number=Sing	3	obl	_	Translit=śrenīte|LTranslit=śrenī
+2	শ্রেনীতে	শ্রেনী	NOUN	_	Case=Loc|Number=Sing	3	obl	_	Translit=śrenīte|LTranslit=śrenī
 3	পড়ি	পড়া	VERB	_	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Translit=paṛi|LTranslit=paṛā
 4	।	।	PUNCT	।	_	3	punct	_	Translit=.|LTranslit=.
 
@@ -364,8 +364,8 @@
 # text = মজার গল্পটি কি?
 # translit = majāra galpaṭi ki?
 # text_en = What's the funny story?
-1	মজার	মজা	ADJ	_	Degree=Pos	2	amod	_	Translit=majāra|LTranslit=majā
-2	গল্পটি	গল্প	NOUN	_	Number=Sing	0	root	_	Translit=galpaṭi|LTranslit=galpa
+1	মজার	মজা	NOUN	_	Case=Gen|Number=Sing	2	nmod	_	Translit=majāra|LTranslit=majā
+2	গল্পটি	গল্প	NOUN	_	Case=Nom|Number=Sing	0	root	_	Translit=galpaṭi|LTranslit=galpa
 3	কি	কি	DET	_	PronType=Int	2	det	_	SpaceAfter=No|Translit=ki|LTranslit=ki
 4	?	?	PUNCT	?	_	2	punct	_	Translit=?|LTranslit=?
 
@@ -386,10 +386,10 @@
 # text = বাবা আমরা কি রিক্সায় ঘুরতে যাব?
 # translit = bābā āmarā ki riksāŷa ghurate yāba?
 # text_en = Dad, are we going to ride a rickshaw?
-1	বাবা	বাবা	NOUN	_	Case=Nom|Number=Sing	5	iobj	_	Translit=bābā|LTranslit=bābā
+1	বাবা	বাবা	NOUN	_	Case=Nom|Number=Sing	5	vocative	_	Translit=bābā|LTranslit=bābā
 2	আমরা	আমি	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	Translit=āmarā|LTranslit=āmi
-3	কি	কি	DET	_	PronType=Int	5	det	_	Translit=ki|LTranslit=ki
-4	রিক্সায়	রিক্সা	NOUN	_	Number=Sing	5	obj	_	Translit=riksāŷa|LTranslit=riksā
+3	কি	কি	PART	_	PartType=Int	5	advmod	_	Translit=ki|LTranslit=ki
+4	রিক্সায়	রিক্সা	NOUN	_	Case=Loc|Number=Sing	5	obl	_	Translit=riksāŷa|LTranslit=riksā
 5	ঘুরতে	ঘোরা	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	Translit=ghurate|LTranslit=ghorā
 6	যাব	যাওয়া	VERB	_	Mood=Ind|Person=1|Tense=Fut|VerbForm=Fin	5	compound	_	SpaceAfter=No|Translit=yāba|LTranslit=yāoŷā
 7	?	?	PUNCT	?	_	5	punct	_	Translit=?|LTranslit=?
@@ -427,8 +427,8 @@
 # translit = āmādera deśera patākāra raṁ sabuja,tumi jāno ki?
 # text_en = The color of our country's flag is green, you know?
 1	আমাদের	আমি	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	2	nmod:poss	_	LTranslit=āmi|Translit=āmādera
-2	দেশের	দেশ	NOUN	_	Number=Sing	3	nmod	_	Translit=deśera|LTranslit=deśa
-3	পতাকার	পতাকা	NOUN	_	Number=Sing	4	nmod	_	Translit=patākāra|LTranslit=patākā
+2	দেশের	দেশ	NOUN	_	Case=Gen|Number=Sing	3	nmod	_	Translit=deśera|LTranslit=deśa
+3	পতাকার	পতাকা	NOUN	_	Case=Gen|Number=Sing	4	nmod	_	Translit=patākāra|LTranslit=patākā
 4	রং	রং	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	Translit=raṁ|LTranslit=raṁ
 5	সবুজ	সবুজ	ADJ	_	Degree=Pos	8	ccomp	_	SpaceAfter=No|Translit=sabuja|LTranslit=sabuja
 6	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
@@ -442,7 +442,7 @@
 # translit = āja klāse ki śikhiŷeche?
 # text_en = What was taught in class today?
 1	আজ	আজ	NOUN	_	Case=Nom|Number=Sing	4	obl	_	Translit=āja|LTranslit=āja
-2	ক্লাসে	ক্লাস	NOUN	_	Number=Sing	4	obj	_	Translit=klāse|LTranslit=klāsa
+2	ক্লাসে	ক্লাস	NOUN	_	Case=Loc|Number=Sing	4	obj	_	Translit=klāse|LTranslit=klāsa
 3	কি	কি	PRON	_	PronType=Int	4	nsubj:pass	_	Translit=ki|LTranslit=ki
 4	শিখিয়েছে	শেখা	VERB	_	Mood=Ind|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|Translit=śikhiŷeche|LTranslit=śekhā
 5	?	?	PUNCT	?	_	4	punct	_	Translit=?|LTranslit=?
@@ -475,7 +475,7 @@
 # text_en = Can you draw the flag of our country?
 1	তুমি	তুমি	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	LTranslit=tumi|Translit=tumi
 2	আমাদের	আমি	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	3	nmod:poss	_	LTranslit=āmi|Translit=āmādera
-3	দেশের	দেশ	NOUN	_	Number=Sing	4	compound	_	Translit=deśera|LTranslit=deśa
+3	দেশের	দেশ	NOUN	_	Case=Gen|Number=Sing	4	compound	_	Translit=deśera|LTranslit=deśa
 4	পতাকা	পতাকা	NOUN	_	Case=Nom|Number=Sing	5	obj	_	Translit=patākā|LTranslit=patākā
 5	আঁকতে	আঁকা	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	Translit=ām̃kate|LTranslit=ām̃kā
 6	পার	পারা	AUX	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No|Translit=pāra|LTranslit=pārā
@@ -525,7 +525,7 @@
 # text_en = I saw an elephant at school today.
 1	আমি	আমি	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Translit=āmi|LTranslit=āmi
 2	আজ	আজ	ADV	_	_	5	advmod	_	Translit=āja|LTranslit=āja
-3	স্কুলে	স্কুল	NOUN	_	Number=Sing	5	obl	_	Translit=skule|LTranslit=skula
+3	স্কুলে	স্কুল	NOUN	_	Case=Loc|Number=Sing	5	obl	_	Translit=skule|LTranslit=skula
 4	হাতি	হাতি	NOUN	_	Case=Nom|Number=Sing	5	obj	_	Translit=hāti|LTranslit=hāti
 5	দেখেছি	দেখা	VERB	_	Aspect=Perf|Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Translit=dekhechi|LTranslit=dekhā
 6	।	।	PUNCT	।	_	5	punct	_	Translit=.|LTranslit=.
