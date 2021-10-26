@@ -174,7 +174,7 @@
 # text = তাদের নাম কি?
 # translit = tādera nāma ki?
 # text_en = What are their names?
-1	তাদের	তারা	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	2	nmod:poss	_	Translit=tādera|LTranslit=tārā
+1	তাদের	সে	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	2	nmod:poss	_	Translit=tādera|LTranslit=se
 2	নাম	নাম	NOUN	_	Number=Plur	0	root	_	Translit=nāma|LTranslit=nāma
 3	কি	কি	DET	_	PronType=Int	2	det	_	SpaceAfter=No|Translit=ki|LTranslit=ki
 4	?	?	PUNCT	?	_	2	punct	_	Translit=?|LTranslit=?
