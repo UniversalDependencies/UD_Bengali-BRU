@@ -426,7 +426,7 @@
 # text = আমাদের দেশের পতাকার রং সবুজ,তুমি জানো কি?
 # translit = āmādera deśera patākāra raṁ sabuja,tumi jāno ki?
 # text_en = The color of our country's flag is green, you know what?
-1	আমাদের	আমরা	PRON	_	PronType=Prs	2	nmod	_	Translit=āmādera|LTranslit=āmarā
+1	আমাদের	আমি	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	2	nmod:poss	_	LTranslit=āmi|Translit=āmādera
 2	দেশের	দেশ	NOUN	_	Number=Sing	3	nmod	_	Translit=deśera|LTranslit=deśa
 3	পতাকার	পতাকা	NOUN	_	Number=Sing	4	nmod	_	Translit=patākāra|LTranslit=patākā
 4	রং	রং	NOUN	_	Number=Sing	5	nsubj	_	Translit=raṁ|LTranslit=raṁ
@@ -474,7 +474,7 @@
 # translit = tumi āmādera deśera patākā ām̃kate pāra?
 # text_en = Can you draw the flag of our country?
 1	তুমি	তুমি	PRON	_	PronType=Prs	5	nsubj	_	Translit=tumi|LTranslit=tumi
-2	আমাদের	আমরা	PRON	_	PronType=Prs	3	nmod	_	Translit=āmādera|LTranslit=āmarā
+2	আমাদের	আমি	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	3	nmod:poss	_	LTranslit=āmi|Translit=āmādera
 3	দেশের	দেশ	NOUN	_	Number=Sing	4	compound	_	Translit=deśera|LTranslit=deśa
 4	পতাকা	পতাকা	NOUN	_	Number=Sing	5	obj	_	Translit=patākā|LTranslit=patākā
 5	আঁকতে	আঁকা	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	Translit=ām̃kate|LTranslit=ām̃kā
@@ -486,7 +486,7 @@
 # translit = tumi āmādera jātīŷa patākā ām̃kate pāra?
 # text_en = Can you draw our national flag?
 1	তুমি	তুমি	PRON	_	PronType=Prs	5	nsubj	_	Translit=tumi|LTranslit=tumi
-2	আমাদের	আমরা	PRON	_	PronType=Prs	4	nmod:poss	_	Translit=āmādera|LTranslit=āmarā
+2	আমাদের	আমি	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	4	nmod:poss	_	LTranslit=āmi|Translit=āmādera
 3	জাতীয়	জাতীয়	ADJ	_	Degree=Pos	4	amod	_	Translit=jātīŷa|LTranslit=jātīŷa
 4	পতাকা	পতাকা	NOUN	_	Number=Sing	5	obj	_	Translit=patākā|LTranslit=patākā
 5	আঁকতে	আঁকা	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	Translit=ām̃kate|LTranslit=ām̃kā
