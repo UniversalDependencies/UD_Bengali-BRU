@@ -84,7 +84,7 @@
 # text_en = Yes, I can sing.
 1	হ্যাঁ	হ্যাঁ	INTJ	_	_	5	discourse	_	SpaceAfter=No|Translit=hyām̃|LTranslit=hyām̃
 2	,	,	PUNCT	,	_	5	punct	_	Translit=,|LTranslit=,
-3	আমি	আমি	PRON	_	PronType=Prs	5	nsubj	_	Translit=āmi|LTranslit=āmi
+3	আমি	আমি	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Translit=āmi|LTranslit=āmi
 4	গান	গান	NOUN	_	Number=Sing	5	obj	_	Translit=gāna|LTranslit=gāna
 5	গাইতে	গাওয়া	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	Translit=gāite|LTranslit=gāoŷā
 6	পারি	পারা	AUX	_	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	Translit=pāri|LTranslit=pārā
@@ -108,7 +108,7 @@
 2	সোনার	সোনা	ADJ	_	Degree=Pos	3	amod	_	Translit=sonāra|LTranslit=sonā
 3	বাংলা	বাংলা	NOUN	_	Number=Sing	7	vocative	_	SpaceAfter=No|Translit=bāṁlā|LTranslit=bāṁlā
 4	,	,	PUNCT	,	_	3	punct	_	Translit=,|LTranslit=,
-5	আমি	আমি	PRON	_	PronType=Prs	7	nsubj	_	Translit=āmi|LTranslit=āmi
+5	আমি	আমি	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	Translit=āmi|LTranslit=āmi
 6	তোমায়	তুমি	PRON	_	PronType=Prs	7	obj	_	Translit=tomāŷa|LTranslit=tumi
 7	ভালবাসি	ভালবাসা	VERB	_	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Translit=bhālabāsi|LTranslit=bhālabāsā
 8	।	।	PUNCT	।	_	7	punct	_	Translit=.|LTranslit=.
@@ -258,7 +258,7 @@
 # text = আমি ক্ষুধার্ত ।
 # translit = āmi kṣudhārta .
 # text_en = I'm hungry.
-1	আমি	আমি	PRON	_	PronType=Prs	2	nsubj	_	Translit=āmi|LTranslit=āmi
+1	আমি	আমি	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Translit=āmi|LTranslit=āmi
 2	ক্ষুধার্ত	ক্ষুধা	ADJ	_	Degree=Pos	0	root	_	Translit=kṣudhārta|LTranslit=kṣudhā
 3	।	।	PUNCT	।	_	2	punct	_	Translit=.|LTranslit=.
 
@@ -279,7 +279,7 @@
 # text_en = No, I don't wash.
 1	না	না	INTJ	_	_	4	discourse	_	SpaceAfter=No|Translit=nā|LTranslit=nā
 2	,	,	PUNCT	,	_	4	punct	_	Translit=,|LTranslit=,
-3	আমি	আমি	PRON	_	PronType=Prs	4	nsubj	_	Translit=āmi|LTranslit=āmi
+3	আমি	আমি	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Translit=āmi|LTranslit=āmi
 4	ধোবো	ধোয়া	VERB	_	Mood=Ind|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	Translit=dhobo|LTranslit=dhoŷā
 5	না	না	PART	_	_	4	advmod	_	Translit=nā|LTranslit=nā
 6	।	।	PUNCT	।	_	4	punct	_	Translit=.|LTranslit=.
@@ -341,7 +341,7 @@
 # text_en = No, I will not eat.
 1	না	না	INTJ	_	_	4	discourse	_	SpaceAfter=No|Translit=nā|LTranslit=nā
 2	,	,	PUNCT	,	_	4	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
-3	আমি	আমি	PRON	_	PronType=Prs	4	nsubj	_	Translit=āmi|LTranslit=āmi
+3	আমি	আমি	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Translit=āmi|LTranslit=āmi
 4	খাব	খাওয়া	VERB	_	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Translit=khāba|LTranslit=khāoŷā
 5	না	না	PART	_	_	4	advmod	_	Translit=nā|LTranslit=nā
 6	।	।	PUNCT	।	_	4	punct	_	Translit=.|LTranslit=.
@@ -377,7 +377,7 @@
 2	খেয়ে	খাওয়া	VERB	_	Aspect=Perf|VerbForm=Part	7	advcl	_	Translit=kheŷe|LTranslit=khāoŷā
 3	নাও	নেয়া	VERB	_	Mood=Imp|Person=2|Tense=Pres|VerbForm=Fin	2	compound	_	Translit=nāo|LTranslit=neŷā
 4	তারপর	তারপর	SCONJ	_	_	7	mark	_	Translit=tārapara|LTranslit=tārapara
-5	আমি	আমি	PRON	_	PronType=Prs	7	nsubj	_	Translit=āmi|LTranslit=āmi
+5	আমি	আমি	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	Translit=āmi|LTranslit=āmi
 6	গল্প	গল্প	NOUN	_	Number=Sing	7	obj	_	Translit=galpa|LTranslit=galpa
 7	বলব	বলা	VERB	_	Mood=Ind|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	Translit=balaba|LTranslit=balā
 8	।	।	PUNCT	।	_	7	punct	_	Translit=.|LTranslit=.
@@ -523,7 +523,7 @@
 # text = আমি আজ স্কুলে হাতি দেখেছি ।
 # translit = āmi āja skule hāti dekhechi .
 # text_en = I saw an elephant at school today.
-1	আমি	আমি	PRON	_	PronType=Prs	5	nsubj	_	Translit=āmi|LTranslit=āmi
+1	আমি	আমি	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Translit=āmi|LTranslit=āmi
 2	আজ	আজ	ADV	_	_	5	advmod	_	Translit=āja|LTranslit=āja
 3	স্কুলে	স্কুল	NOUN	_	Number=Sing	5	obl	_	Translit=skule|LTranslit=skula
 4	হাতি	হাতি	NOUN	_	Number=Sing	5	obj	_	Translit=hāti|LTranslit=hāti
@@ -536,7 +536,7 @@
 # text_en = Well, I'll buy you a nice dress.
 1	আচ্ছা	আচ্ছা	INTJ	_	_	8	discourse	_	SpaceAfter=No|Translit=ācchā|LTranslit=ācchā
 2	,	,	PUNCT	,	_	8	punct	_	Translit=,|LTranslit=,
-3	আমি	আমি	PRON	_	PronType=Prs	8	nsubj	_	Translit=āmi|LTranslit=āmi
+3	আমি	আমি	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	Translit=āmi|LTranslit=āmi
 4	তোমাকে	তুমি	PRON	_	PronType=Prs	8	iobj	_	Translit=tomāke|LTranslit=tumi
 5	একটা	একটা	DET	_	Definite=Ind|PronType=Art	7	det	_	Translit=ekaṭā|LTranslit=ekaṭā
 6	সুন্দর	সুন্দর	ADJ	_	Degree=Pos	7	amod	_	Translit=sundara|LTranslit=sundara
@@ -580,7 +580,7 @@
 # text = আমি লেখা শেষ করে কার্টুন দেখব ।
 # translit = āmi lekhā śeṣa kare kārṭuna dekhaba .
 # text_en = I will finish the writing and watch the cartoon.
-1	আমি	আমি	PRON	_	PronType=Prs	6	nsubj	_	Translit=āmi|LTranslit=āmi
+1	আমি	আমি	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	Translit=āmi|LTranslit=āmi
 2	লেখা	লেখা	NOUN	_	Number=Sing|VerbForm=Vnoun	4	obj	_	Translit=lekhā|LTranslit=lekhā
 3	শেষ	শেষ	NOUN	_	Number=Sing	4	compound:lvc	_	Translit=śeṣa|LTranslit=śeṣa
 4	করে	করা	VERB	_	Aspect=Perf|VerbForm=Part	6	advcl	_	Translit=kare|LTranslit=karā
