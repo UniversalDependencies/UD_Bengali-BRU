@@ -29,7 +29,7 @@
 # text = তোমার মা খারাপ, তাই কি ?
 # translit = tomāra mā khārāpa, tāi ki ?
 # text_en = Your mother is bad, so what?
-1	তোমার	তোমার	PRON	_	PronType=Prs	2	nmod	_	Translit=tomāra|LTranslit=tomāra
+1	তোমার	তুমি	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	2	nmod:poss	_	LTranslit=tumi|Translit=tomāra
 2	মা	মা	NOUN	_	Number=Sing	3	nsubj	_	Translit=mā|LTranslit=mā
 3	খারাপ	খারাপ	ADJ	_	Degree=Pos	0	root	_	SpaceAfter=No|Translit=khārāpa|LTranslit=khārāpa
 4	,	,	PUNCT	,	_	3	punct	_	Translit=,|LTranslit=,
@@ -52,7 +52,7 @@
 # text = তোমার বাবার নাম কি ?
 # translit = tomāra bābāra nāma ki ?
 # text_en = What's your father's name?
-1	তোমার	তোমার	PRON	_	PronType=Prs	2	nmod	_	Translit=tomāra|LTranslit=tomāra
+1	তোমার	তুমি	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	2	nmod:poss	_	LTranslit=tumi|Translit=tomāra
 2	বাবার	বাবা	NOUN	_	Number=Sing	3	nmod	_	Translit=bābāra|LTranslit=bābā
 3	নাম	নাম	NOUN	_	Number=Sing	0	root	_	Translit=nāma|LTranslit=nāma
 4	কি	কি	DET	_	PronType=Int	3	det	_	Translit=ki|LTranslit=ki
@@ -157,7 +157,7 @@
 # text = তোমার বন্ধু কতজন?
 # translit = tomāra bandhu katajana?
 # text_en = How many friends do you have?
-1	তোমার	তুমি	PRON	_	PronType=Prs	2	nsubj	_	Translit=tomāra|LTranslit=tumi
+1	তোমার	তুমি	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	2	nmod:poss	_	LTranslit=tumi|Translit=tomāra
 2	বন্ধু	বন্ধু	NOUN	_	Number=Sing	0	root	_	Translit=bandhu|LTranslit=bandhu
 3	কতজন	কত	ADJ	_	Degree=Pos	2	nmod	_	SpaceAfter=No|Translit=katajana|LTranslit=kata
 4	?	?	PUNCT	?	_	2	punct	_	Translit=?|LTranslit=?
@@ -194,7 +194,7 @@
 # text = তোমার বান্ধবী নাই?
 # translit = tomāra bāndhabī nāi?
 # text_en = Don't have a girlfriend?
-1	তোমার	তুমি	PRON	_	PronType=Prs	2	nsubj	_	Translit=tomāra|LTranslit=tumi
+1	তোমার	তুমি	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	2	nmod:poss	_	LTranslit=tumi|Translit=tomāra
 2	বান্ধবী	বান্ধবী	NOUN	_	Number=Sing	0	root	_	Translit=bāndhabī|LTranslit=bāndhabī
 3	নাই	না	DET	_	PronType=Int	2	det	_	SpaceAfter=No|Translit=nāi|LTranslit=nā
 4	?	?	PUNCT	?	_	2	punct	_	Translit=?|LTranslit=?
@@ -304,7 +304,7 @@
 # text = তোমার অসুখ করবে ।
 # translit = tomāra asukha karabe .
 # text_en = It will make you sick.
-1	তোমার	তোমার	PRON	_	PronType=Prs	3	nmod	_	Translit=tomāra|LTranslit=tomāra
+1	তোমার	তুমি	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	3	nmod:poss	_	LTranslit=tumi|Translit=tomāra
 2	অসুখ	অসুখ	NOUN	_	Number=Sing	3	nsubj	_	Translit=asukha|LTranslit=asukha
 3	করবে	করা	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin	0	root	_	Translit=karabe|LTranslit=karā
 4	।	।	PUNCT	।	_	3	punct	_	Translit=.|LTranslit=.
@@ -451,7 +451,7 @@
 # text = তোমার প্রিয় রং কি?
 # translit = tomāra priŷa raṁ ki?
 # text_en = What is your favorite color?
-1	তোমার	তুমি	PRON	_	PronType=Prs	3	nmod:poss	_	Translit=tomāra|LTranslit=tumi
+1	তোমার	তুমি	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	3	nmod:poss	_	LTranslit=tumi|Translit=tomāra
 2	প্রিয়	প্রিয়	ADJ	_	Degree=Pos	3	amod	_	Translit=priŷa|LTranslit=priŷa
 3	রং	রং	NOUN	_	Number=Sing	0	root	_	Translit=raṁ|LTranslit=raṁ
 4	কি	কি	PRON	_	PronType=Int	3	nsubj	_	SpaceAfter=No|Translit=ki|LTranslit=ki
@@ -463,7 +463,7 @@
 # text_en = See, what have I brought for you?
 1	দেখ	দেখা	VERB	_	Mood=Imp|Person=2|Tense=Pres|VerbForm=Fin	6	parataxis	_	SpaceAfter=No|Translit=dekha|LTranslit=dekhā
 2	,	,	PUNCT	_	_	1	punct	_	Translit=,|LTranslit=,
-3	তোমার	তুমি	PRON	_	PronType=Prs	6	obl	_	Translit=tomāra|LTranslit=tumi
+3	তোমার	তুমি	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	6	nmod:poss	_	LTranslit=tumi|Translit=tomāra
 4	জন্য	জন্য	ADP	_	_	3	case	_	Translit=janya|LTranslit=janya
 5	কি	কি	PRON	_	PronType=Int	6	obj	_	Translit=ki|LTranslit=ki
 6	এনেছি	আনা	VERB	_	Aspect=Perf|Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=enechi|LTranslit=ānā
