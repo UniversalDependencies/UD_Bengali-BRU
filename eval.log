@@ -1,33 +1,40 @@
-Sun Feb 11 20:31:02 CET 2018
-perl -I perllib/lib/perl5 -I tools tools/evaluate_treebank.pl --verbose UD_Bengali-BRU
-Running the following version of tools/evaluate_treebank.pl:
-commit c1cb17aec6a5505b56b885f578dc6b1093bb4b30
+Running the following version of UD tools:
+commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Feb 11 20:27:50 2018 +0100
-Already on 'master'
-Your branch is up-to-date with 'origin/master'.
+Date:   Tue Nov 2 22:17:19 2021 +0100
 Evaluating the following revision of UD_Bengali-BRU:
-commit a410d0147e42e2fd2506e85c5c67939cdc53e2fd
+commit 870b8e86702a55666f8fe227515b6bd225259da7
+Merge: 4d4f9c5 7c3a840
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 11 13:47:01 2017 +0100
-WARNING: No data found in './UD_Bengali-BRU'
-Size: counted 1 of 0 words (nodes).
+Size: counted 320 of 320 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Did not find more than 10000 training words.
 Split: Did not find at least 10000 development words.
 Split: Did not find at least 10000 test words.
-Lemmas: No lemmas found.
-Universal POS tags: 0 out of 17 found in the corpus.
-Universal POS tags: source of annotation (from README) factor is 0.1.
-Features: 0 out of 0 total words have one or more features.
-Features: source of annotation (from README) factor is 0.4.
-Universal relations: 0 out of 37 found in the corpus.
-Universal relations: source of annotation (from README) factor is 0.1.
-Genres: found 2 out of 14 known.
-Availability: README does not say Includes text: yes
-Availability: No words found.
-STARS = 0
-UD_Bengali-BRU	0	0
-Switched to branch 'dev'
-Your branch is up-to-date with 'origin/dev'.
+Lemmas: source of annotation (from README) factor is 1.
+Universal POS tags: 14 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 1.
+Features: 226 out of 320 total words have one or more features.
+Features: source of annotation (from README) factor is 1.
+Universal relations: 23 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Udapi:
+               TOTAL          2
+Udapi: found 2 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 320 words.
+Genres: found 1 out of 17 known.
+validate.py --lang bn --max-err=10 UD_Bengali-BRU/bn_bru-ud-test.conllu
+*** PASSED ***
+Validity: 1
+(weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
+(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
+(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
+(weight=0.256410256410256) * (score{size}=0) = 0
+(weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
+(weight=0.0769230769230769) * (score{tags}=0.823529411764706) = 0.0633484162895928
+(weight=0.307692307692308) * (score{udapi}=0.9375) = 0.288461538461538
+(weight=0.0769230769230769) * (score{udeprels}=0.621621621621622) = 0.0478170478170478
+(TOTAL score=0.558510863804981) * (availability=1) * (validity=1) = 0.558510863804981
+STARS = 3
+UD_Bengali-BRU	0.558510863804981	3
