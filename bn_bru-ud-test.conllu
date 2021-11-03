@@ -1,0 +1,600 @@
+# sent_id = dev-s1
+# text = কিছু করি না ।
+# translit = kichu kari nā .
+# text_en = I don't do anything.
+1	কিছু	কিছু	PRON	_	PronType=Ind	2	obj	_	Translit=kichu|LTranslit=kichu
+2	করি	করা	VERB	_	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Translit=kari|LTranslit=karā
+3	না	না	PART	_	PartType=Neg	2	advmod	_	Translit=nā|LTranslit=nā
+4	।	।	PUNCT	।	_	2	punct	_	Translit=.|LTranslit=.
+
+# sent_id = dev-s2
+# text = খেয়েছ তুমি ?
+# translit = kheŷecha tumi ?
+# text_en = Did you eat?
+1	খেয়েছ	খাওয়া	VERB	_	Aspect=Perf|Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Translit=kheŷecha|LTranslit=khāoŷā
+2	তুমি	তুমি	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	1	nsubj	_	LTranslit=tumi|Translit=tumi
+3	?	?	PUNCT	?	_	1	punct	_	Translit=?|LTranslit=?
+
+# sent_id = dev-s3
+# text = মা খাবার দয়ে নাই ।
+# translit = mā khābāra daŷe nāi .
+# text_en = Mother is not responsible for food.
+1	মা	মা	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	Translit=mā|LTranslit=mā
+2	খাবার	খাবার	NOUN	_	Case=Nom|Number=Sing	3	obj	_	Translit=khābāra|LTranslit=khābāra
+3	দয়ে	দেত্তয়া	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Translit=daŷe|LTranslit=dettaŷā
+4	নাই	না	PART	_	PartType=Neg	3	advmod	_	Translit=nāi|LTranslit=nā
+5	।	।	PUNCT	।	_	3	punct	_	Translit=.|LTranslit=.
+
+# sent_id = dev-s4
+# text = তোমার মা খারাপ, তাই কি ?
+# translit = tomāra mā khārāpa, tāi ki ?
+# text_en = Your mother is bad, so what?
+1	তোমার	তুমি	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	2	nmod:poss	_	LTranslit=tumi|Translit=tomāra
+2	মা	মা	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	Translit=mā|LTranslit=mā
+3	খারাপ	খারাপ	ADJ	_	Degree=Pos	0	root	_	SpaceAfter=No|Translit=khārāpa|LTranslit=khārāpa
+4	,	,	PUNCT	,	_	3	punct	_	Translit=,|LTranslit=,
+5	তাই	তাই	DET	_	PronType=Dem	3	parataxis	_	Translit=tāi|LTranslit=tāi
+6	কি	কি	DET	_	PronType=Int	5	compound	_	Translit=ki|LTranslit=ki
+7	?	?	PUNCT	?	_	5	punct	_	Translit=?|LTranslit=?
+
+# sent_id = dev-s5
+# text = না , আমার মা ভাল ।
+# translit = nā , āmāra mā bhāla .
+# text_en = No, my mother is fine.
+1	না	না	INTJ	_	_	5	discourse	_	Translit=nā|LTranslit=nā
+2	,	,	PUNCT	,	_	5	punct	_	Translit=,|LTranslit=,
+3	আমার	আমি	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	nmod:poss	_	LTranslit=āmi|Translit=āmāra
+4	মা	মা	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	Translit=mā|LTranslit=mā
+5	ভাল	ভাল	ADJ	_	Degree=Pos	0	root	_	Translit=bhāla|LTranslit=bhāla
+6	।	।	PUNCT	।	_	5	punct	_	Translit=.|LTranslit=.
+
+# sent_id = dev-s6
+# text = তোমার বাবার নাম কি ?
+# translit = tomāra bābāra nāma ki ?
+# text_en = What's your father's name?
+1	তোমার	তুমি	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	2	nmod:poss	_	LTranslit=tumi|Translit=tomāra
+2	বাবার	বাবা	NOUN	_	Case=Gen|Number=Sing	3	nmod:poss	_	Translit=bābāra|LTranslit=bābā
+3	নাম	নাম	NOUN	_	Case=Nom|Number=Sing	0	root	_	Translit=nāma|LTranslit=nāma
+4	কি	কি	DET	_	PronType=Int	3	det	_	Translit=ki|LTranslit=ki
+5	?	?	PUNCT	?	_	3	punct	_	Translit=?|LTranslit=?
+
+# sent_id = dev-s7
+# text = আমার বাবার নাম ফারুক ।
+# translit = āmāra bābāra nāma phāruka .
+# text_en = My father's name is Farooq.
+1	আমার	আমি	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod:poss	_	LTranslit=āmi|Translit=āmāra
+2	বাবার	বাবা	NOUN	_	Case=Gen|Number=Sing	4	nmod:poss	_	Translit=bābāra|LTranslit=bābā
+3	নাম	নাম	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	Translit=nāma|LTranslit=nāma
+4	ফারুক	ফারুক	NOUN	_	Case=Nom|Number=Sing	0	root	_	Translit=phāruka|LTranslit=phāruka
+5	।	।	PUNCT	।	_	4	punct	_	Translit=.|LTranslit=.
+
+# sent_id = dev-s8
+# text = তুমি গান গাইতে পারো ?
+# translit = tumi gāna gāite pāro ?
+# text_en = Can you sing?
+1	তুমি	তুমি	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	LTranslit=tumi|Translit=tumi
+2	গান	গান	NOUN	_	Case=Nom|Number=Sing	3	obj	_	Translit=gāna|LTranslit=gāna
+3	গাইতে	গাওয়া	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	Translit=gāite|LTranslit=gāoŷā
+4	পারো	পারা	AUX	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	Translit=pāro|LTranslit=pārā
+5	?	?	PUNCT	?	_	3	punct	_	Translit=?|LTranslit=?
+
+# sent_id = dev-s9
+# text = হ্যাঁ, আমি গান গাইতে পারি ।
+# translit = hyām̃, āmi gāna gāite pāri .
+# text_en = Yes, I can sing.
+1	হ্যাঁ	হ্যাঁ	INTJ	_	_	5	discourse	_	SpaceAfter=No|Translit=hyām̃|LTranslit=hyām̃
+2	,	,	PUNCT	,	_	5	punct	_	Translit=,|LTranslit=,
+3	আমি	আমি	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Translit=āmi|LTranslit=āmi
+4	গান	গান	NOUN	_	Case=Nom|Number=Sing	5	obj	_	Translit=gāna|LTranslit=gāna
+5	গাইতে	গাওয়া	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	Translit=gāite|LTranslit=gāoŷā
+6	পারি	পারা	AUX	_	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	Translit=pāri|LTranslit=pārā
+7	।	।	PUNCT	।	_	5	punct	_	Translit=.|LTranslit=.
+
+# sent_id = dev-s10
+# text = তুমি কোন ক্লাসে পড়?
+# translit = tumi kona klāse paṛa?
+# text_en = Which class do you study?
+1	তুমি	তুমি	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	LTranslit=tumi|Translit=tumi
+2	কোন	কোন	DET	_	PronType=Int	3	det	_	Translit=kona|LTranslit=kona
+3	ক্লাসে	ক্লাস	NOUN	_	Case=Loc|Number=Sing	4	obj	_	Translit=klāse|LTranslit=klāsa
+4	পড়	পড়	VERB	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=paṛa|LTranslit=paṛa
+5	?	?	PUNCT	?	_	4	punct	_	Translit=?|LTranslit=?
+
+# sent_id = dev-s11
+# text = আমার সোনার বাংলা, আমি তোমায় ভালবাসি ।
+# translit = āmāra sonāra bāṁlā, āmi tomāŷa bhālabāsi .
+# text_en = My golden Bengali, I love you.
+1	আমার	আমি	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	3	nmod:poss	_	LTranslit=āmi|Translit=āmāra
+2	সোনার	সোনা	ADJ	_	Degree=Pos	3	amod	_	Translit=sonāra|LTranslit=sonā
+3	বাংলা	বাংলা	NOUN	_	Case=Nom|Number=Sing	7	vocative	_	SpaceAfter=No|Translit=bāṁlā|LTranslit=bāṁlā
+4	,	,	PUNCT	,	_	3	punct	_	Translit=,|LTranslit=,
+5	আমি	আমি	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	Translit=āmi|LTranslit=āmi
+6	তোমায়	তুমি	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	7	obj	_	Translit=tomāŷa|LTranslit=tumi
+7	ভালবাসি	ভালবাসা	VERB	_	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Translit=bhālabāsi|LTranslit=bhālabāsā
+8	।	।	PUNCT	।	_	7	punct	_	Translit=.|LTranslit=.
+
+# sent_id = dev-s12
+# text = প্রথম শ্রেনীতে পড়ি ।
+# translit = prathama śrenīte paṛi .
+# text_en = I read in the first class.
+1	প্রথম	প্রথম	ADJ	_	NumType=Ord	2	amod	_	Translit=prathama|LTranslit=prathama
+2	শ্রেনীতে	শ্রেনী	NOUN	_	Case=Loc|Number=Sing	3	obl	_	Translit=śrenīte|LTranslit=śrenī
+3	পড়ি	পড়া	VERB	_	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Translit=paṛi|LTranslit=paṛā
+4	।	।	PUNCT	।	_	3	punct	_	Translit=.|LTranslit=.
+
+# sent_id = dev-s13
+# text = একটা গান গাও ।
+# translit = ekaṭā gāna gāo .
+# text_en = Sing a song.
+1	একটা	একটি	DET	_	Definite=Ind|PronType=Art	2	det	_	Translit=ekaṭā|LTranslit=ekaṭi
+2	গান	গান	NOUN	_	Case=Nom|Number=Sing	3	obj	_	Translit=gāna|LTranslit=gāna
+3	গাও	গাও	VERB	_	Mood=Imp|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Translit=gāo|LTranslit=gāo
+4	।	।	PUNCT	।	_	3	punct	_	Translit=.|LTranslit=.
+
+# sent_id = dev-s14
+# text = তোমাকে কে রেখে আসে?
+# translit = tomāke ke rekhe āse?
+# text_en = Who leaves you?
+1	তোমাকে	তুমি	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	3	obj	_	Translit=tomāke|LTranslit=tumi
+2	কে	কে	PRON	_	PronType=Int	3	nsubj	_	Translit=ke|LTranslit=ke
+3	রেখে	রাখা	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	Translit=rekhe|LTranslit=rākhā
+4	আসে	আসা	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	compound	_	SpaceAfter=No|Translit=āse|LTranslit=āsā
+5	?	?	PUNCT	?	_	3	punct	_	Translit=?|LTranslit=?
+
+# sent_id = dev-s15
+# text = মা রেখে আসে মাঝে মাঝে বাবা ।
+# translit = mā rekhe āse mājhe mājhe bābā .
+# text_en = Sometimes the mother leaves the father.
+1	মা	মা	NOUN	_	Case=Nom|Number=Sing	2	nsubj	_	Translit=mā|LTranslit=mā
+2	রেখে	রাখা	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	Translit=rekhe|LTranslit=rākhā
+3	আসে	আসা	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	2	compound	_	Translit=āse|LTranslit=āsā
+4	মাঝে	মাঝ	ADV	_	PronType=Ind	6	advmod	_	Translit=mājhe|LTranslit=mājha
+5	মাঝে	মাঝ	ADV	_	PronType=Ind	4	fixed	_	Translit=mājhe|LTranslit=mājha
+6	বাবা	বাবা	NOUN	_	Case=Nom|Number=Sing	2	nsubj	_	Translit=bābā|LTranslit=bābā
+7	।	।	PUNCT	।	_	2	punct	_	Translit=.|LTranslit=.
+
+# sent_id = dev-s16
+# text = তোমার বন্ধু কতজন?
+# translit = tomāra bandhu katajana?
+# text_en = How many friends do you have?
+1	তোমার	তুমি	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	2	nmod:poss	_	LTranslit=tumi|Translit=tomāra
+2	বন্ধু	বন্ধু	NOUN	_	Case=Nom|Number=Sing	0	root	_	Translit=bandhu|LTranslit=bandhu
+3	কতজন	কত	ADJ	_	Degree=Pos	2	nmod	_	SpaceAfter=No|Translit=katajana|LTranslit=kata
+4	?	?	PUNCT	?	_	2	punct	_	Translit=?|LTranslit=?
+
+# sent_id = dev-s17
+# text = চার জন ।
+# translit = cāra jana .
+# text_en = Four.
+1	চার	চার	NUM	_	NumType=Card	0	root	_	Translit=cāra|LTranslit=cāra
+2	জন	জন	NOUN	_	Case=Nom|Number=Plur	1	compound	_	Translit=jana|LTranslit=jana
+3	।	।	PUNCT	।	_	1	punct	_	Translit=.|LTranslit=.
+
+# sent_id = dev-s18
+# text = তাদের নাম কি?
+# translit = tādera nāma ki?
+# text_en = What are their names?
+1	তাদের	সে	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	2	nmod:poss	_	Translit=tādera|LTranslit=se
+2	নাম	নাম	NOUN	_	Case=Nom|Number=Plur	0	root	_	Translit=nāma|LTranslit=nāma
+3	কি	কি	DET	_	PronType=Int	2	det	_	SpaceAfter=No|Translit=ki|LTranslit=ki
+4	?	?	PUNCT	?	_	2	punct	_	Translit=?|LTranslit=?
+
+# sent_id = dev-s19
+# text = রাকিব, সাকিব, বর্ণালী ।
+# translit = rākiba, sākiba, barṇālī .
+# text_en = Rakib, Shakib, Barnali.
+1	রাকিব	রাকিব	PROPN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No|Translit=rākiba|LTranslit=rākiba
+2	,	,	PUNCT	,	_	3	punct	_	Translit=,|LTranslit=,
+3	সাকিব	সাকিব	PROPN	_	Case=Nom|Number=Sing	1	conj	_	SpaceAfter=No|Translit=sākiba|LTranslit=sākiba
+4	,	,	PUNCT	,	_	5	punct	_	Translit=,|LTranslit=,
+5	বর্ণালী	বর্ণালী	PROPN	_	Case=Nom|Number=Sing	1	conj	_	Translit=barṇālī|LTranslit=barṇālī
+6	।	।	PUNCT	।	_	1	punct	_	Translit=.|LTranslit=.
+
+# sent_id = dev-s20
+# text = তোমার বান্ধবী নাই?
+# translit = tomāra bāndhabī nāi?
+# text_en = Don't have a girlfriend?
+1	তোমার	তুমি	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	2	nmod:poss	_	LTranslit=tumi|Translit=tomāra
+2	বান্ধবী	বান্ধবী	NOUN	_	Case=Nom|Number=Sing	0	root	_	Translit=bāndhabī|LTranslit=bāndhabī
+3	নাই	না	DET	_	PronType=Int	2	det	_	SpaceAfter=No|Translit=nāi|LTranslit=nā
+4	?	?	PUNCT	?	_	2	punct	_	Translit=?|LTranslit=?
+
+# sent_id = dev-s21
+# text = একজন আছে ।
+# translit = ekajana āche .
+# text_en = There is one.
+1	একজন	একজন	NUM	_	NumType=Card	2	nsubj	_	Translit=ekajana|LTranslit=ekajana
+2	আছে	আছে	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Translit=āche|LTranslit=āche
+3	।	।	PUNCT	।	_	2	punct	_	Translit=.|LTranslit=.
+
+# sent_id = dev-s22
+# text = তার নাম কি?
+# translit = tāra nāma ki?
+# text_en = What is her name?
+1	তার	সে	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	nmod:poss	_	LTranslit=se|Translit=tāra
+2	নাম	নাম	NOUN	_	Case=Nom|Number=Sing	0	root	_	Translit=nāma|LTranslit=nāma
+3	কি	কি	DET	_	PronType=Int	2	det	_	SpaceAfter=No|Translit=ki|LTranslit=ki
+4	?	?	PUNCT	?	_	2	punct	_	Translit=?|LTranslit=?
+
+# sent_id = dev-s23
+# text = তার নাম বর্ণালী ।
+# translit = tāra nāma barṇālī .
+# text_en = Her name is Barnali.
+1	তার	সে	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	LTranslit=se|Translit=tāra
+2	নাম	নাম	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	Translit=nāma|LTranslit=nāma
+3	বর্ণালী	বর্ণালী	PROPN	_	Case=Nom|Number=Sing	0	root	_	Translit=barṇālī|LTranslit=barṇālī
+4	।	।	PUNCT	।	_	3	punct	_	Translit=.|LTranslit=.
+
+# sent_id = dev-s24
+# text = হুম,খুব ভালো ।
+# translit = huma,khuba bhālo .
+# text_en = Hmmm, very good.
+1	হুম	হঁমা	INTJ	_	_	4	discourse	_	SpaceAfter=No|Translit=huma|LTranslit=ham̃mā
+2	,	,	PUNCT	,	_	4	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+3	খুব	খুব	ADJ	_	Degree=Pos	4	amod	_	Translit=khuba|LTranslit=khuba
+4	ভালো	ভালো	ADJ	_	Degree=Pos	0	root	_	Translit=bhālo|LTranslit=bhālo
+5	।	।	PUNCT	।	_	4	punct	_	Translit=.|LTranslit=.
+
+# sent_id = dev-s25
+# text = চল বাবা খেতে যাই ।
+# translit = cala bābā khete yāi .
+# text_en = Let's go eat, dad.
+1	চল	চল	VERB	_	Mood=Imp|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Translit=cala|LTranslit=cala
+2	বাবা	বাবা	NOUN	_	Case=Nom|Number=Sing	1	obj	_	Translit=bābā|LTranslit=bābā
+3	খেতে	খাওয়া	VERB	_	Aspect=Imp|VerbForm=Part	1	xcomp	_	Translit=khete|LTranslit=khāoŷā
+4	যাই	যাওয়া	VERB	_	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	3	compound	_	Translit=yāi|LTranslit=yāoŷā
+5	।	।	PUNCT	।	_	1	punct	_	Translit=.|LTranslit=.
+
+# sent_id = dev-s26
+# text = চল খেতে যাই ।
+# translit = cala khete yāi .
+# text_en = Let's go eat.
+1	চল	চল	VERB	_	Mood=Imp|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Translit=cala|LTranslit=cala
+2	খেতে	খাওয়া	VERB	_	Aspect=Imp|VerbForm=Part	1	xcomp	_	Translit=khete|LTranslit=khāoŷā
+3	যাই	যাওয়া	VERB	_	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	2	compound	_	Translit=yāi|LTranslit=yāoŷā
+4	।	।	PUNCT	।	_	1	punct	_	Translit=.|LTranslit=.
+
+# sent_id = dev-s27
+# text = আমি ক্ষুধার্ত ।
+# translit = āmi kṣudhārta .
+# text_en = I'm hungry.
+1	আমি	আমি	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Translit=āmi|LTranslit=āmi
+2	ক্ষুধার্ত	ক্ষুধা	ADJ	_	Degree=Pos	0	root	_	Translit=kṣudhārta|LTranslit=kṣudhā
+3	।	।	PUNCT	।	_	2	punct	_	Translit=.|LTranslit=.
+
+# sent_id = dev-s28
+# text = বাবা আগে হাত ধুয়ে নাও ।
+# translit = bābā āge hāta dhuŷe nāo .
+# text_en = Dad, wash your hands first.
+1	বাবা	বাবা	NOUN	_	Case=Nom|Number=Sing	4	iobj	_	Translit=bābā|LTranslit=bābā
+2	আগে	আগে	ADV	_	_	4	advmod	_	Translit=āge|LTranslit=āge
+3	হাত	হাত	NOUN	_	Case=Nom|Number=Plur	4	obj	_	Translit=hāta|LTranslit=hāta
+4	ধুয়ে	ধোয়া	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	Translit=dhuŷe|LTranslit=dhoŷā
+5	নাও	নেয়া	VERB	_	Mood=Imp|Person=2|Tense=Pres|VerbForm=Fin	4	compound	_	Translit=nāo|LTranslit=neŷā
+6	।	।	PUNCT	।	_	4	punct	_	Translit=.|LTranslit=.
+
+# sent_id = dev-s29
+# text = না, আমি ধোবো না ।
+# translit = nā, āmi dhobo nā .
+# text_en = No, I don't wash.
+1	না	না	INTJ	_	_	4	discourse	_	SpaceAfter=No|Translit=nā|LTranslit=nā
+2	,	,	PUNCT	,	_	4	punct	_	Translit=,|LTranslit=,
+3	আমি	আমি	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Translit=āmi|LTranslit=āmi
+4	ধোবো	ধোয়া	VERB	_	Mood=Ind|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	Translit=dhobo|LTranslit=dhoŷā
+5	না	না	PART	_	PartType=Neg	4	advmod	_	Translit=nā|LTranslit=nā
+6	।	।	PUNCT	।	_	4	punct	_	Translit=.|LTranslit=.
+
+# sent_id = dev-s30
+# text = হাত না ধুয়ে খেলে কি হয়, তুমি জানো না?
+# translit = hāta nā dhuŷe khele ki haŷa, tumi jāno nā?
+# text_en = What happens if you do not wash your hands, you do not know?
+1	হাত	হাত	NOUN	_	Case=Nom|Number=Plur	3	iobj	_	Translit=hāta|LTranslit=hāta
+2	না	না	PART	_	PartType=Neg	3	advmod	_	Translit=nā|LTranslit=nā
+3	ধুয়ে	ধোয়া	VERB	_	Aspect=Perf|VerbForm=Part	9	advcl	_	Translit=dhuŷe|LTranslit=dhoŷā
+4	খেলে	খাওয়া	VERB	_	Mood=Cnd|VerbForm=Part	3	xcomp	_	Translit=khele|LTranslit=khāoŷā
+5	কি	কি	DET	_	PronType=Int	4	det	_	Translit=ki|LTranslit=ki
+6	হয়	হওয়া	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	compound	_	SpaceAfter=No|Translit=haŷa|LTranslit=haoŷā
+7	,	,	PUNCT	,	_	3	punct	_	Translit=,|LTranslit=,
+8	তুমি	তুমি	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	_	LTranslit=tumi|Translit=tumi
+9	জানো	জানা	VERB	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Translit=jāno|LTranslit=jānā
+10	না	না	PART	_	PartType=Neg	9	advmod	_	SpaceAfter=No|Translit=nā|LTranslit=nā
+11	?	?	PUNCT	?	_	9	punct	_	Translit=?|LTranslit=?
+
+# sent_id = dev-s31
+# text = তোমার অসুখ করবে ।
+# translit = tomāra asukha karabe .
+# text_en = It will make you sick.
+1	তোমার	তুমি	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	3	nmod:poss	_	LTranslit=tumi|Translit=tomāra
+2	অসুখ	অসুখ	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	Translit=asukha|LTranslit=asukha
+3	করবে	করা	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin	0	root	_	Translit=karabe|LTranslit=karā
+4	।	।	PUNCT	।	_	3	punct	_	Translit=.|LTranslit=.
+
+# sent_id = dev-s32
+# text = তাহলে হাত ধোবো ।
+# translit = tāhale hāta dhobo .
+# text_en = Then I will wash my hands.
+1	তাহলে	তাহলে	ADV	_	_	3	advmod	_	Translit=tāhale|LTranslit=tāhale
+2	হাত	হাত	NOUN	_	Case=Nom|Number=Plur	3	obj	_	Translit=hāta|LTranslit=hāta
+3	ধোবো	ধোয়া	VERB	_	Mood=Ind|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	Translit=dhobo|LTranslit=dhoŷā
+4	।	।	PUNCT	।	_	3	punct	_	Translit=.|LTranslit=.
+
+# sent_id = dev-s33
+# text = কার্টুন দেখি ।
+# translit = kārṭuna dekhi .
+# text_en = I watch cartoons.
+1	কার্টুন	কার্টুন	NOUN	_	Case=Nom|Number=Sing	2	obj	_	Translit=kārṭuna|LTranslit=kārṭuna
+2	দেখি	দেখা	VERB	_	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Translit=dekhi|LTranslit=dekhā
+3	।	।	PUNCT	।	_	2	punct	_	Translit=.|LTranslit=.
+
+# sent_id = dev-s34
+# text = তুমি কি খেয়েছ?
+# translit = tumi ki kheŷecha?
+# text_en = Did you eat?
+1	তুমি	তুমি	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	LTranslit=tumi|Translit=tumi
+2	কি	কি	DET	_	PronType=Int	3	det	_	Translit=ki|LTranslit=ki
+3	খেয়েছ	খাওয়া	VERB	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=kheŷecha|LTranslit=khāoŷā
+4	?	?	PUNCT	?	_	3	punct	_	Translit=?|LTranslit=?
+
+# sent_id = dev-s35a
+# text = না,আমি খাব না ।
+# translit = nā,āmi khāba nā .
+# text_en = No, I will not eat.
+1	না	না	INTJ	_	_	4	discourse	_	SpaceAfter=No|Translit=nā|LTranslit=nā
+2	,	,	PUNCT	,	_	4	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+3	আমি	আমি	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Translit=āmi|LTranslit=āmi
+4	খাব	খাওয়া	VERB	_	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Translit=khāba|LTranslit=khāoŷā
+5	না	না	PART	_	PartType=Neg	4	advmod	_	Translit=nā|LTranslit=nā
+6	।	।	PUNCT	।	_	4	punct	_	Translit=.|LTranslit=.
+
+# sent_id = dev-s35b
+# text = তুমি যদি খাও তাহলে একটা মজার গল্প বলব ।
+# translit = tumi yadi khāo tāhale ekaṭā majāra galpa balaba .
+# text_en = I'll tell you a funny story if you eat.
+1	তুমি	তুমি	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	LTranslit=tumi|Translit=tumi
+2	যদি	যদি	SCONJ	_	_	3	mark	_	Translit=yadi|LTranslit=yadi
+3	খাও	খাওয়া	VERB	_	Mood=Ind|Person=2|Tense=Fut|VerbForm=Fin	8	advcl	_	Translit=khāo|LTranslit=khāoŷā
+4	তাহলে	তাহলে	ADV	_	_	8	advmod	_	Translit=tāhale|LTranslit=tāhale
+5	একটা	একটা	DET	_	Definite=Ind|PronType=Art	7	det	_	Translit=ekaṭā|LTranslit=ekaṭā
+6	মজার	মজা	ADJ	_	Degree=Pos	7	amod	_	Translit=majāra|LTranslit=majā
+7	গল্প	গল্প	NOUN	_	Case=Nom|Number=Sing	8	obj	_	Translit=galpa|LTranslit=galpa
+8	বলব	বলা	VERB	_	Mood=Cnd|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	Translit=balaba|LTranslit=balā
+9	।	।	PUNCT	।	_	8	punct	_	Translit=.|LTranslit=.
+
+# sent_id = dev-s36
+# text = মজার গল্পটি কি?
+# translit = majāra galpaṭi ki?
+# text_en = What's the funny story?
+1	মজার	মজা	NOUN	_	Case=Gen|Number=Sing	2	nmod	_	Translit=majāra|LTranslit=majā
+2	গল্পটি	গল্প	NOUN	_	Case=Nom|Number=Sing	0	root	_	Translit=galpaṭi|LTranslit=galpa
+3	কি	কি	DET	_	PronType=Int	2	det	_	SpaceAfter=No|Translit=ki|LTranslit=ki
+4	?	?	PUNCT	?	_	2	punct	_	Translit=?|LTranslit=?
+
+# sent_id = dev-s37
+# text = আগে খেয়ে নাও তারপর আমি গল্প বলব ।
+# translit = āge kheŷe nāo tārapara āmi galpa balaba .
+# text_en = Eat first, then I'll tell the story.
+1	আগে	আগে	ADV	_	_	2	advmod	_	Translit=āge|LTranslit=āge
+2	খেয়ে	খাওয়া	VERB	_	Aspect=Perf|VerbForm=Part	7	advcl	_	Translit=kheŷe|LTranslit=khāoŷā
+3	নাও	নেয়া	VERB	_	Mood=Imp|Person=2|Tense=Pres|VerbForm=Fin	2	compound	_	Translit=nāo|LTranslit=neŷā
+4	তারপর	তারপর	SCONJ	_	_	7	mark	_	Translit=tārapara|LTranslit=tārapara
+5	আমি	আমি	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	Translit=āmi|LTranslit=āmi
+6	গল্প	গল্প	NOUN	_	Case=Nom|Number=Sing	7	obj	_	Translit=galpa|LTranslit=galpa
+7	বলব	বলা	VERB	_	Mood=Ind|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	Translit=balaba|LTranslit=balā
+8	।	।	PUNCT	।	_	7	punct	_	Translit=.|LTranslit=.
+
+# sent_id = dev-s38
+# text = বাবা আমরা কি রিক্সায় ঘুরতে যাব?
+# translit = bābā āmarā ki riksāŷa ghurate yāba?
+# text_en = Dad, are we going to ride a rickshaw?
+1	বাবা	বাবা	NOUN	_	Case=Nom|Number=Sing	5	vocative	_	Translit=bābā|LTranslit=bābā
+2	আমরা	আমি	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	Translit=āmarā|LTranslit=āmi
+3	কি	কি	PART	_	PartType=Int	5	advmod	_	Translit=ki|LTranslit=ki
+4	রিক্সায়	রিক্সা	NOUN	_	Case=Loc|Number=Sing	5	obl	_	Translit=riksāŷa|LTranslit=riksā
+5	ঘুরতে	ঘোরা	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	Translit=ghurate|LTranslit=ghorā
+6	যাব	যাওয়া	VERB	_	Mood=Ind|Person=1|Tense=Fut|VerbForm=Fin	5	compound	_	SpaceAfter=No|Translit=yāba|LTranslit=yāoŷā
+7	?	?	PUNCT	?	_	5	punct	_	Translit=?|LTranslit=?
+
+# sent_id = dev-s39
+# text = এখন রোদ নেই,তাই চশমা পরতে হবে না।
+# translit = ekhana roda nei,tāi caśamā parate habe nā.
+# text_en = Now there is no sun, so you don't have to wear glasses.
+1	এখন	এখন	ADV	_	_	2	advmod	_	Translit=ekhana|LTranslit=ekhana
+2	রোদ	রোদ	NOUN	_	Case=Nom|Number=Sing	7	acl	_	Translit=roda|LTranslit=roda
+3	নেই	নেই	DET	_	_	2	det	_	SpaceAfter=No|Translit=nei|LTranslit=nei
+4	,	,	PUNCT	_	_	2	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+5	তাই	তাই	ADV	_	_	7	mark	_	Translit=tāi|LTranslit=tāi
+6	চশমা	চশমা	NOUN	_	Case=Nom|Number=Sing	7	obj	_	Translit=caśamā|LTranslit=caśamā
+7	পরতে	পরা	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	Translit=parate|LTranslit=parā
+8	হবে	হওয়া	AUX	_	Mood=Ind|Person=2|Tense=Fut|VerbForm=Fin	7	aux	_	Translit=habe|LTranslit=haoŷā
+9	না	না	PART	_	PartType=Neg	7	advmod	_	SpaceAfter=No|Translit=nā|LTranslit=nā
+10	।	।	PUNCT	।	_	7	punct	_	Translit=.|LTranslit=.
+
+# sent_id = dev-s40
+# text = যে ভিক্ষা চায়, তাকে দান কর ।
+# translit = ye bhikṣā cāŷa, tāke dāna kara .
+# text_en = Give alms to him who asks.
+1	যে	যে	PRON	_	PronType=Rel	2	nsubj	_	Translit=ye|LTranslit=ye
+2	ভিক্ষা	ভিক্ষা	VERB	_	VerbForm=Inf	5	acl:relcl	_	Translit=bhikṣā|LTranslit=bhikṣā
+3	চায়	চাওয়া	AUX	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	SpaceAfter=No|Translit=cāŷa|LTranslit=cāoŷā
+4	,	,	PUNCT	_	_	2	punct	_	Translit=,|LTranslit=,
+5	তাকে	সে	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	7	obj	_	LTranslit=se|Translit=tāke
+6	দান	দান	NOUN	_	Case=Nom|Number=Sing	7	compound:lvc	_	Translit=dāna|LTranslit=dāna
+7	কর	করা	VERB	_	Mood=Imp|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Translit=kara|LTranslit=karā
+8	।	।	PUNCT	।	_	7	punct	_	Translit=.|LTranslit=.
+
+# sent_id = dev-s41
+# text = আমাদের দেশের পতাকার রং সবুজ,তুমি জানো কি?
+# translit = āmādera deśera patākāra raṁ sabuja,tumi jāno ki?
+# text_en = The color of our country's flag is green, you know?
+1	আমাদের	আমি	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	2	nmod:poss	_	LTranslit=āmi|Translit=āmādera
+2	দেশের	দেশ	NOUN	_	Case=Gen|Number=Sing	3	nmod	_	Translit=deśera|LTranslit=deśa
+3	পতাকার	পতাকা	NOUN	_	Case=Gen|Number=Sing	4	nmod	_	Translit=patākāra|LTranslit=patākā
+4	রং	রং	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	Translit=raṁ|LTranslit=raṁ
+5	সবুজ	সবুজ	ADJ	_	Degree=Pos	8	ccomp	_	SpaceAfter=No|Translit=sabuja|LTranslit=sabuja
+6	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+7	তুমি	তুমি	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	LTranslit=tumi|Translit=tumi
+8	জানো	জানা	VERB	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Translit=jāno|LTranslit=jānā
+9	কি	কি	PART	_	PartType=Int	8	advmod	_	SpaceAfter=No|Translit=ki|LTranslit=ki
+10	?	?	PUNCT	?	_	8	punct	_	Translit=?|LTranslit=?
+
+# sent_id = dev-s42
+# text = আজ ক্লাসে কি শিখিয়েছে?
+# translit = āja klāse ki śikhiŷeche?
+# text_en = What was taught in class today?
+1	আজ	আজ	NOUN	_	Case=Nom|Number=Sing	4	obl	_	Translit=āja|LTranslit=āja
+2	ক্লাসে	ক্লাস	NOUN	_	Case=Loc|Number=Sing	4	obj	_	Translit=klāse|LTranslit=klāsa
+3	কি	কি	PRON	_	PronType=Int	4	nsubj:pass	_	Translit=ki|LTranslit=ki
+4	শিখিয়েছে	শেখা	VERB	_	Mood=Ind|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|Translit=śikhiŷeche|LTranslit=śekhā
+5	?	?	PUNCT	?	_	4	punct	_	Translit=?|LTranslit=?
+
+# sent_id = dev-s43
+# text = তোমার প্রিয় রং কি?
+# translit = tomāra priŷa raṁ ki?
+# text_en = What is your favorite color?
+1	তোমার	তুমি	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	3	nmod:poss	_	LTranslit=tumi|Translit=tomāra
+2	প্রিয়	প্রিয়	ADJ	_	Degree=Pos	3	amod	_	Translit=priŷa|LTranslit=priŷa
+3	রং	রং	NOUN	_	Case=Nom|Number=Sing	0	root	_	Translit=raṁ|LTranslit=raṁ
+4	কি	কি	PRON	_	PronType=Int	3	nsubj	_	SpaceAfter=No|Translit=ki|LTranslit=ki
+5	?	?	PUNCT	?	_	3	punct	_	Translit=?|LTranslit=?
+
+# sent_id = dev-s44
+# text = দেখ, তোমার জন্য কি এনেছি?
+# translit = dekha, tomāra janya ki enechi?
+# text_en = See, what have I brought for you?
+1	দেখ	দেখা	VERB	_	Mood=Imp|Person=2|Tense=Pres|VerbForm=Fin	6	parataxis	_	SpaceAfter=No|Translit=dekha|LTranslit=dekhā
+2	,	,	PUNCT	_	_	1	punct	_	Translit=,|LTranslit=,
+3	তোমার	তুমি	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	6	obl	_	LTranslit=tumi|Translit=tomāra
+4	জন্য	জন্য	ADP	_	_	3	case	_	Translit=janya|LTranslit=janya
+5	কি	কি	PRON	_	PronType=Int	6	obj	_	Translit=ki|LTranslit=ki
+6	এনেছি	আনা	VERB	_	Aspect=Perf|Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=enechi|LTranslit=ānā
+7	?	?	PUNCT	?	_	6	punct	_	Translit=?|LTranslit=?
+
+# sent_id = dev-s45
+# text = তুমি আমাদের দেশের পতাকা আঁকতে পার?
+# translit = tumi āmādera deśera patākā ām̃kate pāra?
+# text_en = Can you draw the flag of our country?
+1	তুমি	তুমি	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	LTranslit=tumi|Translit=tumi
+2	আমাদের	আমি	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	3	nmod:poss	_	LTranslit=āmi|Translit=āmādera
+3	দেশের	দেশ	NOUN	_	Case=Gen|Number=Sing	4	compound	_	Translit=deśera|LTranslit=deśa
+4	পতাকা	পতাকা	NOUN	_	Case=Nom|Number=Sing	5	obj	_	Translit=patākā|LTranslit=patākā
+5	আঁকতে	আঁকা	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	Translit=ām̃kate|LTranslit=ām̃kā
+6	পার	পারা	AUX	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No|Translit=pāra|LTranslit=pārā
+7	?	?	PUNCT	?	_	5	punct	_	Translit=?|LTranslit=?
+
+# sent_id = dev-s46
+# text = তুমি আমাদের জাতীয় পতাকা আঁকতে পার?
+# translit = tumi āmādera jātīŷa patākā ām̃kate pāra?
+# text_en = Can you draw our national flag?
+1	তুমি	তুমি	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	LTranslit=tumi|Translit=tumi
+2	আমাদের	আমি	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	4	nmod:poss	_	LTranslit=āmi|Translit=āmādera
+3	জাতীয়	জাতীয়	ADJ	_	Degree=Pos	4	amod	_	Translit=jātīŷa|LTranslit=jātīŷa
+4	পতাকা	পতাকা	NOUN	_	Case=Nom|Number=Sing	5	obj	_	Translit=patākā|LTranslit=patākā
+5	আঁকতে	আঁকা	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	Translit=ām̃kate|LTranslit=ām̃kā
+6	পার	পারা	AUX	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No|Translit=pāra|LTranslit=pārā
+7	?	?	PUNCT	?	_	5	punct	_	Translit=?|LTranslit=?
+
+# sent_id = dev-s47
+# text = আজ সারাদিন কি কি করেছ?
+# translit = āja sārādina ki ki karecha?
+# text_en = What did you do all day today?
+1	আজ	আজ	ADV	_	_	5	advmod	_	Translit=āja|LTranslit=āja
+2	সারাদিন	সারাদিন	NOUN	_	Case=Nom|Number=Sing	5	obl	_	Translit=sārādina|LTranslit=sārādina
+3	কি	কি	PRON	_	PronType=Int	5	obj	_	Translit=ki|LTranslit=ki
+4	কি	কি	PRON	_	PronType=Int	3	compound	_	Translit=ki|LTranslit=ki
+5	করেছ	করা	VERB	_	Aspect=Perf|Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=karecha|LTranslit=karā
+6	?	?	PUNCT	?	_	5	punct	_	Translit=?|LTranslit=?
+
+# sent_id = dev-s48
+# text = আজ বই পড়েছি, আর্ট করেছি, গান শিখেছি ।
+# translit = āja bai paṛechi, ārṭa karechi, gāna śikhechi .
+# text_en = Today I have read a book, done art, learned a song.
+1	আজ	আজ	ADV	_	_	3	advmod	_	Translit=āja|LTranslit=āja
+2	বই	বই	NOUN	_	Case=Nom|Number=Sing	3	obj	_	Translit=bai|LTranslit=bai
+3	পড়েছি	পড়া	VERB	_	Aspect=Perf|Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=paṛechi|LTranslit=paṛā
+4	,	,	PUNCT	_	_	6	punct	_	Translit=,|LTranslit=,
+5	আর্ট	আর্ট	NOUN	_	Case=Nom|Number=Sing	6	obj	_	Translit=ārṭa|LTranslit=ārṭa
+6	করেছি	করা	VERB	_	Aspect=Perf|Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No|Translit=karechi|LTranslit=karā
+7	,	,	PUNCT	_	_	9	punct	_	Translit=,|LTranslit=,
+8	গান	গান	NOUN	_	Case=Nom|Number=Sing	9	obj	_	Translit=gāna|LTranslit=gāna
+9	শিখেছি	শেখা	VERB	_	Aspect=Perf|Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	Translit=śikhechi|LTranslit=śekhā
+10	।	।	PUNCT	।	_	3	punct	_	Translit=.|LTranslit=.
+
+# sent_id = dev-s49
+# text = আমি আজ স্কুলে হাতি দেখেছি ।
+# translit = āmi āja skule hāti dekhechi .
+# text_en = I saw an elephant at school today.
+1	আমি	আমি	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Translit=āmi|LTranslit=āmi
+2	আজ	আজ	ADV	_	_	5	advmod	_	Translit=āja|LTranslit=āja
+3	স্কুলে	স্কুল	NOUN	_	Case=Loc|Number=Sing	5	obl	_	Translit=skule|LTranslit=skula
+4	হাতি	হাতি	NOUN	_	Case=Nom|Number=Sing	5	obj	_	Translit=hāti|LTranslit=hāti
+5	দেখেছি	দেখা	VERB	_	Aspect=Perf|Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Translit=dekhechi|LTranslit=dekhā
+6	।	।	PUNCT	।	_	5	punct	_	Translit=.|LTranslit=.
+
+# sent_id = dev-s50
+# text = আচ্ছা, আমি তোমাকে একটা সুন্দর জামা কিনে দিব ।
+# translit = ācchā, āmi tomāke ekaṭā sundara jāmā kine diba .
+# text_en = Well, I'll buy you a nice dress.
+1	আচ্ছা	আচ্ছা	INTJ	_	_	8	discourse	_	SpaceAfter=No|Translit=ācchā|LTranslit=ācchā
+2	,	,	PUNCT	,	_	8	punct	_	Translit=,|LTranslit=,
+3	আমি	আমি	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	Translit=āmi|LTranslit=āmi
+4	তোমাকে	তুমি	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	8	iobj	_	Translit=tomāke|LTranslit=tumi
+5	একটা	একটা	DET	_	Definite=Ind|PronType=Art	7	det	_	Translit=ekaṭā|LTranslit=ekaṭā
+6	সুন্দর	সুন্দর	ADJ	_	Degree=Pos	7	amod	_	Translit=sundara|LTranslit=sundara
+7	জামা	জামা	NOUN	_	Case=Nom|Number=Sing	8	obj	_	Translit=jāmā|LTranslit=jāmā
+8	কিনে	কেনা	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	Translit=kine|LTranslit=kenā
+9	দিব	দেত্তয়া	VERB	_	Mood=Ind|Person=1|Tense=Fut|VerbForm=Fin	8	compound	_	Translit=diba|LTranslit=dettaŷā
+10	।	।	PUNCT	।	_	8	punct	_	Translit=.|LTranslit=.
+
+# sent_id = dev-s51
+# text = এখন পড়তে বসার সময় হয়েছে ।
+# translit = ekhana paṛate basāra samaŷa haŷeche .
+# text_en = Now it's time to sit down to read.
+1	এখন	এখন	ADV	_	_	5	advmod	_	Translit=ekhana|LTranslit=ekhana
+2	পড়তে	পড়া	VERB	_	Aspect=Imp|VerbForm=Part	4	acl	_	Translit=paṛate|LTranslit=paṛā
+3	বসার	বসা	VERB	_	VerbForm=Inf	2	compound	_	Translit=basāra|LTranslit=basā
+4	সময়	সময়	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	Translit=samaŷa|LTranslit=samaŷa
+5	হয়েছে	হওয়া	VERB	_	Aspect=Perf|Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Translit=haŷeche|LTranslit=haoŷā
+6	।	।	PUNCT	।	_	5	punct	_	Translit=.|LTranslit=.
+
+# sent_id = dev-s52
+# text = বই নিয়ে পড়তে বস ।
+# translit = bai niŷe paṛate basa .
+# text_en = Sit down to read a book.
+1	বই	বই	NOUN	_	Case=Nom|Number=Sing	3	obl	_	Translit=bai|LTranslit=bai
+2	নিয়ে	নিয়ে	ADP	_	_	1	case	_	Translit=niŷe|LTranslit=niŷe
+3	পড়তে	পড়া	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	Translit=paṛate|LTranslit=paṛā
+4	বস	বসা	VERB	_	Mood=Imp|Person=2|Tense=Pres|VerbForm=Fin	3	compound	_	Translit=basa|LTranslit=basā
+5	।	।	PUNCT	।	_	3	punct	_	Translit=.|LTranslit=.
+
+# sent_id = dev-s53
+# text = আমার পড়া শেষ হয়েছে ।
+# translit = āmāra paṛā śeṣa haŷeche .
+# text_en = I have finished reading.
+1	আমার	আমি	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod:poss	_	LTranslit=āmi|Translit=āmāra
+2	পড়া	পড়া	NOUN	_	Case=Nom|Number=Sing|VerbForm=Vnoun	4	nsubj	_	Translit=paṛā|LTranslit=paṛā
+3	শেষ	শেষ	NOUN	_	Case=Nom|Number=Sing	4	compound:lvc	_	Translit=śeṣa|LTranslit=śeṣa
+4	হয়েছে	হওয়া	VERB	_	Aspect=Perf|Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Translit=haŷeche|LTranslit=haoŷā
+5	।	।	PUNCT	।	_	4	punct	_	Translit=.|LTranslit=.
+
+# sent_id = dev-s54
+# text = আমি লেখা শেষ করে কার্টুন দেখব ।
+# translit = āmi lekhā śeṣa kare kārṭuna dekhaba .
+# text_en = I will finish the writing and watch the cartoon.
+1	আমি	আমি	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	Translit=āmi|LTranslit=āmi
+2	লেখা	লেখা	NOUN	_	Case=Nom|Number=Sing|VerbForm=Vnoun	4	obj	_	Translit=lekhā|LTranslit=lekhā
+3	শেষ	শেষ	NOUN	_	Case=Nom|Number=Sing	4	compound:lvc	_	Translit=śeṣa|LTranslit=śeṣa
+4	করে	করা	VERB	_	Aspect=Perf|VerbForm=Part	6	advcl	_	Translit=kare|LTranslit=karā
+5	কার্টুন	কার্টুন	NOUN	_	Case=Nom|Number=Sing	6	obj	_	Translit=kārṭuna|LTranslit=kārṭuna
+6	দেখব	দেখা	VERB	_	Mood=Ind|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	Translit=dekhaba|LTranslit=dekhā
+7	।	।	PUNCT	।	_	6	punct	_	Translit=.|LTranslit=.
+
+# sent_id = dev-s55
+# text = আমরা কখন ঘুরতে যাব?
+# translit = āmarā kakhana ghurate yāba?
+# text_en = When are we going to tour?
+1	আমরা	আমি	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	Translit=āmarā|LTranslit=āmi
+2	কখন	কখন	ADV	_	PronType=Int	3	advmod	_	Translit=kakhana|LTranslit=kakhana
+3	ঘুরতে	ঘোরা	VERB	_	Aspect=Imp|VerbForm=Part	0	root	_	Translit=ghurate|LTranslit=ghorā
+4	যাব	যাওয়া	VERB	_	Mood=Ind|Person=1|Tense=Fut|VerbForm=Fin	3	compound	_	SpaceAfter=No|Translit=yāba|LTranslit=yāoŷā
+5	?	?	PUNCT	?	_	3	punct	_	Translit=?|LTranslit=?
+

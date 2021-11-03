@@ -5,18 +5,96 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></total>
+    <total><sentences>56</sentences><tokens>320</tokens><words>320</words><fused>0</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>56</sentences><tokens>320</tokens><words>320</words><fused>0</fused></test>
   </size>
-  <lemmas unique="0" /><!--  -->
-  <forms unique="0" /><!--  -->
+  <lemmas unique="108" /><!-- ।, ?, তুমি, আমি, ,, কি, না, খাওয়া, করা, বাবা, নাম, পড়া, আজ, গান, দেখা -->
+  <forms unique="144" /><!-- ।, ?, ,, কি, আমি, তুমি, না, তোমার, নাম, আজ, আমার, গান, বাবা, মা, আমাদের -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
-  <tags unique="0">
+  <tags unique="14">
+    <tag name="ADJ">13</tag><!-- কত, ক্ষুধা, খারাপ, খুব, জাতীয়, প্রথম, প্রিয়, ভাল, ভালো, মজা -->
+    <tag name="ADP">2</tag><!-- জন্য, নিয়ে -->
+    <tag name="ADV">13</tag><!-- আজ, আগে, এখন, তাহলে, মাঝ, কখন, তাই -->
+    <tag name="AUX">6</tag><!-- পারা, চাওয়া, হওয়া -->
+    <tag name="DET">14</tag><!-- কি, একটা, একটি, কোন, তাই, না, নেই -->
+    <tag name="INTJ">6</tag><!-- না, আচ্ছা, হঁমা, হ্যাঁ -->
+    <tag name="NOUN">62</tag><!-- বাবা, নাম, গান, মা, গল্প, পতাকা, হাত, কার্টুন, ক্লাস, দেশ -->
+    <tag name="NUM">2</tag><!-- একজন, চার -->
+    <tag name="PART">9</tag><!-- না, কি -->
+    <tag name="PRON">49</tag><!-- তুমি, আমি, কি, সে, কিছু, কে, যে -->
+    <tag name="PROPN">4</tag><!-- বর্ণালী, রাকিব, সাকিব -->
+    <tag name="PUNCT">73</tag><!-- ।, ?, , -->
+    <tag name="SCONJ">2</tag><!-- তারপর, যদি -->
+    <tag name="VERB">65</tag><!-- খাওয়া, করা, দেখা, ধোয়া, পড়া, যাওয়া, হওয়া, আঁকা, আসা, গাওয়া -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="0">
+  <feats unique="34">
+    <feat name="Aspect" value="Imp" upos="VERB">11</feat><!-- আঁকতে, খেতে, গাইতে, ঘুরতে, পড়তে, পরতে -->
+    <feat name="Aspect" value="Perf" upos="VERB">16</feat><!-- ধুয়ে, রেখে, হয়েছে, এনেছি, করে, করেছ, করেছি, কিনে, খেয়ে, খেয়েছ -->
+    <feat name="Case" value="Acc" upos="PRON">4</feat><!-- তোমাকে, তাকে, তোমায় -->
+    <feat name="Case" value="Gen" upos="NOUN,PRON">23</feat><!-- তোমার, আমার, আমাদের, তার, দেশের, বাবার, তাদের, পতাকার, মজার -->
+    <feat name="Case" value="Loc" upos="NOUN">5</feat><!-- ক্লাসে, রিক্সায়, শ্রেনীতে, স্কুলে -->
+    <feat name="Case" value="Nom" upos="NOUN,PRON,PROPN">75</feat><!-- আমি, তুমি, নাম, গান, বাবা, মা, হাত, আমরা, কার্টুন, গল্প -->
+    <feat name="Definite" value="Ind" upos="DET">3</feat><!-- একটা -->
+    <feat name="Degree" value="Pos" upos="ADJ">12</feat><!-- কতজন, ক্ষুধার্ত, খারাপ, খুব, জাতীয়, প্রিয়, ভাল, ভালো, মজার, সবুজ -->
+    <feat name="Mood" value="Cnd" upos="VERB">2</feat><!-- খেলে, বলব -->
+    <feat name="Mood" value="Imp" upos="VERB">8</feat><!-- চল, নাও, কর, গাও, দেখ, বস -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">41</feat><!-- আসে, খেয়েছ, জানো, ধোবো, পার, যাই, যাব, হয়েছে, আছে, এনেছি -->
+    <feat name="Number" value="Plur" upos="NOUN,PRON">11</feat><!-- আমাদের, হাত, আমরা, জন, তাদের, নাম -->
+    <feat name="Number" value="Sing" upos="NOUN,PRON,PROPN">96</feat><!-- আমি, তুমি, তোমার, আমার, গান, নাম, বাবা, মা, কার্টুন, ক্লাসে -->
+    <feat name="NumType" value="Card" upos="NUM">2</feat><!-- একজন, চার -->
+    <feat name="NumType" value="Ord" upos="ADJ">1</feat><!-- প্রথম -->
+    <feat name="PartType" value="Int" upos="PART">2</feat><!-- কি -->
+    <feat name="PartType" value="Neg" upos="PART">7</feat><!-- না, নাই -->
+    <feat name="Person" value="1" upos="AUX,PRON,VERB">39</feat><!-- আমি, আমার, আমাদের, আমরা, ধোবো, যাই, যাব, এনেছি, করি, করেছি -->
+    <feat name="Person" value="2" upos="AUX,PRON,VERB">37</feat><!-- তুমি, তোমার, খেয়েছ, জানো, তোমাকে, নাও, পার, করেছ, খাও, গাও -->
+    <feat name="Person" value="3" upos="AUX,PRON,VERB">13</feat><!-- আসে, তার, হয়েছে, আছে, কর, চায়, তাকে, তাদের, দয়ে, হয় -->
+    <feat name="PronType" value="Art" upos="DET">3</feat><!-- একটা -->
+    <feat name="PronType" value="Dem" upos="DET">1</feat><!-- তাই -->
+    <feat name="PronType" value="Ind" upos="ADV,PRON">3</feat><!-- মাঝে, কিছু -->
+    <feat name="PronType" value="Int" upos="ADV,DET,PRON">16</feat><!-- কি, কখন, কে, কোন, নাই -->
+    <feat name="PronType" value="Prs" upos="PRON">41</feat><!-- আমি, তুমি, তোমার, আমার, আমাদের, আমরা, তার, তোমাকে, তাকে, তাদের -->
+    <feat name="PronType" value="Rel" upos="PRON">1</feat><!-- যে -->
+    <feat name="Tense" value="Fut" upos="AUX,VERB">11</feat><!-- ধোবো, বলব, যাব, করবে, খাও, দিব, দেখব, হবে -->
+    <feat name="Tense" value="Past" upos="VERB">1</feat><!-- শিখিয়েছে -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">38</feat><!-- আসে, খেয়েছ, চল, জানো, নাও, পার, যাই, হয়েছে, আছে, এনেছি -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">49</feat><!-- আসে, খেয়েছ, চল, জানো, ধোবো, নাও, পার, বলব, যাই, যাব -->
+    <feat name="VerbForm" value="Inf" upos="VERB">2</feat><!-- বসার, ভিক্ষা -->
+    <feat name="VerbForm" value="Part" upos="VERB">20</feat><!-- আঁকতে, খেতে, গাইতে, ঘুরতে, ধুয়ে, পড়তে, রেখে, করে, কিনে, খেয়ে -->
+    <feat name="VerbForm" value="Vnoun" upos="NOUN">2</feat><!-- পড়া, লেখা -->
+    <feat name="Voice" value="Pass" upos="VERB">1</feat><!-- শিখিয়েছে -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="0">
+  <deps unique="27">
+    <dep name="acl">2</dep>
+    <dep name="acl:relcl">1</dep>
+    <dep name="advcl">4</dep>
+    <dep name="advmod">20</dep>
+    <dep name="amod">7</dep>
+    <dep name="aux">6</dep>
+    <dep name="case">2</dep>
+    <dep name="ccomp">1</dep>
+    <dep name="compound">16</dep>
+    <dep name="compound:lvc">3</dep>
+    <dep name="conj">4</dep>
+    <dep name="det">12</dep>
+    <dep name="discourse">6</dep>
+    <dep name="fixed">1</dep>
+    <dep name="iobj">3</dep>
+    <dep name="mark">3</dep>
+    <dep name="nmod">4</dep>
+    <dep name="nmod:poss">18</dep>
+    <dep name="nsubj">35</dep>
+    <dep name="nsubj:pass">1</dep>
+    <dep name="obj">28</dep>
+    <dep name="obl">7</dep>
+    <dep name="parataxis">2</dep>
+    <dep name="punct">73</dep>
+    <dep name="root">56</dep>
+    <dep name="vocative">2</dep>
+    <dep name="xcomp">3</dep>
   </deps>
 </treebank>
