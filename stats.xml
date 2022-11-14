@@ -87,9 +87,9 @@
     <dep name="mark">3</dep>
     <dep name="nmod">4</dep>
     <dep name="nmod:poss">18</dep>
-    <dep name="nsubj">35</dep>
+    <dep name="nsubj">34</dep>
     <dep name="nsubj:pass">1</dep>
-    <dep name="obj">28</dep>
+    <dep name="obj">29</dep>
     <dep name="obl">7</dep>
     <dep name="parataxis">2</dep>
     <dep name="punct">73</dep>
