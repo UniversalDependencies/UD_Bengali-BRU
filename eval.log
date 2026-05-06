@@ -1,42 +1,7 @@
-Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
-Evaluating the following revision of UD_Bengali-BRU:
-commit 46e393bc33c8033cfbb0c1859d93657db3671a6e
-Merge: 07ee0ff b7ffa5a
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
-Language-treebank code (from CoNLL-U file name) = 'bn_bru'
-Language code (from CoNLL-U file name) = 'bn'
-Found the following data files: bn_bru-ud-test.conllu
-Size: counted 320 of 320 words (nodes).
-Size: min(0, log((N/1000)**2)) = 0.
-Size: maximum value 13.815511 is for 1000000 words or more.
-Split: Did not find more than 10000 training words.
-Split: Did not find at least 10000 development words.
-Split: Did not find at least 10000 test words.
-Lemmas: source of annotation (from README) factor is 1.
-Universal POS tags: 14 out of 17 found in the corpus.
-Universal POS tags: source of annotation (from README) factor is 1.
-Features: 226 out of 320 total words have one or more features.
-Features: source of annotation (from README) factor is 1.
-Universal relations: 23 out of 37 found in the corpus.
-Universal relations: source of annotation (from README) factor is 1.
-Genres: found 1 out of 18 known.
-/net/work/people/zeman/unidep/tools/validate.py --lang bn --max-err=10 UD_Bengali-BRU/bn_bru-ud-test.conllu
-[Line 151 Sent dev-s15]: [L3 Warning fixed-without-extpos] Fixed expression 'মাঝে মাঝে' does not have the 'ExtPos' feature
-[Line 403 Sent dev-s39]: [L3 Warning pron-det-without-prontype] The word 'নেই nei' is tagged 'DET' but it lacks the 'PronType' feature
-Warnings: 2
-*** PASSED ***
-Validity: 1
-(weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
-(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
-(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
-(weight=0.37037037037037) * (score{size}=0) = 0
-(weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
-(weight=0.111111111111111) * (score{tags}=0.823529411764706) = 0.0915032679738562
-(weight=0.111111111111111) * (score{udeprels}=0.621621621621622) = 0.0690690690690691
-(TOTAL score=0.389708139512061) * (availability=1) * (validity=1) = 0.389708139512061
-STARS = 2
-UD_Bengali-BRU	0.389708139512061	2
+Usage:   perl -I ./tools ./tools/evaluate_treebank.pl <ud-treebank-name>
+Example: perl -I ./tools ./tools/evaluate_treebank.pl UD_Czech-PDTC
+Before running, make sure the current folder is one level above the clones of UD GitHub repositories.
+Specifically, the subfolders should include the evaluated treebank(s), as well as the tools folder,
+from which this script is invoked and which also holds the validator.
+$0 == tools/evaluate_treebank.pl
+The script must be invoked using relative path (starting with a dot) from the superordinate folder at tools/evaluate_treebank.pl line 40.
